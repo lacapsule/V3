@@ -1,18 +1,49 @@
 :root {
-    /**** reset *****/
+    /***** reset *****/
     --res: 0;
     --box: border-box;
     --a: auto;
-    /***** body *****/
-    --body-w: 100vw;
-    --body-h: 100vh;
-    --dis-blo: block;
+
+    /***** color *****/
     --bg-color: #000;
-    /***** imgBG *****/
-    --bg-taille: 20%;
-    /****** div ******/
+    --footer: #32327f;
+
+    /*** affichage ***/
+    --dis-blo: block;
+
+    /*** positions ***/
+    --abs: absolute;
+    --rel: relative;
+
+    /**** padding ****/
+    --pad-bot: 25%;
+    --pad-top: 25%;
+
+    /**** tailles ****/
+    --body-w: 98vw;
+    --body-h: 100vh;
+    --bg-taille: 5rem;
+    --cont-h: 90vh;
+    --home: 18%;
+    --foo: 40em;
+
+    /** flex option **/
     --dis-flex: flex;
     --mob-flow: column wrap;
+    --desk-flow: row nowrap;
     --align: center;
-    --justify: center; 
+    --justify: center;
+    --home-j: flex-start;
+    --self-end: flex-end;
+    --self-cen: center;
+    
+    /**** clip-path ****/
+    --clip: ellipse(48% 7% at 51% 100%);
+    
+    /****** shadow ******/
+    --shad: 8px 0px 25px 10px var(--footer);
+
+    /**** animations ****/
+    --anim-bg-img: 5s ease-in-out opacity infinite;
+    --anim-bg: 25s ease-in-out bg infinite;
 }

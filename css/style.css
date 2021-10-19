@@ -1,25 +1,48 @@
 @import url(variable.css);
+@import url(animations.css);
 
 body {
-    display: var(--dis-blo);
-    margin: var(--res);
-    padding: var(--res);
+    display: var(--dis-flex);
+    align-items: var(--align);
+    align-content: var(--justify);
     width: var(--body-w);
     height: var(--body-h);
+    margin: var(--res);
+    padding: var(--res);
     box-sizing: var(--box);
-    background-color: var(--bg-color);
+    animation: var(--anim-bg);
+    z-index: 0;
 }
 
 #container {
     display: var(--dis-flex);
+    position: var(--abs);
     width: var(--body-w);
-    height: var(--body-h);
+    height: var(--cont-h);
     flex-flow: var(--mob-flow);
     align-items: var(--align);
     justify-content: var(--justify);
 }
 
-img {
+img.bg {
     width: var(--bg-taille);
+    height: var(--a);
+    animation: var(--anim-bg-img);
+}
+
+footer {
+    display: var(--dis-flex);
+    clip-path: var(--clip);
+    flex-flow: var(--mob-flow);
+    align-items: var(--align);
+    justify-content: var(--self-end);
+    width: var(--body-w);
+    height: var(--foo);
+    box-sizing: var(--box);
+    background-color: var(--footer);
+}
+
+img.home {
+    width: var(--home);
     height: var(--a);
 }

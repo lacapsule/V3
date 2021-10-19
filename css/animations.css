@@ -1,0 +1,23 @@
+@keyframes opacity {
+    from {
+        opacity: 90%;
+    }
+    50% {
+        opacity: 100%;
+    }
+    to {
+        opacity: 90%;
+    }
+}
+
+@keyframes bg {
+    from {
+        background-color: #000;
+    }
+    50% {
+        background-color: rgb(14, 11, 48);
+    }
+    to {
+        background-color: #000;
+    }
+}
