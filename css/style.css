@@ -1,1 +1,25 @@
 @import url(variable.css);
+
+body {
+    display: var(--dis-blo);
+    margin: var(--res);
+    padding: var(--res);
+    width: var(--body-w);
+    height: var(--body-h);
+    box-sizing: var(--box);
+    background-color: var(--bg-color);
+}
+
+#container {
+    display: var(--dis-flex);
+    width: var(--body-w);
+    height: var(--body-h);
+    flex-flow: var(--mob-flow);
+    align-items: var(--align);
+    justify-content: var(--justify);
+}
+
+img {
+    width: var(--bg-taille);
+    height: var(--a);
+}

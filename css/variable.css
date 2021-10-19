@@ -1,0 +1,18 @@
+:root {
+    /**** reset *****/
+    --res: 0;
+    --box: border-box;
+    --a: auto;
+    /***** body *****/
+    --body-w: 100vw;
+    --body-h: 100vh;
+    --dis-blo: block;
+    --bg-color: #000;
+    /***** imgBG *****/
+    --bg-taille: 20%;
+    /****** div ******/
+    --dis-flex: flex;
+    --mob-flow: column wrap;
+    --align: center;
+    --justify: center; 
+}
