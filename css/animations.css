@@ -1,3 +1,5 @@
+@import url(variable.css);
+
 @keyframes opacity {
     from {
         opacity: 90%;
@@ -12,12 +14,12 @@
 
 @keyframes bg {
     from {
-        background-color: #000;
+        background-color: var(--bg-color);
     }
     50% {
-        background-color: rgb(14, 11, 48);
+        background-color: var(--bg-color2);
     }
     to {
-        background-color: #000;
+        background-color: var(--bg-color);
     }
 }

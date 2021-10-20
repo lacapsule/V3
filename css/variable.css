@@ -6,42 +6,47 @@
 
     /***** color *****/
     --bg-color: #000;
-    --footer: #32327f;
+    --bg-color2: rgb(14, 11, 48);
+    --blue: #32327f;
 
     /*** affichage ***/
-    --dis-blo: block;
+    --blo: block;
 
     /*** positions ***/
     --abs: absolute;
+    --sti: sticky;
+    --fix: fixed;
     --rel: relative;
 
     /**** padding ****/
-    --pad-bot: 25%;
-    --pad-top: 25%;
+    --pad: 1.2em;
 
     /**** tailles ****/
-    --body-w: 98vw;
-    --body-h: 100vh;
-    --bg-taille: 5rem;
-    --cont-h: 90vh;
-    --home: 18%;
-    --foo: 40em;
+    --w: 100vw;
+    --h: 100vh;
+    --bg: 5rem;
+    --cont-w: 98%;
+    --cont-h: 91%;
+    --home: 3.5em;
+    --foo: 50%;
 
     /** flex option **/
-    --dis-flex: flex;
-    --mob-flow: column wrap;
-    --desk-flow: row nowrap;
-    --align: center;
-    --justify: center;
+    --fl: flex;
+    --mob: column wrap;
+    --desk: row wrap;
     --home-j: flex-start;
-    --self-end: flex-end;
-    --self-cen: center;
+    --end: flex-end;
+    --cen: center;
+    --ar: space-around;
     
     /**** clip-path ****/
     --clip: ellipse(48% 7% at 51% 100%);
     
     /****** shadow ******/
     --shad: 8px 0px 25px 10px var(--footer);
+
+    /**** transform ****/
+    --sca: scale(1.2);
 
     /**** animations ****/
     --anim-bg-img: 5s ease-in-out opacity infinite;
