@@ -33,6 +33,8 @@
     --foo: 50%;
     --foo-top: 50vh;
     --etoile: 80em;
+    --size: cover;
+    --clip: border-box;
 
     /** flex option **/
     --fl: flex;
@@ -41,7 +43,7 @@
     --home-j: flex-start;
     --end: flex-end;
     --cen: center;
-    --ar: space-around;
+    --ar: space-between;
     
     /**** clip-path ****/
     --clip: ellipse(48% 7% at 51% 100%);
