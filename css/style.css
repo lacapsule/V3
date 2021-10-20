@@ -18,15 +18,25 @@ body {
     margin: var(--res);
     padding: var(--res);
     box-sizing: var(--box);
+    overflow: hidden;
     animation: var(--anim-bg);
     z-index: 0;
+}
+
+img.etoile {
+    display: var(--blo);
+    position: var(--abs);
+    width: var(--etoile);
+    height: var(--etoile);
+    animation:  var(--bg-img), var(--mouv), var(--lum);
+    z-index: -1;
 }
 
 img.bg {
     position: var(--abs);
     width: var(--bg);
     height: var(--a);
-    animation: var(--anim-bg);
+    animation: var(--anim-bg-img);
     z-index: 1;
 }
 
@@ -57,6 +67,7 @@ img.bg {
     bottom: var(--res);
     width: var(--a);
     height: var(--bg);
+    animation: var(--tilt);
     z-index: 4;
 }
 
@@ -65,21 +76,27 @@ img.bg {
     position: var(--rel);
     width: var(--home);
     height: var(--home);
+    bottom: var(--pad);
     z-index: 5;
 }
 
 #home:hover {
     transform: var(--sca);
-    bottom: var(--pad);
+    border-radius: var(--foo);
+    box-shadow: var(--round);
 }
 
 footer {
     display: var(--fl);
     position: var(--abs);
+    left: var(--res);
+    top: var(--foo-top);
+    right: var(--res);
     bottom: var(--res);
-    width: var(--w);
+    width: var(--cont-w);
     height: var(--foo);
     background-color: var(--blue);
     clip-path: var(--clip);
+    animation: var(--foo-op);
     z-index: 3;
 }

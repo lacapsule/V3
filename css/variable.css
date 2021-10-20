@@ -6,7 +6,7 @@
 
     /***** color *****/
     --bg-color: #000;
-    --bg-color2: rgb(14, 11, 48);
+    --bg-color2: rgb(9, 6, 37);
     --blue: #32327f;
 
     /*** affichage ***/
@@ -29,6 +29,8 @@
     --cont-h: 90%;
     --home: 3.5em;
     --foo: 50%;
+    --foo-top: 50vh;
+    --etoile: 80em;
 
     /** flex option **/
     --fl: flex;
@@ -44,11 +46,17 @@
     
     /****** shadow ******/
     --shad: 8px 0px 25px 10px var(--footer);
+    --round: 2px 2px 2px 2px var(--bg-color2);
 
     /**** transform ****/
-    --sca: scale(1.2);
+    --sca: scale(1.1);
 
     /**** animations ****/
-    --anim-bg-img: 5s ease-in-out opacity infinite;
+    --anim-bg-img: 25s ease-in-out opacity infinite;
+    --bg-img: 25s ease-in-out opacity-bg infinite;
+    --mouv: 300s ease-in-out mouv-bg infinite;
+    --lum: 25s ease-in-out rehausse infinite;
     --anim-bg: 25s ease-in-out bg infinite;
+    --foo-op: 25s ease-in-out foo infinite;
+    --tilt: 2s tilt infinite;
 }
