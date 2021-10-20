@@ -2,11 +2,19 @@
 @import url(animations.css);
 
 body {
-    display: var(--dis-flex);
-    align-items: var(--align);
-    align-content: var(--justify);
-    width: var(--body-w);
-    height: var(--body-h);
+    display: var(--fl);
+    position: var(--rel);
+    left: var(--res);
+    top: var(--res);
+    right: var(--res);
+    bottom: var(--res);
+    flex-flow: var(--mob);
+    align-items: var(--cen);
+    align-content: var(--cen);
+    justify-content: var(--cen);
+    justify-items: var(--cen);
+    width: var(--w);
+    height: var(--h);
     margin: var(--res);
     padding: var(--res);
     box-sizing: var(--box);
@@ -14,35 +22,69 @@ body {
     z-index: 0;
 }
 
-#container {
-    display: var(--dis-flex);
+img.bg {
     position: var(--abs);
-    width: var(--body-w);
-    height: var(--cont-h);
-    flex-flow: var(--mob-flow);
-    align-items: var(--align);
-    justify-content: var(--justify);
+    width: var(--bg);
+    height: var(--a);
+    animation: var(--anim-bg);
+    z-index: 1;
 }
 
-img.bg {
-    width: var(--bg-taille);
-    height: var(--a);
-    animation: var(--anim-bg-img);
+.container {
+    position: var(--rel);
+    left: var(--res);
+    top: var(--res);
+    right: var(--res);
+    bottom: var(--a);
+    display: var(--fl);
+    flex-flow: var(--mob);
+    align-items: var(--cen);
+    justify-content: var(--cen);
+    width: var(--cont-w);
+    height: var(--cont-h);
+    z-index: 2;
+}
+
+.dock {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--cen);
+    position: var(--fix);
+    left: var(--res);
+    top: var(--cont-h);
+    right: var(--res);
+    bottom: var(--res);
+    width: var(--a);
+    height: var(--bg);
+    z-index: 4;
+}
+
+#home {
+    display: var(--blo);
+    position: var(--rel);
+    width: var(--home);
+    height: var(--home);
+    padding: var(--pad);
+    bottom: var(--pad);
+    z-index: 5;
+}
+
+#home:hover {
+    transform: var(--sca);
+    bottom: var(--pad);
 }
 
 footer {
-    display: var(--dis-flex);
-    clip-path: var(--clip);
-    flex-flow: var(--mob-flow);
-    align-items: var(--align);
-    justify-content: var(--self-end);
-    width: var(--body-w);
+    display: var(--fl);
+    position: var(--abs);
+    bottom: var(--res);
+    flex-flow: var(--mob);
+    align-items: var(--cen);
+    justify-content: var(--end);
+    width: var(--cont-w);
     height: var(--foo);
-    box-sizing: var(--box);
-    background-color: var(--footer);
-}
-
-img.home {
-    width: var(--home);
-    height: var(--a);
+    background-color: var(--blue);
+    clip-path: var(--clip);
+    z-index: 3;
 }
