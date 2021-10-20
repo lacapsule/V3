@@ -19,14 +19,14 @@
     --rel: relative;
 
     /**** padding ****/
-    --pad: 1.2em;
+    --pad: 1.5em;
 
     /**** tailles ****/
-    --w: 98vw;
+    --w: 100vw;
     --h: 100vh;
     --bg: 5rem;
     --cont-w: 98%;
-    --cont-h: 91%;
+    --cont-h: 90%;
     --home: 3.5em;
     --foo: 50%;
 
