@@ -1,6 +1,6 @@
 @import url(variable.css);
 @import url(animations.css);
-
+html {overflow: var(--h);}
 body {
     display: var(--fl);
     position: var(--rel);
@@ -18,7 +18,7 @@ body {
     margin: var(--res);
     padding: var(--res);
     box-sizing: var(--box);
-    overflow: hidden;
+    overflow: var(--h);
     animation: var(--anim-bg);
     z-index: 0;
 }
@@ -29,6 +29,7 @@ img.etoile {
     width: var(--etoile);
     height: var(--etoile);
     animation:  var(--bg-img), var(--mouv), var(--lum);
+    overflow: var(--h);
     z-index: -1;
 }
 

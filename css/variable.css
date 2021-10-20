@@ -3,6 +3,7 @@
     --res: 0;
     --box: border-box;
     --a: auto;
+    --h: hidden;
 
     /***** color *****/
     --bg-color: #000;
@@ -24,6 +25,7 @@
     /**** tailles ****/
     --w: 100vw;
     --h: 100vh;
+    --L: 100%;
     --bg: 5rem;
     --cont-w: 98%;
     --cont-h: 90%;
