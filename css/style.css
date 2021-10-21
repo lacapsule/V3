@@ -51,7 +51,7 @@ img.bg {
     display: var(--fl);
     flex-flow: var(--desk);
     align-items: var(--end);
-    justify-content: var(--cen);
+    justify-content: var(--sa);
     position: var(--fix);
     left: var(--res);
     top: var(--cont-h);
@@ -63,16 +63,30 @@ img.bg {
     z-index: 4;
 }
 
+#home, #contact {
+    padding-bottom: var(--pad);
+}
+
 #home {
     display: var(--blo);
-    position: var(--abs);
     width: var(--home);
     height: var(--home);
-    bottom: var(--bg);
     z-index: 5;
 }
 
 #home:hover {
+    transform: var(--sca);
+    border-radius: var(--foo);
+    box-shadow: var(--round);
+}
+#contact {
+    display: var(--blo);
+    width: var(--contact);
+    height: var(--contact);
+    z-index: 5;
+}
+
+#contact:hover {
     transform: var(--sca);
     border-radius: var(--foo);
     box-shadow: var(--round);

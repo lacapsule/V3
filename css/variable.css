@@ -30,6 +30,7 @@
     --cont-w: 98%;
     --cont-h: 90%;
     --home: 3.5em;
+    --contact: 3em;
     --foo: 50%;
     --foo-top: 50vh;
     --etoile: 80em;
@@ -44,6 +45,7 @@
     --end: flex-end;
     --cen: center;
     --ar: space-between;
+    --sa: space-around;
     
     /**** clip-path ****/
     --clip: ellipse(48% 7% at 51% 100%);
