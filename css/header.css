@@ -1,0 +1,70 @@
+@import url(variables.css);
+
+#corbeille {
+    display: var(--blo);
+    position: var(--abs);
+    width: var(--a);
+    height: var(--icone);
+    padding: var(--pad);
+    z-index: 5;
+}
+#corbeille:hover {
+    transform: var(--sca);
+    border-radius: var(--foo);
+    box-shadow: var(--round);
+}
+.fermer {
+    display: var(--blo);
+    position: var(--rel);
+    width: var(--a);
+    height: var(--icone);
+    padding: var(--pad);
+    z-index: 4;
+}
+#fermer:hover {
+    transform: var(--sca);
+}
+label #home, label #fermer {
+    order: 3;
+    position: var(--rel);
+    cursor: var(--point);
+    width: var(--home);
+    height: var(--home);
+    transition: var(--slide);
+    z-index: 5;
+}
+#coche {
+    display: var(--no);
+}
+#coche:checked ~ label #home {
+    opacity: var(--res);
+    pointer-events: var(--no);
+}
+#coche:checked ~ label #fermer {
+    display: block;
+    bottom: var(--res);
+}
+#coche:checked ~ .page-lien {
+    height: var(--cont-h);
+    bottom: var(--pos-fermer);
+}
+.page-lien {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    position: var(--fix);
+    left: var(--bg);
+    bottom: var(--pos-page);
+    width: var(--L);
+    height: var(--cont-h);
+    background: var(--bg-color);
+    transition: var(--slide); 
+    z-index: 6;
+}
+a {
+    text-decoration: var(--n);
+}
+.lien img {
+    width: var(--home);
+    height: var(--home);
+    padding: var(--pad);
+}
