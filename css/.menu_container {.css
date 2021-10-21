@@ -1,0 +1,119 @@
+.menu_container {
+    display: var(--n);
+    position: var(--rel);
+    width: var(--L);
+    height: var(--L);
+    z-index: 4;
+}
+
+img#home:active~.menu_container {
+    display: var(--blo);
+    width: var(--L);
+    height: var(--L);
+    position: var(--abs);
+    left: var(--res);
+    top: var(--res);
+    right: var(--res);
+    bottom: var(--res);
+    padding-bottom: var(--foo);
+    display: grid;
+    grid-template: 1fr 1fr 1fr/repeat(33%);
+    grid-template-areas: "un deux trois quatre" "cinq six sept huit";
+    z-index: 4;
+}
+
+.menu_container:hover {
+    display: var(--blo);
+    width: var(--L);
+    height: var(--L);
+    display: grid;
+    position: var(--abs);
+    left: var(--res);
+    top: var(--res);
+    right: var(--res);
+    bottom: var(--res);
+    padding-bottom: var(--foo);
+    grid-template: 1fr 1fr/repeat(33%);
+    grid-template-areas: "un deux trois quatre" "cinq six sept huit";
+    z-index: 4;
+}
+
+div a {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size: 3em;
+    text-decoration: none;
+    font-family: signika, filson, verdana, sans-sérif;
+    text-align: center;
+    color: white;
+    background-size: 10em;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s ease;
+}
+
+.lien1:hover,
+.lien2:hover,
+.lien3:hover,
+.lien4:hover,
+.lien5:hover,
+.lien6:hover,
+.lien7:hover,
+.lien8:hover {
+    background-color: darkgrey;
+    background-blend-mode: difference;
+}
+
+a.lien1 {
+    grid-area: un;
+    background-color: #253237;
+    animation: 10s ease-in-out bgcolor infinite;
+}
+
+a.lien2 {
+    grid-area: deux;
+    background-color: #5C6B73;
+    animation: 15s ease-in-out bgcolor infinite;
+}
+
+a.lien3 {
+    grid-area: trois;
+    background-color: #9DB4C0;
+    animation: 17s ease-in-out bgcolor infinite;
+}
+
+a.lien4 {
+    grid-area: quatre;
+    background-color: #C2DFE3;
+    color: #253237;
+    animation: 13s ease-in-out bgcolor infinite;
+}
+
+a.lien5 {
+    grid-area: cinq;
+    background-color: #5C6B73;
+    animation: 12s ease-in-out bgcolor infinite;
+}
+
+a.lien6 {
+    grid-area: six;
+    background-color: #E0FBFC;
+    color: #253237;
+    animation: 18s ease-in-out bgcolor infinite;
+}
+
+a.lien7 {
+    grid-area: sept;
+    background-color: #394549;
+    animation: 4s ease-in-out bgcolor infinite;
+}
+
+a.lien8 {
+    grid-area: huit;
+    background-color: #253237;
+    animation: 13s ease-in-out bgcolor infinite;
+}
