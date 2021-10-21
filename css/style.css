@@ -9,7 +9,7 @@ html, body {
     justify-content: var(--home-j);
     justify-items: var(--ar);
     width: var(--L);
-    height: var(--L);
+    height: var(--l);
     margin: var(--res);
     padding: var(--res);
     overflow: var(--h);
@@ -68,7 +68,7 @@ img.bg {
     position: var(--rel);
     width: var(--home);
     height: var(--home);
-    bottom: var(--pad);
+    bottom: var(--bg);
     z-index: 5;
 }
 
