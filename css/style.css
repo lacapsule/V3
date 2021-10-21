@@ -25,6 +25,12 @@ header {
     width: var(--w);
     height: var(--bg);
 }
+.nom {
+    color: var(--texte);
+    font-family: var(--pol);
+    font-size: var(--pad);
+    text-align: var(--cen);
+}
 .bg {
     position: var(--rel);
     width: var(--bg);

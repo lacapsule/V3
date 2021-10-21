@@ -13,18 +13,9 @@
     border-radius: var(--foo);
     box-shadow: var(--round);
 }
-.fermer {
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--a);
-    height: var(--icone);
-    padding: var(--pad);
-    z-index: 4;
-}
-#fermer:hover {
-    transform: var(--sca);
-}
-label #home, label #fermer {
+.fermer:hover {transform: var(--sca);}
+.windows:hover {transform: var(--sca);}
+label #corbeille {
     order: 3;
     position: var(--rel);
     cursor: var(--point);
@@ -33,16 +24,10 @@ label #home, label #fermer {
     transition: var(--slide);
     z-index: 5;
 }
-#coche {
-    display: var(--no);
-}
-#coche:checked ~ label #home {
+#coche {display: var(--no);}
+#coche:checked ~ label #corbeille {
     opacity: var(--res);
     pointer-events: var(--no);
-}
-#coche:checked ~ label #fermer {
-    display: block;
-    bottom: var(--res);
 }
 #coche:checked ~ .page-lien {
     height: var(--cont-h);
@@ -50,8 +35,10 @@ label #home, label #fermer {
 }
 .page-lien {
     display: var(--fl);
-    flex-flow: var(--desk);
     position: var(--fix);
+    flex-flow: var(--desk);
+    justify-content: var(--home-j);
+    align-items: var(--home-j);
     left: var(--bg);
     bottom: var(--pos-page);
     width: var(--L);
@@ -60,11 +47,9 @@ label #home, label #fermer {
     transition: var(--slide); 
     z-index: 6;
 }
-a {
-    text-decoration: var(--n);
-}
+a {text-decoration: var(--n);}
 .lien img {
-    width: var(--home);
-    height: var(--home);
+    width: var(--bg);
+    height: var(--a);
     padding: var(--pad);
 }

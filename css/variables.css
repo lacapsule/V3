@@ -8,6 +8,7 @@
     --bg-color: #000;
     --bg-color2: rgb(9, 6, 37);
     --blue: #121241;
+    --texte: rgb(198, 202, 240);
     /** affichage **********************************/
     --blo: block;
     --no: none;
@@ -20,38 +21,38 @@
     --pos-fermer: 10%;
     /** flex option ********************************/
     --fl: flex;
-    --mob: column wrap;
     --desk: row wrap;
+    --mob: column wrap;
     --home-j: flex-start;
     --end: flex-end;
-    --cen: center;
     --ar: space-between;
     --sa: space-around;
+    --cen: center;
     /** tailles ************************************/
     --w: 100vw;
     --h: 100vh;
     --L: 100%;
     --bg: 5rem;
-    --w-init: 0;
-    --h-init: 0;
     --cont-w: 98%;
     --cont-h: 90%;
+    --foo-top: 50vh;
+    --etoile: 80em;
+    --foo: 50%;
     --home: 3.5em;
     --contact: 3em;
     --icone: 3em;
-    --foo: 50%;
-    --foo-top: 50vh;
-    --etoile: 80em;
-    --size: cover;
-    --clip: border-box;
+    --w-init: 0;
+    --h-init: 0;
     /** padding ************************************/
     --pad: 0.5em;
+    /** texte **************************************/
+    --pol: verdana, 'sans-sérif';
     /** clip-path **********************************/
     --clip: ellipse(48% 7% at 51% 100%);
     /** transform **********************************/
     --sca: scale(1.1);
     /** transition *********************************/
-    --slide: all .5s ease;
+    --slide: all .5s ease-in-out;
     /** animations *********************************/
     --anim-bg-img: 25s ease-in-out opacity infinite;
     --anim-bg: 25s ease-in-out bg infinite;
