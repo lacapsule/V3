@@ -32,20 +32,6 @@ img.bg {
     z-index: 1;
 }
 
-.container {
-    position: var(--rel);
-    left: var(--res);
-    top: var(--res);
-    right: var(--res);
-    bottom: var(--a);
-    display: var(--fl);
-    flex-flow: var(--mob);
-    align-items: var(--cen);
-    justify-content: var(--cen);
-    width: var(--cont-w);
-    height: var(--cont-h);
-    z-index: 2;
-}
 
 
 
