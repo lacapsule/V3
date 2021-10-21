@@ -24,25 +24,6 @@
     }
 }
 
-@keyframes mouv-bg {
-    from {
-        top: 0;
-    }
-    to {
-        transform: rotate(-360deg) translateX(180px);
-    }
-}
-
-@keyframes rehausse {
-    from {}
-    48% {filter: contrast(200%);}
-    49% {filter: contrast(250%);}
-    50% {filter: contrast(300%);}
-    51% {filter: contrast(250%);}
-    52% {filter: contrast(200%);}
-    to {}
-}
-
 @keyframes bg {
     from {
         background-color: var(--bg-color);

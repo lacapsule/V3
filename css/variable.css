@@ -57,9 +57,6 @@
 
     /**** animations ****/
     --anim-bg-img: 25s ease-in-out opacity infinite;
-    --bg-img: 25s ease-in-out opacity-bg infinite;
-    --mouv: 300s ease-in-out mouv-bg infinite;
-    --lum: 25s ease-in-out rehausse infinite;
     --anim-bg: 25s ease-in-out bg infinite;
     --foo-op: 25s ease-in-out foo infinite;
     --tilt: 2s tilt infinite;

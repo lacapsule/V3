@@ -1,40 +1,31 @@
 @import url(variable.css);
 @import url(animations.css);
-body {
+html, body {
     display: var(--fl);
     position: var(--rel);
-    left: var(--res);
-    top: var(--res);
-    right: var(--res);
-    bottom: var(--res);
     flex-flow: var(--mob);
     align-items: var(--cen);
     align-content: var(--cen);
-    justify-content: var(--cen);
-    justify-items: var(--cen);
-    width: var(--w);
-    height: var(--h);
+    justify-content: var(--home-j);
+    justify-items: var(--ar);
+    width: var(--L);
+    height: var(--L);
     margin: var(--res);
     padding: var(--res);
-    box-sizing: var(--box);
     overflow: var(--h);
     animation: var(--anim-bg);
     z-index: 0;
 }
 
-img.etoile {
+header {
     display: var(--blo);
-    position: var(--abs);
-    width: var(--L);
-    background-size: var(--size);
-    background-clip: var(--clip);
-    animation:  var(--bg-img), var(--mouv), var(--lum);
-    overflow: var(--h);
-    z-index: -1;
+    width: var(--w);
+    height: var(--foo);
 }
 
 img.bg {
-    position: var(--abs);
+    position: var(--rel);
+    bottom: var(--bg);
     width: var(--bg);
     height: var(--a);
     animation: var(--anim-bg-img);
