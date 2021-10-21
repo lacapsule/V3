@@ -2,22 +2,6 @@
 @import url(variable.css);
 @import url(animations.css);
 
-footer.dock {
-    display: var(--fl);
-    position: var(--rel);
-    flex-flow: var(--desk);
-    align-items: var(--cen);
-    justify-content: var(--sa);
-    left: var(--res);
-    top: var(--res);
-    right: var(--res);
-    bottom: var(--res);
-    width: var(--cont-h);
-    height: var(--icone);
-    animation: var(--tilt);
-    z-index: 4;
-}
-
 #home, #contact {
     padding-bottom: var(--res);
 }
