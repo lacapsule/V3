@@ -1,46 +1,31 @@
 @import url(variables.css);
 
 @keyframes opacity {
-    from {
-        opacity: 90%;
-    }
-    50% {
-        opacity: 100%;
-    }
-    to {
-        opacity: 90%;
-    }
+    from {opacity: 90%;}
+    50% {opacity: 100%;}
+    to {opacity: 90%;}
 }
 
 @keyframes bg {
-    from {
-        background-color: var(--bg-color);
-    }
-    50% {
-        background-color: var(--bg-color2);
-    }
-    to {
-        background-color: var(--bg-color);
-    }
+    from {background-color: var(--bg-color);}
+    50% {background-color: var(--bg-color2);}
+    to {background-color: var(--bg-color);}
 }
 
 @keyframes foo {
-    from {
-        opacity:80%;
-    }
-    50% {
-        opacity: 90%;
-    }
-    to {
-        opacity: 80%;
-    }
+    from {opacity:80%;}
+    50% {opacity: 90%;}
+    to {opacity: 80%;}
 }
 
 @keyframes tilt {
     from {}
-    99.99% {
-        bottom: 0.2%;
-        padding-bottom: 0.5%;
-    }
-    to {}
+    99.97% {bottom: 0;
+        padding-bottom: 0;}
+    99.98% {bottom: -0.4%;
+        padding-bottom: -1%;}
+    99.99% {bottom: 0.2%;
+        padding-bottom: 0.5%;}
+    to {bottom: 0;
+        padding-bottom: 0;}
 }

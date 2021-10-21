@@ -50,7 +50,7 @@ footer.dock {
     right: var(--res);
     bottom: var(--res);
     width: var(--cont-h);
-    height: var(--icone);
+    height: var(--bg);
     animation: var(--tilt);
     z-index: 4;
 }
