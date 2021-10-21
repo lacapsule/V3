@@ -8,7 +8,7 @@
     /***** color *****/
     --bg-color: #000;
     --bg-color2: rgb(9, 6, 37);
-    --blue: #32327f;
+    --blue: #121241;
 
     /*** affichage ***/
     --blo: block;
@@ -26,7 +26,6 @@
     --w: 100vw;
     --h: 100vh;
     --L: 100%;
-    --l: 90%;
     --bg: 5rem;
     --cont-w: 98%;
     --cont-h: 90%;

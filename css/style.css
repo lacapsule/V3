@@ -9,7 +9,7 @@ html, body {
     justify-content: var(--home-j);
     justify-items: var(--ar);
     width: var(--L);
-    height: var(--l);
+    height: var(--cont-h);
     margin: var(--res);
     padding: var(--res);
     overflow: var(--h);
