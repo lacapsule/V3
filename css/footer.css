@@ -6,6 +6,7 @@
     padding-bottom: var(--res);
 }
 #fermer {
+    display: var(--blo);
     order: 3;
     position: var(--rel);
     z-index: 4;
@@ -18,7 +19,7 @@
 #home {
     order: 3;
     display: var(--blo);
-    position: var(--abs);
+    position: var(--rel);
     width: var(--home);
     height: var(--home);
     z-index: 5;
