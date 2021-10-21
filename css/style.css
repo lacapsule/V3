@@ -7,7 +7,7 @@ html, body {
     flex-flow: var(--mob);
     align-items: var(--cen);
     align-content: var(--cen);
-    justify-content: var(--sa);
+    justify-content: var(--ar);
     justify-items: var(--ar);
     width: var(--L);
     height: var(--L);
@@ -17,21 +17,28 @@ html, body {
     animation: var(--anim-bg);
     z-index: 0;
 }
-
 header {
-    display: var(--blo);
+    display: var(--fl);
+    position: var(--rel);
+    flex-flow: var(--desk);
     width: var(--w);
     height: var(--bg);
 }
+.corbeille {
+    display: var(--blo);
+    position: var(--abs);
+    padding: var(--pad);
+    width: var(--a);
+    height: var(--icone);
+}
 
-img.bg {
+.bg {
     position: var(--rel);
     width: var(--bg);
     height: var(--a);
     animation: var(--anim-bg-img);
     z-index: 1;
 }
-
 footer.dock {
     display: var(--fl);
     position: var(--rel);
