@@ -12,13 +12,15 @@
 
     /*** affichage ***/
     --blo: block;
-    --n: none;
+    --no: none;
 
     /*** positions ***/
     --abs: absolute;
     --sti: sticky;
     --fix: fixed;
     --rel: relative;
+    --pos-page: -800px;
+    --pos-fermer: 10%;
 
     /**** padding ****/
     --pad: 1.5em;
@@ -28,9 +30,13 @@
     --h: 100vh;
     --L: 100%;
     --bg: 5rem;
+    --w-init: 0;
+    --h-init: 0;
     --cont-w: 98%;
     --cont-h: 90%;
     --home: 3.5em;
+    --contact: 3em;
+    --icone: 3em;
     --foo: 50%;
     --foo-top: 50vh;
     --etoile: 80em;
@@ -45,6 +51,7 @@
     --end: flex-end;
     --cen: center;
     --ar: space-between;
+    --sa: space-around;
     
     /**** clip-path ****/
     --clip: ellipse(48% 7% at 51% 100%);
@@ -56,9 +63,15 @@
     /**** transform ****/
     --sca: scale(1.1);
 
+    /**** transition ****/
+    --slide: all .5s ease;
+
     /**** animations ****/
     --anim-bg-img: 25s ease-in-out opacity infinite;
     --anim-bg: 25s ease-in-out bg infinite;
     --foo-op: 25s ease-in-out foo infinite;
     --tilt: 10s ease-in-out tilt infinite;
+
+    /***** curseur *****/
+    --point: pointer;
 }
