@@ -68,7 +68,7 @@ img.bg {
     position: var(--rel);
     width: var(--home);
     height: var(--home);
-    bottom: var(--home-pos);
+    bottom: var(--bg);
     z-index: 5;
 }
 
