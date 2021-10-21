@@ -6,10 +6,10 @@ html, body {
     flex-flow: var(--mob);
     align-items: var(--cen);
     align-content: var(--cen);
-    justify-content: var(--ar);
+    justify-content: var(--sa);
     justify-items: var(--ar);
     width: var(--L);
-    height: var(--cont-h);
+    height: var(--L);
     margin: var(--res);
     padding: var(--res);
     overflow: var(--h);
@@ -20,12 +20,11 @@ html, body {
 header {
     display: var(--blo);
     width: var(--w);
-    height: var(--foo);
+    height: var(--bg);
 }
 
 img.bg {
     position: var(--rel);
-    bottom: var(--bg);
     width: var(--bg);
     height: var(--a);
     animation: var(--anim-bg-img);
@@ -47,10 +46,9 @@ img.bg {
     z-index: 2;
 }
 
-.dock {
+footer.dock {
     display: var(--fl);
     position: var(--rel);
-    justify-self: var(--end);
     flex-flow: var(--desk);
     align-items: var(--cen);
     justify-content: var(--sa);
@@ -58,18 +56,19 @@ img.bg {
     top: var(--res);
     right: var(--res);
     bottom: var(--res);
-    width: var(--a);
-    height: var(--bg);
+    width: var(--cont-h);
+    height: var(--home);
     animation: var(--tilt);
     z-index: 4;
 }
 
 #home, #contact {
-    padding-bottom: var(--pad);
+    padding-bottom: var(--res);
 }
 
 #home {
     display: var(--blo);
+    position: var(--rel);
     width: var(--home);
     height: var(--home);
     z-index: 5;
@@ -79,6 +78,12 @@ img.bg {
     transform: var(--sca);
     border-radius: var(--foo);
     box-shadow: var(--round);
+}
+
+#fermer {
+    display: var(--blo);
+    position: var(--rel);
+    z-index: 1;
 }
 
 .page-lien {
@@ -107,6 +112,7 @@ label #home, label #fermer {
 }
 
 #coche:checked ~ .page-lien {
+    height: var(--cont-h);
     bottom: var(--pos-fermer);
 }
 
@@ -117,15 +123,13 @@ label #home, label #fermer {
 
 #coche:checked ~ label #fermer {
     display: block;
-    bottom: var(--pos-fermer);
+    bottom: var(--res);
 }
 
 .lien img {
     width: var(--home);
     height: var(--home);
 }
-
-
 
 #contact {
     display: var(--blo);
