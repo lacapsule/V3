@@ -41,12 +41,14 @@
     --home: 3.5em;
     --contact: 3em;
     --icone: 3em;
+    --text: 1rem;
+    --bot: 1.2em;
     --w-init: 0;
     --h-init: 0;
     /** padding ************************************/
     --pad: 0.5em;
     /** texte **************************************/
-    --pol: verdana, 'sans-sérif';
+    --pol: ubuntu, verdana, 'sans-sérif';
     /** clip-path **********************************/
     --clip: ellipse(48% 7% at 51% 100%);
     /** transform **********************************/

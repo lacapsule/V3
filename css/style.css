@@ -28,8 +28,9 @@ header {
 .nom {
     color: var(--texte);
     font-family: var(--pol);
-    font-size: var(--pad);
+    font-size: var(--text);
     text-align: var(--cen);
+    padding-bottom: var(--bot);
 }
 .bg {
     position: var(--rel);
