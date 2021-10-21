@@ -12,18 +12,6 @@
     }
 }
 
-@keyframes opacity-bg {
-    from {
-        opacity: 5%;
-    }
-    50% {
-        opacity: 12%;
-    }
-    to {
-        opacity: 5%;
-    }
-}
-
 @keyframes bg {
     from {
         background-color: var(--bg-color);
