@@ -65,10 +65,10 @@ img.bg {
 
 #home {
     display: var(--blo);
-    position: var(--rel);
+    position: var(--abs);
     width: var(--home);
     height: var(--home);
-    bottom: var(--home-pos);
+    bottom: var(--bg);
     z-index: 5;
 }
 
@@ -89,6 +89,5 @@ footer {
     height: var(--foo);
     background-color: var(--blue);
     clip-path: var(--clip);
-    animation: var(--foo-op);
     z-index: 3;
 }
