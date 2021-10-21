@@ -50,13 +50,13 @@ img.bg {
 .dock {
     display: var(--fl);
     flex-flow: var(--desk);
-    align-items: var(--end);
+    align-items: var(--cen);
     justify-content: var(--sa);
     position: var(--fix);
     left: var(--res);
-    top: var(--cont-h);
+    top: var(--res);
     right: var(--res);
-    bottom: var(--res);
+    bottom: var(--pos-fermer);
     width: var(--a);
     height: var(--bg);
     animation: var(--tilt);
@@ -79,6 +79,55 @@ img.bg {
     border-radius: var(--foo);
     box-shadow: var(--round);
 }
+
+
+
+.page-lien {
+    position: var(--fix);
+    left: var(--res);
+    bottom: var(--pos-page);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    width: var(--L);
+    height: var(--h);
+    background: var(--bg-color);
+    transition: var(--slide); 
+}
+
+#coche {
+    display: var(--no);
+}
+
+label #home, label #fermer {
+    position: var(--rel);
+    cursor: var(--point);
+    width: var(--home);
+    height: var(--home);
+    transition: var(--slide);
+    z-index: 5;
+}
+
+#coche:checked ~ .page-lien {
+    bottom: var(--);
+}
+
+#coche:checked ~ label #home {
+    opacity: var(--res);
+    pointer-events: var(--no);
+}
+
+#coche:checked ~ label #fermer {
+    display: block;
+    bottom: var(--pos-fermer);
+}
+
+.lien img {
+    width: var(--home);
+    height: var(--home);
+}
+
+
+
 #contact {
     display: var(--blo);
     width: var(--contact);
@@ -92,16 +141,4 @@ img.bg {
     box-shadow: var(--round);
 }
 
-footer {
-    display: var(--fl);
-    position: var(--abs);
-    left: var(--res);
-    top: var(--foo-top);
-    right: var(--res);
-    bottom: var(--res);
-    width: var(--cont-w);
-    height: var(--foo);
-    background-color: var(--blue);
-    clip-path: var(--clip);
-    z-index: 3;
-}
+
