@@ -33,29 +33,6 @@
             </form>
         </div>   
     </div>
-    
-    <img id="linux" src="media/img/linux.png" alt="icône de linux"/>
-    <div class="home">
-        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-home">
-        <label for="coche-home">
-            <img id="home" src="media/img/home.png" alt="icône du menu"/>    
-            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
-        </label>
-    <div class="page-home">
-        <!--<div class="lien">
-            <div class="icone">
-                <a href="">
-                <img src="media/img/link.png" alt="Icone lien">
-                </a>
-            </div>
-                <div class="nom">
-                Exemple de lien
-                </div>
-        </div>-->
-    </div>  
-    </div>
-    
-    <img id="a-propos" src="media/img/about.png" alt="icône du à propos"/>
     <div class="corbeille">
         <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-corbeille">
         <label for="coche-corbeille">
@@ -78,9 +55,30 @@
                 Nettoyer
                 </div>
             </div>
-        <div>
+    </div>
+    </div>  
+    <div class="home">
+        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-home">
+        <label for="coche-home">
+            <img id="home" src="media/img/home.png" alt="icône du menu"/>    
+            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
+        </label>
+    <div class="page-home">
+        <!--<div class="lien">
+            <div class="icone">
+                <a href="">
+                <img src="media/img/link.png" alt="Icone lien">
+                </a>
+            </div>
+                <div class="nom">
+                Exemple de lien
+                </div>
+        </div>-->
     </div>  
     </div>
+    </div>
+    <img id="a-propos" src="media/img/about.png" alt="icône du à propos"/>
+    <img id="linux" src="media/img/linux.png" alt="icône de linux"/>
     <script>
         function onlyOne(checkbox) {
         var checkboxes = document.getElementsByName('check')

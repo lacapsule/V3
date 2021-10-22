@@ -1,21 +1,36 @@
-@import url(style.css);
 @import url(variables.css);
+@import url(style.css);
+@import url(contact.css);
+@import url(accueil.css);
+@import url(info.css);
+@import url(linux.css);
 @import url(animations.css);
-
-#home, #contact {
-    padding-bottom: var(--res);
-}
-#fermer {
-    display: var(--no);
-    order: 3;
+#contact {
+    order: 1;
+    display: var(--blo);
     position: var(--rel);
-    z-index: 4;
+    width: var(--icone);
+    height: var(--icone);
+    z-index: 5;
 }
-
-#fermer:hover {
+#contact:hover {
     transform: var(--sca);
+    border-radius: var(--foo);
+    box-shadow: var(--round);
 }
-
+#corbeille {
+    order: 2;
+    display: var(--blo);
+    position: var(--rel);
+    width: var(--icone);
+    height: var(--icone);
+    z-index: 5;
+}
+#corbeille:hover {
+    transform: var(--sca);
+    border-radius: var(--foo);
+    box-shadow: var(--round);
+}
 #home {
     order: 3;
     display: var(--blo);
@@ -24,31 +39,35 @@
     height: var(--home);
     z-index: 5;
 }
-
 #home:hover {
     transform: var(--sca);
     border-radius: var(--foo);
     box-shadow: var(--round);
 }
-
-#coche-home {
-    display: var(--no);
-}
-
-.page-home {
-    position: var(--fix);
-    left: var(--res);
-    bottom: var(--pos-page);
-    display: var(--fl);
-    flex-flow: var(--desk);
-    width: var(--L);
-    height: var(--h);
-    background: var(--bg-color);
-    transition: var(--slide); 
-}
-
-label #home, label #fermer {
+#fermer {
     order: 3;
+    display: var(--no);
+    position: var(--rel);
+    z-index: 4;
+}
+#fermer:hover {
+    transform: var(--sca);
+}
+#a-propos {
+    order: 4;
+    display: var(--blo);
+    position: var(--rel);
+    width: var(--home);
+    height: var(--home);
+    z-index: 5;
+}
+#a-propos:hover {
+    transform: var(--sca);
+    border-radius: var(--foo);
+    box-shadow: var(--round);
+}
+#linux {
+    order: 5;
     position: var(--rel);
     cursor: var(--point);
     width: var(--home);
@@ -56,37 +75,15 @@ label #home, label #fermer {
     transition: var(--slide);
     z-index: 5;
 }
-
-#coche-home:checked ~ .page-home {
-    height: var(--cont-h);
-    bottom: var(--pos-fermer);
-}
-
-#coche-home:checked ~ label #home {
-    display: var(--no);
-    pointer-events: var(--no);
-}
-
-#coche-home:checked ~ label #fermer {
-    display: block;
-    bottom: var(--res);
-}
-
-.lien img {
-    width: var(--home);
-    height: var(--home);
-}
-
-#contact {
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--contact);
-    height: var(--contact);
-    z-index: 5;
-}
-
-#contact:hover {
+#linux:hover {
     transform: var(--sca);
     border-radius: var(--foo);
     box-shadow: var(--round);
+}
+.nom {
+    color: var(--texte);
+    font-family: var(--pol);
+    font-size: var(--text);
+    text-align: var(--cen);
+    padding-bottom: var(--bot);
 }

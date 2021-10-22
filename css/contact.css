@@ -1,21 +1,6 @@
 @import url(style.css);
 @import url(variables.css);
 @import url(animations.css);
-
-#contact {
-    display: var(--blo);
-    position: var(--abs);
-    width: var(--a);
-    height: var(--icone);
-    padding: var(--pad);
-    z-index: 5;
-}
-#contact:hover {
-    transform: var(--sca);
-    border-radius: var(--foo);
-    box-shadow: var(--round);
-}
-
 label #contact {
     order: 1;
     position: var(--rel);
@@ -61,7 +46,7 @@ a {text-decoration: var(--n);}
 form {
     display: var(--fl);
     flex-flow: var(--mob);
-    justify-content: --ar;
+    justify-content: var(--ar);
     width: var(--cont-w);
 }
 
