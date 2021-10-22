@@ -11,6 +11,8 @@
     --blue: #121241;
     --texte: rgb(198, 202, 240);
     --blanc: rgb(255,255,255);
+    --vert: #1ED760;
+    --rouge: #FF1B2D;
     /** affichage **********************************/
     --blo: block;
     --no: none;

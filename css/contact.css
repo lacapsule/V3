@@ -67,14 +67,26 @@ form {
 
 form input, form textarea {
     margin: var(--pad);
-    height: var(--bg);
+    padding: var(--bot);
+    height: var(--bot);
     font-size: var(--bot);
     border-radius: var(--bot);
-    border: 1px solid var(--bg-color2);
+}
+form textarea {
+    height: var(--bg);
 }
 
-form input:focus {
-    border: 3px solid var(--blue);
+form input:focus, form textarea:focus {
+    padding-left: var(--bot);
+    transition: var(--slide);
+}
+
+form input:valid, form textarea:valid {
+    color: var(--vert);
+}
+
+form input:invalid, form textarea:invalid {
+    color: var(--rouge);
 }
 
   
