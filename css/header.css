@@ -47,7 +47,7 @@ label #corbeille {
     background: var(--bg-corbeille);
     opacity: var(--invisible);
     transition: var(--slide); 
-    z-index: 6;
+    z-index: 4;
 }
 a {text-decoration: var(--n);}
 .lien img {

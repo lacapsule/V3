@@ -52,5 +52,5 @@ footer.dock {
     width: var(--cont-h);
     height: var(--bg);
     animation: var(--tilt);
-    z-index: 4;
+    z-index: 7;
 }
