@@ -6,7 +6,7 @@
     padding-bottom: var(--res);
 }
 #fermer {
-    display: var(--blo);
+    display: var(--no);
     order: 3;
     position: var(--rel);
     z-index: 4;
@@ -31,11 +31,11 @@
     box-shadow: var(--round);
 }
 
-#coche {
+#coche-home {
     display: var(--no);
 }
 
-.page-lien {
+.page-home {
     position: var(--fix);
     left: var(--res);
     bottom: var(--pos-page);
@@ -57,17 +57,17 @@ label #home, label #fermer {
     z-index: 5;
 }
 
-#coche:checked ~ .page-lien {
+#coche-home:checked ~ .page-home {
     height: var(--cont-h);
     bottom: var(--pos-fermer);
 }
 
-#coche:checked ~ label #home {
-    opacity: var(--res);
+#coche-home:checked ~ label #home {
+    display: var(--no);
     pointer-events: var(--no);
 }
 
-#coche:checked ~ label #fermer {
+#coche-home:checked ~ label #fermer {
     display: block;
     bottom: var(--res);
 }

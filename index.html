@@ -10,30 +10,7 @@
 </head>
 <body>
 <header>
-    <div class="corbeille">
-        <input type="checkbox" id="coche">
-        <label for="coche">
-            <img id="corbeille" src="media/img/corbeille.png" alt="corbeille"/>   
-        </label>
-    <div class="page-lien">
-        <div class="lien">
-            <div class="icone">
-                <a href="">
-                <img class="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
-                </a>
-                <div class="nom">
-                    Fermer
-                    </div>
-                <a href="https://github.com/Sycnex/Windows10Debloater">
-                    <img class="windows" src="media/img/windows.png" alt="Icone de windows">
-                </a>
-                <div class="nom">
-                    Purger
-                    </div>
-            </div>
-        <div>
-    </div>  
-    </div>
+    
 </header>
 <main> 
     <img class="bg" src="media/img/capsule.png" alt="logo de la capsule"/>
@@ -42,13 +19,13 @@
     <img id="contact" src="media/img/contact.png" alt="icône de contact"/>
     <img id="contact" src="media/img/contact.png" alt="icône de contact"/>
     <div class="home">
-        <input type="checkbox" id="coche">
-        <label for="coche">
+        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-home">
+        <label for="coche-home">
             <img id="home" src="media/img/home.png" alt="icône du menu"/>    
-            <!-- <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/> -->
+            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
         </label>
-    <div class="page-lien">
-        <div class="lien">
+    <div class="page-home">
+        <!--<div class="lien">
             <div class="icone">
                 <a href="">
                 <img src="media/img/link.png" alt="Icone lien">
@@ -57,11 +34,44 @@
                 <div class="nom">
                 Exemple de lien
                 </div>
-        </div>
+        </div>-->
     </div>  
     </div>
     <img id="contact" src="media/img/contact.png" alt="icône de contact"/>
-    <img id="contact" src="media/img/contact.png" alt="icône de contact"/>
+    <div class="corbeille">
+        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-corbeille">
+        <label for="coche-corbeille">
+            <img id="corbeille" src="media/img/corbeille.png" alt="corbeille"/> 
+        </label>
+    <div class="page-corbeille">
+        <div class="lien">
+            <a href="https://github.com/Sycnex/Windows10Debloater">
+                <img class="windows" src="media/img/windows.png" alt="Icone de windows">
+            </a>
+            <div class="nom">
+                Purger
+            </div>
+        </div>
+        <div class="lien">
+            <a href="https://github.com/Sycnex/Windows10Debloater">
+                <img class="windows" src="media/img/windows.png" alt="Icone de windows">
+            </a>
+            <div class="nom">
+                Purger
+                </div>
+            </div>
+        <div>
+    </div>  
+    </div>
+    <script>
+        function onlyOne(checkbox) {
+        var checkboxes = document.getElementsByName('check')
+        checkboxes.forEach((item) => {
+            if (item !== checkbox) item.checked = false
+    })
+}
+    </script>
+
 </footer>
 </body>
 </html>

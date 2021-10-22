@@ -24,26 +24,28 @@ label #corbeille {
     transition: var(--slide);
     z-index: 5;
 }
-#coche {display: var(--no);}
-#coche:checked ~ label #corbeille {
-    opacity: var(--res);
+#coche-corbeille {display: var(--no);}
+#coche-corbeille:checked ~ label #corbeille {
     pointer-events: var(--no);
 }
-#coche:checked ~ .page-lien {
+#coche-corbeille:checked ~ .page-corbeille {
+    width: var(--L);
     height: var(--cont-h);
     bottom: var(--pos-fermer);
+    opacity: var(--visible);
 }
-.page-lien {
+.page-corbeille {
     display: var(--fl);
     position: var(--fix);
     flex-flow: var(--desk);
     justify-content: var(--home-j);
     align-items: var(--home-j);
-    left: var(--bg);
+    left: var(--res);
     bottom: var(--pos-page);
-    width: var(--L);
-    height: var(--cont-h);
-    background: var(--bg-color);
+    width: var(--res);
+    height: var(--res);
+    background: var(--bg-corbeille);
+    opacity: var(--invisible);
     transition: var(--slide); 
     z-index: 6;
 }
