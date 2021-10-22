@@ -39,8 +39,8 @@ label #contact {
     display: var(--fl);
     position: var(--fix);
     flex-flow: var(--mob);
-    justify-content: var(--home-j);
-    align-items: var(--home-j);    
+    justify-content: var(--cen);
+    align-items: var(--cen);    
     left: var(--res);
     bottom: var(--pos-page);
     width: var(--res);
@@ -61,9 +61,20 @@ a {text-decoration: var(--n);}
 form {
     display: var(--fl);
     flex-flow: var(--mob);
-    align-items: var(--cen);
-    justify-content: var(--ar);
-    width: var(--cont-h);
+    justify-content: space-between;
+    width: var(--cont-w);
+}
+
+form input, form textarea {
+    margin: var(--pad);
+    height: var(--bg);
+    font-size: var(--bot);
+    border-radius: var(--bot);
+    border: 1px solid var(--bg-color2);
+}
+
+form input:focus {
+    border: 3px solid var(--blue);
 }
 
   
