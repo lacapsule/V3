@@ -1,7 +1,8 @@
+@import url(style.css);
 @import url(variables.css);
+@import url(animations.css);
 
-#corbeille {
-    order: 5;
+#contact {
     display: var(--blo);
     position: var(--abs);
     width: var(--a);
@@ -9,15 +10,14 @@
     padding: var(--pad);
     z-index: 5;
 }
-#corbeille:hover {
+#contact:hover {
     transform: var(--sca);
     border-radius: var(--foo);
     box-shadow: var(--round);
 }
-.fermer:hover {transform: var(--sca);}
-.windows:hover {transform: var(--sca);}
-label #corbeille {
-    order: 5;
+
+label #contact {
+    order: 1;
     position: var(--rel);
     cursor: var(--point);
     width: var(--home);
@@ -25,23 +25,23 @@ label #corbeille {
     transition: var(--slide);
     z-index: 5;
 }
-#coche-corbeille {display: var(--no);}
-#coche-corbeille:checked ~ label #corbeille {
+#coche-contact {display: var(--no);}
+#coche-contact:checked ~ label #contact {
     pointer-events: var(--no);
 }
-#coche-corbeille:checked ~ .page-corbeille {
+#coche-contact:checked ~ .page-contact {
     width: var(--L);
     height: var(--cont-h);
     bottom: var(--pos-fermer);
     opacity: var(--visible);
 }
-.page-corbeille {
+.page-contact {
     display: var(--fl);
     position: var(--fix);
-    flex-flow: var(--desk);
+    flex-flow: var(--mob);
     justify-content: var(--home-j);
-    align-items: var(--home-j);
-    right: var(--res);
+    align-items: var(--home-j);    
+    left: var(--res);
     bottom: var(--pos-page);
     width: var(--res);
     height: var(--res);
@@ -56,3 +56,16 @@ a {text-decoration: var(--n);}
     height: var(--a);
     padding: var(--pad);
 }
+
+
+form {
+    display: var(--fl);
+    flex-flow: var(--mob);
+    align-items: var(--cen);
+    justify-content: var(--ar);
+    width: var(--cont-h);
+}
+
+  
+
+

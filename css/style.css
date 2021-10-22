@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(variables.css);
 @import url(animations.css);
+@import url(contact.css);
 @import url(footer.css);
 html, body {
     display: var(--fl);
@@ -53,4 +54,19 @@ footer.dock {
     height: var(--bg);
     animation: var(--tilt);
     z-index: 7;
+}
+
+#a-propos {
+    order: 4;
+    display: var(--blo);
+    position: var(--rel);
+    width: var(--home);
+    height: var(--home);
+    z-index: 5;
+}
+
+#a-propos:hover {
+    transform: var(--sca);
+    border-radius: var(--foo);
+    box-shadow: var(--round);
 }

@@ -7,9 +7,10 @@
     /** color **************************************/
     --bg-color: #000;
     --bg-color2: rgb(9, 6, 37);
-    --bg-corbeille: #262626;
+    --bg-pages: #262626;
     --blue: #121241;
     --texte: rgb(198, 202, 240);
+    --blanc: rgb(255,255,255);
     /** affichage **********************************/
     --blo: block;
     --no: none;
@@ -69,6 +70,4 @@
     --round: 2px 2px 2px 2px var(--bg-color2);
     /** curseur ************************************/
     --point: pointer;
-    /** filtre *************************************/
-    --blur: blur(.5rem);
 }
