@@ -1,9 +1,11 @@
-@import url(header.css);
+@import url(footer.css);
 @import url(variables.css);
 @import url(animations.css);
 @import url(contact.css);
+@import url(accueil.css);
+@import url(info.css);
 @import url(linux.css);
-@import url(footer.css);
+@import url(header.css);
 html, body {
     display: var(--fl);
     position: var(--rel);
@@ -27,13 +29,6 @@ header {
     width: var(--w);
     height: var(--bg);
 }
-.nom {
-    color: var(--texte);
-    font-family: var(--pol);
-    font-size: var(--text);
-    text-align: var(--cen);
-    padding-bottom: var(--bot);
-}
 .bg {
     position: var(--rel);
     width: var(--bg);
@@ -55,19 +50,4 @@ footer.dock {
     height: var(--bg);
     animation: var(--tilt);
     z-index: 7;
-}
-
-#a-propos {
-    order: 4;
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--home);
-    height: var(--home);
-    z-index: 5;
-}
-
-#a-propos:hover {
-    transform: var(--sca);
-    border-radius: var(--foo);
-    box-shadow: var(--round);
 }
