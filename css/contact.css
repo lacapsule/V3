@@ -61,7 +61,7 @@ a {text-decoration: var(--n);}
 form {
     display: var(--fl);
     flex-flow: var(--mob);
-    justify-content: space-between;
+    justify-content: --ar;
     width: var(--cont-w);
 }
 

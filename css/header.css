@@ -3,7 +3,7 @@
 #corbeille {
     order: 5;
     display: var(--blo);
-    position: var(--abs);
+    position: var(--rel);
     width: var(--a);
     height: var(--icone);
     padding: var(--pad);

@@ -1,0 +1,14 @@
+#linux {
+    order: 5;
+    position: var(--rel);
+    cursor: var(--point);
+    width: var(--home);
+    height: var(--home);
+    transition: var(--slide);
+    z-index: 5;
+}
+#linux:hover {
+    transform: var(--sca);
+    border-radius: var(--foo);
+    box-shadow: var(--round);
+}

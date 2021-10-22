@@ -2,6 +2,7 @@
 @import url(variables.css);
 @import url(animations.css);
 @import url(contact.css);
+@import url(linux.css);
 @import url(footer.css);
 html, body {
     display: var(--fl);
