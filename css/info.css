@@ -1,3 +1,23 @@
 @import url(variables.css);
 @import url(style.css);
 @import url(footer.css);
+label #info, label #fermer {
+    position: var(--rel);
+    cursor: var(--point);
+    width: var(--home);
+    height: var(--home);
+    transition: var(--slide);
+    z-index: 5;
+}
+#coche-info:checked ~ .page-info {
+    height: var(--cont-h);
+    bottom: var(--pos-fermer);
+}
+#coche-info:checked ~ label #info {
+    display: var(--no);
+    pointer-events: var(--no);
+}
+#coche-info:checked ~ label #fermer {
+    display: block;
+    bottom: var(--res);
+}

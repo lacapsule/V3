@@ -1,6 +1,7 @@
 @import url(variables.css);
 @import url(style.css);
 @import url(contact.css);
+@import url(corbeille.css);
 @import url(accueil.css);
 @import url(info.css);
 @import url(linux.css);
@@ -45,7 +46,6 @@
     box-shadow: var(--round);
 }
 #fermer {
-    order: 3;
     display: var(--no);
     position: var(--rel);
     z-index: 4;
@@ -53,7 +53,7 @@
 #fermer:hover {
     transform: var(--sca);
 }
-#a-propos {
+#info {
     order: 4;
     display: var(--blo);
     position: var(--rel);
@@ -61,7 +61,7 @@
     height: var(--home);
     z-index: 5;
 }
-#a-propos:hover {
+#info:hover {
     transform: var(--sca);
     border-radius: var(--foo);
     box-shadow: var(--round);

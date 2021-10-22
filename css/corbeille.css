@@ -1,7 +1,7 @@
 @import url(variables.css);
 @import url(style.css);
 @import url(footer.css);
-label #linux, label #fermer {
+label #corbeille, label #fermer {
     position: var(--rel);
     cursor: var(--point);
     width: var(--home);
@@ -9,15 +9,15 @@ label #linux, label #fermer {
     transition: var(--slide);
     z-index: 5;
 }
-#coche-linux:checked ~ .page-linux {
+#coche-corbeille:checked ~ .page-corbeille {
     height: var(--cont-h);
     bottom: var(--pos-fermer);
 }
-#coche-linux:checked ~ label #linux {
+#coche-corbeille:checked ~ label #corbeille {
     display: var(--no);
     pointer-events: var(--no);
 }
-#coche-linux:checked ~ label #fermer {
+#coche-corbeille:checked ~ label #fermer {
     display: block;
     bottom: var(--res);
 }

@@ -4,7 +4,26 @@
 #coche-home {
     display: var(--no);
 }
-
+label #home, label #fermer {
+    position: var(--rel);
+    cursor: var(--point);
+    width: var(--home);
+    height: var(--home);
+    transition: var(--slide);
+    z-index: 5;
+}
+#coche-home:checked ~ .page-home {
+    height: var(--cont-h);
+    bottom: var(--pos-fermer);
+}
+#coche-home:checked ~ label #home {
+    display: var(--no);
+    pointer-events: var(--no);
+}
+#coche-home:checked ~ label #fermer {
+    display: block;
+    bottom: var(--res);
+}
 .page-home {
     position: var(--fix);
     left: var(--res);
@@ -15,29 +34,4 @@
     height: var(--h);
     background: var(--bg-color);
     transition: var(--slide); 
-}
-
-label #home, label #fermer {
-    order: 3;
-    position: var(--rel);
-    cursor: var(--point);
-    width: var(--home);
-    height: var(--home);
-    transition: var(--slide);
-    z-index: 5;
-}
-
-#coche-home:checked ~ .page-home {
-    height: var(--cont-h);
-    bottom: var(--pos-fermer);
-}
-
-#coche-home:checked ~ label #home {
-    display: var(--no);
-    pointer-events: var(--no);
-}
-
-#coche-home:checked ~ label #fermer {
-    display: block;
-    bottom: var(--res);
 }

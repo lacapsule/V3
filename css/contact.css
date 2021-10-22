@@ -1,6 +1,9 @@
 @import url(style.css);
 @import url(variables.css);
 @import url(animations.css);
+#coche-contact {
+    display: var(--no);
+}
 label #contact {
     order: 1;
     position: var(--rel);
@@ -10,15 +13,27 @@ label #contact {
     transition: var(--slide);
     z-index: 5;
 }
-#coche-contact {display: var(--no);}
-#coche-contact:checked ~ label #contact {
-    pointer-events: var(--no);
+label #contact, label #fermer {
+    position: var(--rel);
+    cursor: var(--point);
+    width: var(--home);
+    height: var(--home);
+    transition: var(--slide);
+    z-index: 5;
 }
 #coche-contact:checked ~ .page-contact {
     width: var(--L);
     height: var(--cont-h);
     bottom: var(--pos-fermer);
     opacity: var(--visible);
+}
+#coche-contact:checked ~ label #contact {
+    display: var(--no);
+    pointer-events: var(--no);
+}
+#coche-contact:checked ~ label #fermer {
+    display: var(--blo);
+    bottom: var(--res);
 }
 .page-contact {
     display: var(--fl);
