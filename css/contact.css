@@ -1,3 +1,4 @@
+@import url(resetForm.css);
 @import url(style.css);
 @import url(variables.css);
 @import url(animations.css);
@@ -50,27 +51,19 @@ label #contact, label #fermer {
     transition: var(--slide); 
     z-index: 4;
 }
-a {text-decoration: var(--n);}
-.lien img {
-    width: var(--bg);
-    height: var(--a);
-    padding: var(--pad);
-}
-
-
 form {
     display: var(--fl);
     flex-flow: var(--mob);
     justify-content: var(--ar);
     width: var(--cont-w);
 }
-
 form input, form textarea {
     margin: var(--pad);
     padding: var(--bot);
     height: var(--bot);
     font-size: var(--bot);
     border-radius: var(--bot);
+    border: solid 2px;
 }
 form textarea {
     height: var(--bg);
@@ -79,6 +72,7 @@ form textarea {
 form input:focus, form textarea:focus {
     padding-left: var(--bot);
     transition: var(--slide);
+    border: solid 2px;
 }
 
 form input:valid, form textarea:valid {
