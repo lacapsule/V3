@@ -24,6 +24,15 @@
     --rel: relative;
     --pos-page: -800px;
     --pos-fermer: 10%;
+    --liseret-t: 40px;
+    --liseret-l: -15px;
+    --liseret-h: 50px;
+    --liseret-boucle-t: 50px;
+    --liseret-boucle-w: 15px;
+    --liseret-boucle-h: 30px;
+    --liseret-bord-1: 30px;
+    --liseret-bord-2: 20px;
+    
     /** flex option ********************************/
     --fl: flex;
     --desk: row wrap;
