@@ -24,12 +24,14 @@
         </label>
         <div class="page-contact">
             <form action="#" method="post">
-                <input type="text" name="nom" id="nom" placeholder="Votre nom...">
-                <input type="email" name="mail" id="mail" placeholder="Votre mail...">
-                <input type="text" name="sujet" id="sujet" placeholder="Sujet de votre contact...">
-                <textarea name="message" id="message" cols="20" rows="5" placeholder="Message..."></textarea>
-                <input type="submit" value="Envoyer">
-                <input type="reset" value="Recommencer">
+                <input type="text" name="nom" id="nom" required placeholder="Votre nom...">
+                <input type="email" name="mail" id="mail" required placeholder="Votre mail...">
+                <input type="text" name="sujet" id="sujet" required placeholder="Sujet de votre contact...">
+                <textarea name="message" id="message" cols="20" rows="5" required placeholder="Message..."></textarea>
+                <div class="boutons">
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Recommencer">
+                </div>  
             </form>
         </div>   
     </div>
@@ -65,6 +67,7 @@
             <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
         </label>
     <div class="page-home">
+        <i><span>Home</span></i>
         <!--<div class="lien">
             <div class="icone">
                 <a href="">
