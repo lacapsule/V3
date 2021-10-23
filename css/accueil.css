@@ -57,13 +57,28 @@ label #home, label #fermer {
     content: '';
     position: var(--abs);
     top: 50px;
-    left: -0px;
+    left: var(--res);
     width: 15px;
     height: 30px;
     background: var(--blanc);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 2;
+}
+
+.page-home i::after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: var(--res);
+    width: 15px;
+    height: 15px;
+    background: var(--blue);
+
 }
 
 .page-home i span {
     color: var(--texte);
-    font-size: var(--text);
+    font-size: var(--bot);
+    font-family: var(--pol);
 }
