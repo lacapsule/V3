@@ -14,7 +14,8 @@ label #contact {
     transition: var(--slide);
     z-index: 5;
 }
-label #contact, label #fermer {
+label #contact,
+label #fermer {
     position: var(--rel);
     cursor: var(--point);
     width: var(--home);
@@ -57,31 +58,64 @@ form {
     justify-content: var(--ar);
     width: var(--cont-w);
 }
-form input, form textarea {
+form input,
+form textarea {
     margin: var(--pad);
     padding: var(--bot);
     height: var(--bot);
     font-size: var(--bot);
     border-radius: var(--bot);
     border: solid 2px;
+    color: var(--blanc);
 }
+form input::placeholder,
+form textarea::placeholder {
+    color: var(--blanc);
+}
+
 form textarea {
     height: var(--bg);
 }
 
-form input:focus, form textarea:focus {
+form input[type="submit"],
+form input[type="reset"]{
+    color: var(--blue);
+    background: var(--texte);
+    padding: 2.5rem;
+}
+
+form input:focus,
+form textarea:focus {
     padding-left: var(--bot);
     transition: var(--slide);
     border: solid 2px;
+    background: var(--blanc);
+    color: var(--bg-color);
 }
 
-form input:valid, form textarea:valid {
+form input[type="text"]:valid,
+form input[type="mail"]:valid,
+form input[type="text"]:valid,
+form textarea:valid {
     color: var(--vert);
 }
 
-form input:invalid, form textarea:invalid {
-    color: var(--rouge);
+
+form input:invalid,
+form textarea:invalid {
+    color: var(--blanc);
+    background-color: var(--rouge);
+    opacity: .5;
 }
+
+.boutons {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--sa);
+    
+}
+
+
 
   
 

@@ -24,12 +24,14 @@
         </label>
         <div class="page-contact">
             <form action="#" method="post">
-                <input type="text" name="nom" id="nom" placeholder="Votre nom...">
-                <input type="email" name="mail" id="mail" placeholder="Votre mail...">
-                <input type="text" name="sujet" id="sujet" placeholder="Sujet de votre contact...">
-                <textarea name="message" id="message" cols="20" rows="5" placeholder="Message..."></textarea>
-                <input type="submit" value="Envoyer">
-                <input type="reset" value="Recommencer">
+                <input type="text" name="nom" id="nom" required placeholder="Votre nom...">
+                <input type="email" name="mail" id="mail" required placeholder="Votre mail...">
+                <input type="text" name="sujet" id="sujet" required placeholder="Sujet de votre contact...">
+                <textarea name="message" id="message" cols="20" rows="5" required placeholder="Message..."></textarea>
+                <div class="boutons">
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Recommencer">
+                </div>  
             </form>
         </div>   
     </div>
@@ -42,7 +44,7 @@
     <div class="page-corbeille">
         <div class="lien">
             <a href="https://github.com/Sycnex/Windows10Debloater">
-                <img class="windows" src="media/img/windows.png" alt="Icone de windows"/>
+                <img class="windows" src="media/img/windows.png" alt="Icone de windows">
             </a>
             <div class="nom">
                 Purger
@@ -50,21 +52,23 @@
         </div>
         <div class="lien">
             <a href="https://github.com/TarikSeyceri/Windows-Cleaner">
-                <img class="windows" src="media/img/ccleaner.png" alt="Icone de windows"/>
+                <img class="windows" src="media/img/ccleaner.png" alt="Icone de windows">
             </a>
             <div class="nom">
                 Nettoyer
                 </div>
             </div>
-    </div></div>  
-    <div class="accueil">
-        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-accueil"/>
-        <label for="coche-accueil">
-            <img id="accueil" src="media/img/accueil.png" alt="icône du menu"/>    
+    </div>
+    </div>  
+    <div class="home">
+        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-home">
+        <label for="coche-home">
+            <img id="home" src="media/img/home.png" alt="icône du menu"/>    
             <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
         </label>
-    <div class="page-accueil">
-        <div class="lien">
+    <div class="page-home">
+        <i><span>Home</span></i>
+        <!--<div class="lien">
             <div class="icone">
                 <a href="">
                 <img src="media/img/link.png" alt="Icone lien">
@@ -73,37 +77,11 @@
                 <div class="nom">
                 Exemple de lien
                 </div>
-            </div>
+        </div>-->
     </div>  
-    </div> 
-    <div class="info">
-        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-info"/>
-        <label for="coche-info">
-            <img id="info" src="media/img/info.png" alt="icône d'info"/> 
-            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
-        </label>
-    <div class="page-info">
-        <!--<iframe id="page-info"
-        title="Informations"
-        width="100%"
-        height="90%"
-        src="https://lacapsule.github.io/slideshow/"></iframe>-->
-        </div>
-    </div>  
-    <div class="linux">
-        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-linux"/>
-        <label for="coche-linux">
-            <img id="linux" src="media/img/linux.png" alt="icône d'linux"/> 
-            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
-        </label>
-    <div class="page-linux">
-        <!--<iframe id="page-info"
-        title="Informations"
-        width="100%"
-        height="90%"
-        src="https://lacapsule.github.io/slideshow/"></iframe>-->
-        </div>
-    </div>  
+    </div>
+    <img id="info" src="media/img/about.png" alt="icône du à propos"/>
+    <img id="linux" src="media/img/linux.png" alt="icône de linux"/>
     <script>
         function onlyOne(checkbox) {
         var checkboxes = document.getElementsByName('check')

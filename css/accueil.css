@@ -1,54 +1,84 @@
 @import url(variables.css);
 @import url(style.css);
 @import url(footer.css);
-#coche-accueil {
+#coche-home {
     display: var(--no);
 }
-label #accueil {
-    order: 3;
+label #home, label #fermer {
     position: var(--rel);
     cursor: var(--point);
-    width: var(--accueil);
-    height: var(--accueil);
+    width: var(--home);
+    height: var(--home);
     transition: var(--slide);
     z-index: 5;
 }
-label #accueil, label #fermer {
-    position: var(--rel);
-    cursor: var(--point);
-    width: var(--accueil);
-    height: var(--accueil);
-    transition: var(--slide);
-    z-index: 5;
-}
-#coche-accueil:checked ~ .page-accueil {
-    left: var(--res);
-    width: var(--L);
+#coche-home:checked ~ .page-home {
     height: var(--cont-h);
     bottom: var(--pos-fermer);
-    opacity: var(--visible);
 }
-#coche-accueil:checked ~ label #accueil {
+#coche-home:checked ~ label #home {
     display: var(--no);
     pointer-events: var(--no);
 }
-#coche-accueil:checked ~ label #fermer {
-    display: var(--blo);
+#coche-home:checked ~ label #fermer {
+    display: block;
     bottom: var(--res);
 }
-.page-accueil {
-    display: var(--fl);
+.page-home {
     position: var(--fix);
-    flex-flow: var(--mob);
-    justify-content: var(--cen);
-    align-items: var(--cen);    
-    left: var(--foo);
     right: var(--res);
     bottom: var(--pos-page);
-    width: var(--res);
-    height: var(--res);
-    background: var(--bg-pages);
-    opacity: var(--invisible);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    width: var(--cont-h);
+    height: var(--h);
+    background: var(--home-page);
+    box-shadow: var(--home-shadow);
+    border-radius: var(--text);
     transition: var(--slide); 
-    z-index: 4;
+}
+
+.page-home i{
+    position: var(--abs);
+    top: var(--liseret-t);
+    left: var(--liseret-l);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--cen);
+    align-items: var(--cen);
+    width: var(--cont-h);
+    height: var(--liseret-h);
+    background: var(--blue);
+    border-radius: var(--liseret-bord-1);
+    border-bottom-left-radius: var(--res);
+
+}
+.page-home i::before {
+    content: '';
+    position: var(--abs);
+    top: var(--liseret-boucle-t);
+    left: var(--res);
+    width: var(--liseret-boucle-w);
+    height: var(--liseret-boucle-h);
+    background: var(--blanc);
+    border-top-left-radius: var(--liseret-bord-2);
+    border-bottom-left-radius: var(--liseret-bord-2);
+    z-index: 2;
+}
+
+.page-home i::after {
+    content: '';
+    position: var(--abs);
+    top: var(--liseret-boucle-t);
+    left: var(--res);
+    width: var(--liseret-boucle-w);
+    height: var(--liseret-boucle-w);
+    background: var(--blue);
+
+}
+
+.page-home i span {
+    color: var(--texte);
+    font-size: var(--bot);
+    font-family: var(--pol);
 }

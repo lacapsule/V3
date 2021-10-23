@@ -1,18 +1,6 @@
 @import url(variables.css);
 @import url(style.css);
 @import url(footer.css);
-#coche-info {
-    display: var(--no);
-}
-label #info {
-    order: 4;
-    position: var(--rel);
-    cursor: var(--point);
-    width: var(--home);
-    height: var(--home);
-    transition: var(--slide);
-    z-index: 5;
-}
 label #info, label #fermer {
     position: var(--rel);
     cursor: var(--point);
@@ -22,33 +10,14 @@ label #info, label #fermer {
     z-index: 5;
 }
 #coche-info:checked ~ .page-info {
-    left: var(--res);
-    width: var(--L);
     height: var(--cont-h);
     bottom: var(--pos-fermer);
-    opacity: var(--visible);
 }
 #coche-info:checked ~ label #info {
     display: var(--no);
     pointer-events: var(--no);
 }
 #coche-info:checked ~ label #fermer {
-    display: var(--blo);
+    display: block;
     bottom: var(--res);
-}
-.page-info {
-    display: var(--fl);
-    position: var(--fix);
-    flex-flow: var(--mob);
-    justify-content: var(--cen);
-    align-items: var(--cen);    
-    left: var(--cont-w);
-    right: var(--res);
-    bottom: var(--pos-page);
-    width: var(--res);
-    height: var(--res);
-    background: var(--bg-pages);
-    opacity: var(--invisible);
-    transition: var(--slide); 
-    z-index: 4;
 }
