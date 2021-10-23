@@ -1,6 +1,18 @@
 @import url(variables.css);
 @import url(style.css);
 @import url(footer.css);
+#coche-corbeille {
+    display: var(--no);
+}
+label #corbeille {
+    order: 2;
+    position: var(--rel);
+    cursor: var(--point);
+    width: var(--home);
+    height: var(--home);
+    transition: var(--slide);
+    z-index: 5;
+}
 label #corbeille, label #fermer {
     position: var(--rel);
     cursor: var(--point);
@@ -9,23 +21,41 @@ label #corbeille, label #fermer {
     transition: var(--slide);
     z-index: 5;
 }
-.page-corbeille {
-    display: var(--fl);
-    flex-flow: var(--desk);
-    align-items: var(--home-j);
-    justify-content: var(--home-j);
-    text-align: var(--cen);
-    color: var(--texte);
-}
 #coche-corbeille:checked ~ .page-corbeille {
+    left: var(--res);
+    width: var(--L);
     height: var(--cont-h);
     bottom: var(--pos-fermer);
+    opacity: var(--visible);
 }
 #coche-corbeille:checked ~ label #corbeille {
     display: var(--no);
     pointer-events: var(--no);
 }
 #coche-corbeille:checked ~ label #fermer {
-    display: block;
+    display: var(--blo);
     bottom: var(--res);
+}
+.page-corbeille {
+    display: var(--fl);
+    position: var(--fix);
+    flex-flow: var(--mob);
+    justify-content: var(--sa);
+    align-items: var(--sa);    
+    left: var(--bg);
+    right: var(--res);
+    bottom: var(--pos-page);
+    width: var(--res);
+    height: var(--res);
+    color: var(--texte);
+    text-align: var(--cen);
+    background: var(--bg-pages);
+    opacity: var(--invisible);
+    transition: var(--slide); 
+    z-index: 4;
+}
+.lien {
+    width: var(--bg);
+    height: var(--a);
+    padding: var(--pad);
 }

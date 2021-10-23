@@ -1,84 +1,54 @@
 @import url(variables.css);
 @import url(style.css);
 @import url(footer.css);
-#coche-home {
+#coche-accueil {
     display: var(--no);
 }
-label #home, label #fermer {
+label #accueil {
+    order: 3;
     position: var(--rel);
     cursor: var(--point);
-    width: var(--home);
-    height: var(--home);
+    width: var(--accueil);
+    height: var(--accueil);
     transition: var(--slide);
     z-index: 5;
 }
-#coche-home:checked ~ .page-home {
+label #accueil, label #fermer {
+    position: var(--rel);
+    cursor: var(--point);
+    width: var(--accueil);
+    height: var(--accueil);
+    transition: var(--slide);
+    z-index: 5;
+}
+#coche-accueil:checked ~ .page-accueil {
+    left: var(--res);
+    width: var(--L);
     height: var(--cont-h);
     bottom: var(--pos-fermer);
+    opacity: var(--visible);
 }
-#coche-home:checked ~ label #home {
+#coche-accueil:checked ~ label #accueil {
     display: var(--no);
     pointer-events: var(--no);
 }
-#coche-home:checked ~ label #fermer {
-    display: block;
+#coche-accueil:checked ~ label #fermer {
+    display: var(--blo);
     bottom: var(--res);
 }
-.page-home {
+.page-accueil {
+    display: var(--fl);
     position: var(--fix);
+    flex-flow: var(--mob);
+    justify-content: var(--cen);
+    align-items: var(--cen);    
+    left: var(--foo);
     right: var(--res);
     bottom: var(--pos-page);
-    display: var(--fl);
-    flex-flow: var(--desk);
-    width: var(--cont-h);
-    height: var(--h);
-    background: var(--home-page);
-    box-shadow: var(--home-shadow);
-    border-radius: var(--text);
+    width: var(--res);
+    height: var(--res);
+    background: var(--bg-pages);
+    opacity: var(--invisible);
     transition: var(--slide); 
-}
-
-.page-home i{
-    position: var(--abs);
-    top: var(--liseret-t);
-    left: var(--liseret-l);
-    display: var(--fl);
-    flex-flow: var(--desk);
-    justify-content: var(--cen);
-    align-items: var(--cen);
-    width: var(--cont-h);
-    height: var(--liseret-h);
-    background: var(--blue);
-    border-radius: var(--liseret-bord-1);
-    border-bottom-left-radius: var(--res);
-
-}
-.page-home i::before {
-    content: '';
-    position: var(--abs);
-    top: var(--liseret-boucle-t);
-    left: var(--res);
-    width: var(--liseret-boucle-w);
-    height: var(--liseret-boucle-h);
-    background: var(--blanc);
-    border-top-left-radius: var(--liseret-bord-2);
-    border-bottom-left-radius: var(--liseret-bord-2);
-    z-index: 2;
-}
-
-.page-home i::after {
-    content: '';
-    position: var(--abs);
-    top: var(--liseret-boucle-t);
-    left: var(--res);
-    width: var(--liseret-boucle-w);
-    height: var(--liseret-boucle-w);
-    background: var(--blue);
-
-}
-
-.page-home i span {
-    color: var(--texte);
-    font-size: var(--bot);
-    font-family: var(--pol);
+    z-index: 4;
 }

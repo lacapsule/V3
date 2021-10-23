@@ -57,8 +57,3 @@ footer.dock {
     z-index: 7;
 }
 a {text-decoration: var(--n);}
-.lien img {
-    width: var(--bg);
-    height: var(--a);
-    padding: var(--pad);
-}

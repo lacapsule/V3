@@ -1,6 +1,18 @@
 @import url(variables.css);
 @import url(style.css);
 @import url(footer.css);
+#coche-linux {
+    display: var(--no);
+}
+label #linux {
+    order: 3;
+    position: var(--rel);
+    cursor: var(--point);
+    width: var(--home);
+    height: var(--home);
+    transition: var(--slide);
+    z-index: 5;
+}
 label #linux, label #fermer {
     position: var(--rel);
     cursor: var(--point);
@@ -10,8 +22,11 @@ label #linux, label #fermer {
     z-index: 5;
 }
 #coche-linux:checked ~ .page-linux {
+    left: var(--res);
+    width: var(--L);
     height: var(--cont-h);
     bottom: var(--pos-fermer);
+    opacity: var(--visible);
 }
 #coche-linux:checked ~ label #linux {
     display: var(--no);
@@ -20,4 +35,20 @@ label #linux, label #fermer {
 #coche-linux:checked ~ label #fermer {
     display: block;
     bottom: var(--res);
+}
+.page-linux {
+    display: var(--fl);
+    position: var(--fix);
+    flex-flow: var(--mob);
+    justify-content: var(--cen);
+    align-items: var(--cen);    
+    left: var(--w);
+    right: var(--res);
+    bottom: var(--pos-page);
+    width: var(--res);
+    height: var(--res);
+    background: var(--bg-pages);
+    opacity: var(--invisible);
+    transition: var(--slide); 
+    z-index: 4;
 }

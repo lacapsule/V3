@@ -11,7 +11,6 @@
     --blue: #121241;
     --texte: rgb(198, 202, 240);
     --blanc: rgb(255,255,255);
-    --home-page: rgba(255,255,255,.6);
     --vert: #1ED760;
     --rouge: #FF1B2D;
     /** affichage **********************************/
@@ -24,15 +23,6 @@
     --rel: relative;
     --pos-page: -800px;
     --pos-fermer: 10%;
-    --liseret-t: 40px;
-    --liseret-l: -15px;
-    --liseret-h: 50px;
-    --liseret-boucle-t: 50px;
-    --liseret-boucle-w: 15px;
-    --liseret-boucle-h: 30px;
-    --liseret-bord-1: 30px;
-    --liseret-bord-2: 20px;
-    
     /** flex option ********************************/
     --fl: flex;
     --desk: row wrap;
@@ -57,7 +47,6 @@
     --icone: 3em;
     --text: 1rem;
     --bot: 1.2em;
-    --btn: 10rem;
     --w-init: 0;
     --h-init: 0;
     /** padding ************************************/
@@ -81,7 +70,6 @@
     /** shadow *************************************/
     --shad: 8px 0px 25px 10px var(--footer);
     --round: 2px 2px 2px 2px var(--bg-color2);
-    --home-shadow: 0 25px 50px rgba(0,0,0,.15);
     /** curseur ************************************/
     --point: pointer;
 }
