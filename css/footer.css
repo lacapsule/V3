@@ -10,8 +10,8 @@
     order: 1;
     display: var(--blo);
     position: var(--rel);
-    width: var(--icone);
-    height: var(--icone);
+    width: var(--home);
+    height: var(--home);
     z-index: 5;
 }
 #contact:hover {
@@ -23,8 +23,8 @@
     order: 2;
     display: var(--blo);
     position: var(--rel);
-    width: var(--icone);
-    height: var(--icone);
+    width: var(--home);
+    height: var(--home);
     z-index: 5;
 }
 #corbeille:hover {
@@ -68,22 +68,14 @@
 }
 #linux {
     order: 5;
+    display: var(--blo);
     position: var(--rel);
-    cursor: var(--point);
     width: var(--home);
     height: var(--home);
-    transition: var(--slide);
     z-index: 5;
 }
 #linux:hover {
     transform: var(--sca);
     border-radius: var(--foo);
     box-shadow: var(--round);
-}
-.nom {
-    color: var(--texte);
-    font-family: var(--pol);
-    font-size: var(--text);
-    text-align: var(--cen);
-    padding-bottom: var(--bot);
 }

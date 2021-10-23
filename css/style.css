@@ -15,6 +15,10 @@ html, body {
     align-content: var(--cen);
     justify-content: var(--ar);
     justify-items: var(--ar);
+    left: var(--res);
+    top: var(--res);
+    right: var(--res);
+    bottom: var(--res);
     width: var(--L);
     height: var(--L);
     margin: var(--res);
@@ -51,4 +55,10 @@ footer.dock {
     height: var(--bg);
     animation: var(--tilt);
     z-index: 7;
+}
+a {text-decoration: var(--n);}
+.lien img {
+    width: var(--bg);
+    height: var(--a);
+    padding: var(--pad);
 }
