@@ -9,6 +9,14 @@ label #corbeille, label #fermer {
     transition: var(--slide);
     z-index: 5;
 }
+.page-corbeille {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--home-j);
+    justify-content: var(--home-j);
+    text-align: var(--cen);
+    color: var(--texte);
+}
 #coche-corbeille:checked ~ .page-corbeille {
     height: var(--cont-h);
     bottom: var(--pos-fermer);
