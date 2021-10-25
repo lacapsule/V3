@@ -83,7 +83,7 @@ label #info, label #fermer {
 }
 
 .page-info .carte-infos {
-    margin: auto;
+    margin: var(--auto);
     margin-top: var(--m-top);
     
 }
