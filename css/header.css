@@ -35,24 +35,5 @@ label #corbeille {
     bottom: var(--pos-fermer);
     opacity: var(--visible);
 }
-.page-corbeille {
-    display: var(--fl);
-    position: var(--fix);
-    flex-flow: var(--desk);
-    justify-content: var(--home-j);
-    align-items: var(--home-j);
-    right: var(--res);
-    bottom: var(--pos-page);
-    width: var(--res);
-    height: var(--res);
-    background: var(--bg-pages);
-    opacity: var(--invisible);
-    transition: var(--slide); 
-    z-index: 4;
-}
-a {text-decoration: var(--n);}
-.lien img {
-    width: var(--bg);
-    height: var(--a);
-    padding: var(--pad);
-}
+
+

@@ -21,7 +21,7 @@ label #home, label #fermer {
     pointer-events: var(--no);
 }
 #coche-home:checked ~ label #fermer {
-    display: block;
+    display: var(--blo);
     bottom: var(--res);
 }
 .page-home {
@@ -60,7 +60,7 @@ label #home, label #fermer {
     left: var(--res);
     width: var(--liseret-boucle-w);
     height: var(--liseret-boucle-h);
-    background: var(--blanc);
+    background: var(--bg-pages);
     border-top-left-radius: var(--liseret-bord-2);
     border-bottom-left-radius: var(--liseret-bord-2);
     z-index: 2;
