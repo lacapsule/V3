@@ -24,7 +24,6 @@ label #fermer {
     z-index: 5;
 }
 #coche-contact:checked ~ .page-contact {
-    width: var(--cont-h);
     height: var(--cont-h);
     bottom: var(--pos-fermer);
     opacity: var(--visible);
@@ -45,11 +44,10 @@ label #fermer {
     align-items: var(--cen);    
     right: var(--res);
     bottom: var(--pos-page);
-    width: var(--cont-h);
+    width: var(--L);
     height: var(--h);
     background: var(--home-page);
     box-shadow: var(--home-shadow);
-    border-radius: var(--text);
     opacity: var(--invisible);
     transition: var(--slide);
 }
@@ -64,7 +62,7 @@ label #fermer {
     align-items: var(--cen);
     width: var(--cont-h);
     height: var(--liseret-h);
-    background: var(--blue);
+    background: var(--bg-lis);
     border-radius: var(--liseret-bord-1);
     border-bottom-left-radius: var(--res);
 }
@@ -98,7 +96,7 @@ label #fermer {
 }
 
 form {
-    margin-top: 90px;
+    margin-top: var(--m-top);
     display: var(--fl);
     flex-flow: var(--mob);
     justify-content: var(--ar);
@@ -108,11 +106,12 @@ form input,
 form textarea {
     margin: var(--pad);
     padding: var(--bot);
-    height: var(--bot);
+    height: var(--text);
     font-size: var(--bot);
     border-radius: var(--bot);
     border: solid 2px;
     color: var(--blanc);
+    outline: var(--res);
 }
 form input::placeholder,
 form textarea::placeholder {
@@ -123,11 +122,13 @@ form textarea {
     height: var(--bg);
 }
 
-form input[type="submit"],
-form input[type="reset"]{
+form input[type="submit"] {
+    width: var(--cont-w);
     color: var(--blue);
     background: var(--texte);
-    padding: 2.5rem;
+    padding-bottom: 2.5rem;
+    vertical-align: var(--cen);
+    cursor: var(--point);
 }
 
 form input:focus,
@@ -136,7 +137,8 @@ form textarea:focus {
     transition: var(--slide);
     border: solid 2px;
     background: var(--blanc);
-    color: var(--bg-color);
+    color: var(--bg-lis);
+    background: var(--no);
 }
 
 form input[type="text"]:valid,
@@ -146,20 +148,6 @@ form textarea:valid {
     color: var(--vert);
 }
 
-
-form input:invalid,
-form textarea:invalid {
-    color: var(--blanc);
-    background-color: var(--rouge);
-    opacity: .5;
-}
-
-.boutons {
-    display: var(--fl);
-    flex-flow: var(--desk);
-    justify-content: var(--sa);
-    
-}
 
 
 

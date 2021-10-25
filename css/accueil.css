@@ -30,11 +30,10 @@ label #home, label #fermer {
     bottom: var(--pos-page);
     display: var(--fl);
     flex-flow: var(--desk);
-    width: var(--cont-h);
+    width: var(--L);
     height: var(--h);
     background: var(--home-page);
     box-shadow: var(--home-shadow);
-    border-radius: var(--text);
     transition: var(--slide); 
 }
 
@@ -48,7 +47,7 @@ label #home, label #fermer {
     align-items: var(--cen);
     width: var(--cont-h);
     height: var(--liseret-h);
-    background: var(--blue);
+    background: var(--bg-lis);
     border-radius: var(--liseret-bord-1);
     border-bottom-left-radius: var(--res);
 
