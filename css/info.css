@@ -1,6 +1,9 @@
 @import url(variables.css);
 @import url(style.css);
 @import url(footer.css);
+#coche-info {
+    display: var(--no);
+}
 label #info, label #fermer {
     position: var(--rel);
     cursor: var(--point);
@@ -18,6 +21,69 @@ label #info, label #fermer {
     pointer-events: var(--no);
 }
 #coche-info:checked ~ label #fermer {
-    display: block;
+    display: var(--blo);
     bottom: var(--res);
+}
+.page-info {
+    position: var(--fix);
+    right: var(--res);
+    bottom: var(--pos-page);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    width: var(--L);
+    height: var(--h);
+    background: var(--home-page);
+    box-shadow: var(--home-shadow);
+    transition: var(--slide); 
+}
+
+.page-info i{
+    position: var(--abs);
+    top: var(--liseret-t);
+    left: var(--liseret-l);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--cen);
+    align-items: var(--cen);
+    width: var(--cont-h);
+    height: var(--liseret-h);
+    background: var(--bg-lis);
+    border-radius: var(--liseret-bord-1);
+    border-bottom-left-radius: var(--res);
+
+}
+.page-info i::before {
+    content: '';
+    position: var(--abs);
+    top: var(--liseret-boucle-t);
+    left: var(--res);
+    width: var(--liseret-boucle-w);
+    height: var(--liseret-boucle-h);
+    background: var(--bg-pages);
+    border-top-left-radius: var(--liseret-bord-2);
+    border-bottom-left-radius: var(--liseret-bord-2);
+    z-index: 2;
+}
+
+.page-info i::after {
+    content: '';
+    position: var(--abs);
+    top: var(--liseret-boucle-t);
+    left: var(--res);
+    width: var(--liseret-boucle-w);
+    height: var(--liseret-boucle-w);
+    background: var(--blue);
+
+}
+
+.page-info i span {
+    color: var(--texte);
+    font-size: var(--bot);
+    font-family: var(--pol);
+}
+
+.page-info .carte-infos {
+    margin: auto;
+    margin-top: var(--m-top);
+    
 }

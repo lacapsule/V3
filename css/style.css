@@ -24,7 +24,8 @@ html, body {
     margin: var(--res);
     padding: var(--res);
     overflow: var(--h);
-    animation: var(--anim-bg);
+    background: var(--bg-color);
+    /*animation: var(--anim-bg);*/
     z-index: 0;
 }
 header {

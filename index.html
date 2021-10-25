@@ -81,8 +81,39 @@
         </div>-->
     </div>  
     </div>
-    <img id="info" src="media/img/about.png" alt="icône du à propos"/>
-    <img id="linux" src="media/img/linux.png" alt="icône de linux"/>
+    <div class="info">
+        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-info"/>
+        <label for="coche-info">
+            <img id="info" src="media/img/info.png" alt="icône d'info"/> 
+            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
+        </label>
+    <div class="page-info">
+        <i><span>Infos</span></i>
+        <iframe
+            class= "carte-infos"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10557.710458925778!2d-3.8352256!3d48.5825107!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x17c10f279fba8957!2sLa%20Capsule%20-%20ULAMIR-CPIE!5e0!3m2!1sfr!2suk!4v1622739859202!5m2!1sfr!2suk"
+            width="90%"
+            height="250"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+        </div>
+    </div>  
+    <div class="linux">
+        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-linux"/>
+        <label for="coche-linux">
+            <img id="linux" src="media/img/linux.png" alt="icône d'linux"/> 
+            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
+        </label>
+    <div class="page-linux">
+        <i><span>Linux</span></i>
+        <!--<iframe id="page-info"
+        title="Informations"
+        width="100%"
+        height="90%"
+        src="https://lacapsule.github.io/slideshow/"></iframe>-->
+        </div>
+    </div>  
     <script>
         function onlyOne(checkbox) {
         var checkboxes = document.getElementsByName('check')

@@ -12,7 +12,7 @@
     --blue: #121241;
     --texte: rgb(198, 202, 240);
     --blanc: rgb(255,255,255);
-    --home-page: radial-gradient(circle, rgba(45,45,120,.3) 0%, rgba(1,0,18,.7) 89%, rgba(0,0,0,1) 100%);
+    --home-page: rgba(28, 28, 75, 0.7);
     --vert: #1ED760;
     --rouge: #FF1B2D;
     /** affichage **********************************/
