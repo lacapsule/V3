@@ -26,7 +26,7 @@
             <i><span>Contact</span></i>
             <form action="#" method="post">
                 <input type="text" name="nom" id="nom" required placeholder="Votre nom...">
-                <input type="email" name="mail" id="mail" required placeholder="Votre mail...">
+                <input type="text" name="email" placeholder="adresse@email.com" required pattern="^[a-zA-Z.*.0-9]+@[a-zA-Z0-9]+.[a-zA-Z]{2,6}$" required/>
                 <input type="text" name="sujet" id="sujet" required placeholder="Sujet de votre contact...">
                 <textarea name="message" id="message" cols="20" rows="5" required placeholder="Message..."></textarea>
                 <button class="boutons">
