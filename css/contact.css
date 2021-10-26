@@ -125,6 +125,7 @@ form textarea {
 }
 
 form input[type="submit"] {
+    height: var(--home);
     width: var(--submit);
     color: var(--blue);
     background: var(--texte);
