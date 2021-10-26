@@ -90,6 +90,7 @@ label #fermer {
 }
 
 .page-contact i span {
+    position: var(--abs);
     color: var(--texte);
     font-size: var(--bot);
     font-family: var(--pol);
@@ -102,6 +103,7 @@ form {
     justify-content: var(--ar);
     width: var(--cont-h);
 }
+
 form input,
 form textarea {
     margin: var(--pad);
@@ -123,12 +125,17 @@ form textarea {
 }
 
 form input[type="submit"] {
-    width: var(--cont-w);
+    width: var(--submit);
     color: var(--blue);
     background: var(--texte);
     padding-bottom: 2.5rem;
     vertical-align: var(--cen);
     cursor: var(--point);
+}
+
+form input[type="submit"]:hover {
+    background: var(--bg-lis);
+    color: var(--texte);
 }
 
 form input:focus,
