@@ -98,6 +98,7 @@ label #fermer {
 
 form {
     position: var(--abs);
+    top: var(--res);
     margin-top: var(--m-top);
     display: var(--fl);
     flex-flow: var(--mob);
