@@ -97,6 +97,7 @@ label #fermer {
 }
 
 form {
+    position: var(--abs);
     margin-top: var(--m-top);
     display: var(--fl);
     flex-flow: var(--mob);
@@ -128,7 +129,7 @@ form input[type="submit"] {
     height: var(--home);
     width: var(--submit);
     color: var(--blue);
-    background: var(--texte);
+    background: var(--jaune);
     padding-bottom: 2.5rem;
     vertical-align: var(--cen);
     cursor: var(--point);
