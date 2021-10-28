@@ -9,6 +9,7 @@ body {
     height: var(--h);
     padding-top: var(--bg);
     padding-bottom: var(--foo);
+    font-family: var(--pol);
     background-color: var(--home-page);
 }
 main {
