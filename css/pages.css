@@ -1,2 +1,22 @@
 @import url(variables.css);
-
+@import url(style.css);
+body {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--sa);
+    justify-content: var(--sa);
+    Width: var(--L);
+    height: var(--h);
+    padding-top: var(--bg);
+    padding-bottom: var(--foo);
+    background-color: var(--home-page);
+}
+main {
+    display: var(--fl);
+    flex-flow: var(--mob);
+    align-items: var(--sa);
+    justify-content: var(--sa);
+}
+span {
+    color: var(--texte);
+}

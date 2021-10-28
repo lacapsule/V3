@@ -63,3 +63,10 @@ a {text-decoration: var(--n);}
     height: var(--a);
     padding: var(--pad);
 }
+iframe {
+    display: var(--blo);
+    position: var(--rel);
+    top: var(--res);
+    margin: var(--auto);
+    border: var(--res);
+}
