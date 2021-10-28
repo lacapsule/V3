@@ -150,6 +150,9 @@ form textarea:focus {
     color: var(--bg-lis);
     background: var(--no);
 }
+form textarea:focus ~ form {
+    bottom: 5rem;
+}
 
 form input[type="text"]:valid,
 form input[type="mail"]:valid,
