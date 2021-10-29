@@ -38,7 +38,7 @@
     /** flex option ********************************/
     --fl: flex;
     --desk: row wrap;
-    --mob: column wrap;
+    --mob: column nowrap;
     --home-j: flex-start;
     --end: flex-end;
     --ar: space-between;

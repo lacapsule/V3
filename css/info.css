@@ -64,7 +64,6 @@ label #info, label #fermer {
     border-bottom-left-radius: var(--liseret-bord-2);
     z-index: 2;
 }
-
 .page-info i::after {
     content: '';
     position: var(--abs);
@@ -75,13 +74,11 @@ label #info, label #fermer {
     background: var(--blue);
 
 }
-
 .page-info i span {
     color: var(--texte);
     font-size: var(--bot);
     font-family: var(--pol);
 }
-
 .page-info .carte-infos {
     margin: var(--auto);
     margin-top: var(--m-top);

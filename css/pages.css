@@ -2,10 +2,10 @@
 @import url(style.css);
 body {
     display: var(--fl);
-    flex-flow: var(--desk);
+    flex-flow: var(--mob);
     align-items: var(--sa);
     justify-content: var(--sa);
-    Width: var(--L);
+    Width: var(--cont-h);
     height: var(--h);
     padding-top: var(--bg);
     padding-bottom: var(--h);
