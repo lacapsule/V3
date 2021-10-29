@@ -8,7 +8,7 @@ body {
     Width: var(--L);
     height: var(--h);
     padding-top: var(--bg);
-    padding-bottom: var(--foo);
+    padding-bottom: var(--h);
     font-family: var(--pol);
     background-color: var(--home-page);
 }
@@ -20,4 +20,7 @@ main {
 }
 span {
     color: var(--texte);
+}
+a {
+    color: var(--jaune);
 }

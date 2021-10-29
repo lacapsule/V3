@@ -44,7 +44,7 @@ header {
 }
 footer.dock {
     display: var(--fl);
-    position: var(--rel);
+    position: var(--sti);
     flex-flow: var(--desk);
     align-items: var(--cen);
     justify-content: var(--sa);
