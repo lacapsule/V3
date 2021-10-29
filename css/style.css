@@ -69,4 +69,6 @@ iframe {
     top: var(--res);
     margin: var(--auto);
     border: var(--res);
+    width: var(--L);
+    height: var(--L)
 }
