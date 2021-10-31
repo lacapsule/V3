@@ -35,6 +35,7 @@ label #info, label #fermer {
     background: var(--home-page);
     box-shadow: var(--home-shadow);
     transition: var(--slide); 
+    z-index: 7;
 }
 
 .page-info i{
@@ -50,6 +51,7 @@ label #info, label #fermer {
     background: var(--bg-lis);
     border-radius: var(--liseret-bord-1);
     border-bottom-left-radius: var(--res);
+    z-index: 7;
 
 }
 .page-info i::before {
@@ -64,6 +66,7 @@ label #info, label #fermer {
     border-bottom-left-radius: var(--liseret-bord-2);
     z-index: 2;
 }
+
 .page-info i::after {
     content: '';
     position: var(--abs);
@@ -74,11 +77,13 @@ label #info, label #fermer {
     background: var(--blue);
 
 }
+
 .page-info i span {
     color: var(--texte);
     font-size: var(--bot);
     font-family: var(--pol);
 }
+
 .page-info .carte-infos {
     margin: var(--auto);
     margin-top: var(--m-top);

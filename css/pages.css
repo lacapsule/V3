@@ -1,5 +1,6 @@
 @import url(variables.css);
 @import url(style.css);
+@import url(info.css);
 body {
     display: var(--fl);
     flex-flow: var(--mob);
@@ -14,11 +15,20 @@ body {
 }
 main {
     display: var(--fl);
+    position: var(--rel);
     flex-flow: var(--mob);
     align-items: var(--sa);
     justify-content: var(--sa);
+    top: var(--bg);
 }
-span {
+span.texte1, .texte2, .texte3  {
+    position: var(--rel);
+    display: var(--fl);
+    flex-flow: var(--mob);
+    align-items: var(--sa);
+    justify-content: var(--sa);
+    left: var(--bg);
+    right: var(--bg);
     color: var(--texte);
 }
 a {
