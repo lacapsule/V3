@@ -20,6 +20,7 @@ main {
     align-items: var(--sa);
     justify-content: var(--sa);
     top: var(--bg);
+    overflow-x: var(--hi);
 }
 span.texte1, .texte2, .texte3  {
     position: var(--rel);
