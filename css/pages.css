@@ -11,9 +11,9 @@ main {
     justify-content: var(--sa);
     width: var(--w);
     height: var(--etoile);
-    top: var(--bot);
+    top: var(--home);
     bottom: var(--bg);
-    padding-top: var(--bg);
+    padding-top: var(--bg-lab);
     background-color: var(--blue);
     z-index: 5;
 }
