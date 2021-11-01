@@ -33,7 +33,7 @@ main {
     bottom: var(--bg);
     z-index: 5;
 }
-iframe.carte-infos, span.texte1, .texte2, .texte3  {
+iframe.carte-infos, .texte1, .texte2, .texte3  {
     position: var(--rel);
     display: var(--fl);
     flex-flow: var(--mob-w);

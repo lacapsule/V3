@@ -13,15 +13,16 @@ footer.dock {
     align-items: var(--cen);
     justify-content: var(--sa);
     left: var(--res);
-    top: var(--res);
+    top: var(--cont-h);
     right: var(--res);
     bottom: var(--res);
     width: var(--cont-h);
     height: var(--bg);
     animation: var(--tilt);
+    border-radius: 25px 25px 0 0;
+    background-color: var(--blue);
     z-index: 10;
 }
-a {text-decoration: var(--n);}
 .lien img {
     width: var(--bg);
     height: var(--a);
