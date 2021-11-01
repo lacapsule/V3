@@ -34,21 +34,26 @@
     --liseret-boucle-h: 30px;
     --liseret-bord-1: 30px;
     --liseret-bord-2: 20px;
-    
     /** flex option ********************************/
     --fl: flex;
     --desk: row wrap;
     --mob: column nowrap;
+    --mob-w: column wrap;
     --home-j: flex-start;
     --end: flex-end;
     --ar: space-between;
     --sa: space-around;
     --cen: center;
+    /** grid option ********************************/
+    --template : 
     /** tailles ************************************/
     --if: 120vh;
     --w: 100vw;
     --h: 100vh;
     --L: 100%;
+    --page: 20rem;
+    --btn: 10rem;
+    --bg-lab: 7rem;
     --bg: 5rem;
     --cont-w: 98%;
     --submit: 96.5%;
@@ -61,7 +66,6 @@
     --icone: 3em;
     --text: 1rem;
     --bot: 1.2em;
-    --btn: 10rem;
     --w-init: 0;
     --h-init: 0;
     /** padding ************************************/

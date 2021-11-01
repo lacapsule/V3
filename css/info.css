@@ -35,11 +35,11 @@ label #info, label #fermer {
     background: var(--home-page);
     box-shadow: var(--home-shadow);
     transition: var(--slide); 
-    z-index: 7;
+    z-index: 2;
 }
 
 .page-info i{
-    position: var(--abs);
+    position: var(--rel);
     top: var(--liseret-t);
     left: var(--liseret-l);
     display: var(--fl);
@@ -48,6 +48,7 @@ label #info, label #fermer {
     align-items: var(--cen);
     width: var(--cont-h);
     height: var(--liseret-h);
+    margin-bottom: var(--home);
     background: var(--bg-lis);
     border-radius: var(--liseret-bord-1);
     border-bottom-left-radius: var(--res);
@@ -82,10 +83,4 @@ label #info, label #fermer {
     color: var(--texte);
     font-size: var(--bot);
     font-family: var(--pol);
-}
-
-.page-info .carte-infos {
-    margin: var(--auto);
-    margin-top: var(--m-top);
-    
 }
