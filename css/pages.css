@@ -1,53 +1,32 @@
 @import url(variables.css);
 @import url(style.css);
 @import url(info.css);
-body {
-    display: var(--fl);
-    flex-flow: var(--mob);
-    align-items: var(--cen);
-    justify-content: var(--cen);
-    Width: var(--L);
-    height: var(--a);
-    top: var(--res);
-    left: var(--res);
-    bottom: var(--h);
-    right: var(--res);
-    padding-bottom: var(--page);
-    font-family: var(--pol);
-    background-color: var(--home-page);
-    z-index: 5;
-}
+@import url(footer.css);
 main {
     display: grid;
-    position: var(--rel);
-    grid-template-columns: var(--L);
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    item1 item1,
-    item2 item3,
-    item 4 item4;
-    justify-content: var(--cen);
-    width: var(--cont-w);
-    height: var(--a);
+    grid-template: 
+    "item1 item1" 80% / 1fr
+    "item2 item3" 50% 50% / 1fr 1fr
+    "item4 item4" 100% / 1fr 1fr 1fr;
+    justify-content: var(--sa);
+    width: var(--w);
+    height: var(--etoile);
     top: var(--bot);
     bottom: var(--bg);
+    padding-top: var(--bg);
+    background-color: var(--blue);
     z-index: 5;
 }
 iframe.carte-infos, .texte1, .texte2, .texte3  {
     position: var(--rel);
-    display: var(--fl);
-    flex-flow: var(--mob-w);
-    align-items: var(--cen);
-    justify-content: var(--cen);
-    width: var(--L);
+    display: var(--blo);
     height: var(--a);
+    padding: var(--text);
     color: var(--texte);
     z-index: 6;
 }
 iframe.carte-infos {
     grid-area: item1;
-    width: var(--L);
-    height: var(--a);
 }
 .texte1 {
     grid-area: item2;
@@ -58,10 +37,8 @@ iframe.carte-infos {
 }
 .texte3 {
     grid-area: item4;
-    align-self: var(--cen);
-    width: var(--a);
     border: 2px solid var(--bg-lis);
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 }
 a {
     color: var(--jaune);

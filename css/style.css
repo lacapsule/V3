@@ -53,7 +53,7 @@ iframe {
     top: var(--res);
     margin: var(--auto);
     border: var(--res);
-    width: var(--L);
-    height: var(--L)
+    width: var(--cont-h);
+    height: var(--L);
 }
 a {text-decoration: var(--n);}

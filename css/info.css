@@ -31,7 +31,7 @@ label #info, label #fermer {
     display: var(--fl);
     flex-flow: var(--desk);
     width: var(--L);
-    height: var(--h);
+    height: var(--cont-h);
     background: var(--home-page);
     box-shadow: var(--home-shadow);
     transition: var(--slide); 
@@ -40,7 +40,7 @@ label #info, label #fermer {
 
 .page-info i{
     position: var(--rel);
-    top: var(--liseret-t);
+    top: var(--bg-lab);
     left: var(--liseret-l);
     display: var(--fl);
     flex-flow: var(--desk);
@@ -48,7 +48,7 @@ label #info, label #fermer {
     align-items: var(--cen);
     width: var(--cont-h);
     height: var(--liseret-h);
-    margin-bottom: var(--home);
+    margin-top: var(--m);
     background: var(--bg-lis);
     border-radius: var(--liseret-bord-1);
     border-bottom-left-radius: var(--res);

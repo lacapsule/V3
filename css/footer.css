@@ -19,8 +19,6 @@ footer.dock {
     width: var(--cont-h);
     height: var(--bg);
     animation: var(--tilt);
-    border-radius: 25px 25px 0 0;
-    background-color: var(--blue);
     z-index: 10;
 }
 .lien img {
