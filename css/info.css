@@ -84,3 +84,16 @@ label #info, label #fermer {
     font-size: var(--bot);
     font-family: var(--pol);
 }
+
+@media screen and (width: 450px) {
+    .page-info {
+        top: var(--liseret);
+    }
+    .page-info {
+
+        top: var(--liseret);
+    }
+    .page-info i span {
+        margin-top: var(--btn);
+    }
+}
