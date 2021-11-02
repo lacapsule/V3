@@ -85,15 +85,11 @@ label #info, label #fermer {
     font-family: var(--pol);
 }
 
-@media screen and (width: 450px) {
+@media screen and (min-width: 450px) {
     .page-info {
-        top: var(--liseret);
+        top: var(--res);
     }
-    .page-info {
-
+    .page-info i {
         top: var(--liseret);
-    }
-    .page-info i span {
-        margin-top: var(--btn);
     }
 }
