@@ -45,13 +45,14 @@
     --sa: space-around;
     --cen: center;
     /** grid option ********************************/
-    --template : 
+    --template: 
     /** tailles ************************************/
     --if: 120vh;
     --w: 100vw;
     --h: 100vh;
     --L: 100%;
     --page: 20rem;
+    --liseret: 11rem;
     --btn: 10rem;
     --bg-lab: 7rem;
     --bg: 5rem;

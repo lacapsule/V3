@@ -40,7 +40,7 @@ label #info, label #fermer {
 
 .page-info i{
     position: var(--rel);
-    top: var(--bg);
+    top: var(--liseret);
     left: var(--liseret-l);
     display: var(--fl);
     flex-flow: var(--desk);
