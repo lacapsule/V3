@@ -125,14 +125,12 @@ form textarea::placeholder {
 form textarea {
     height: var(--bg);
 }
-form textarea:focus ~ .dock 
 
 form input[type="submit"] {
     height: var(--home);
     width: var(--submit);
     color: var(--blue);
     background: var(--jaune);
-    padding-bottom: 2.5rem;
     vertical-align: var(--cen);
     cursor: var(--point);
 }

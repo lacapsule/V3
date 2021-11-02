@@ -38,7 +38,7 @@ label #info, label #fermer {
     z-index: 2;
 }
 
-.page-info i{
+.page-info i {
     position: var(--rel);
     top: var(--bg);
     left: var(--liseret-l);
