@@ -88,24 +88,21 @@ label #fermer {
     background: var(--blue);
 
 }
-
 .page-contact i span {
     position: var(--abs);
     color: var(--texte);
     font-size: var(--bot);
     font-family: var(--pol);
 }
-
 form {
     position: var(--abs);
-    top: var(--res);
+    top: var(--text);
     margin-top: var(--m-top);
     display: var(--fl);
     flex-flow: var(--mob);
     justify-content: var(--ar);
     width: var(--cont-h);
 }
-
 form input,
 form textarea {
     margin: var(--pad);
@@ -121,11 +118,9 @@ form input::placeholder,
 form textarea::placeholder {
     color: var(--blanc);
 }
-
 form textarea {
-    height: var(--bg);
+    height: var(--foo);
 }
-
 form input[type="submit"] {
     height: var(--home);
     width: var(--submit);
@@ -134,12 +129,10 @@ form input[type="submit"] {
     vertical-align: var(--cen);
     cursor: var(--point);
 }
-
 form input[type="submit"]:hover {
     background: var(--bg-lis);
     color: var(--texte);
 }
-
 form input:focus,
 form textarea:focus {
     padding-left: var(--bot);
@@ -152,16 +145,12 @@ form textarea:focus {
 form textarea:focus ~ form {
     bottom: 5rem;
 }
-
 form input[type="text"]:valid,
 form input[type="mail"]:valid,
 form input[type="text"]:valid,
 form textarea:valid {
     color: var(--vert);
 }
-
-
-
 
   
 
