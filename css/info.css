@@ -84,6 +84,36 @@ label #info, label #fermer {
     font-size: var(--bot);
     font-family: var(--pol);
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 450px) {
+    .page-info {
+        position: var(--fix);
+        right: var(--res);
+        bottom: var(--pos-page);
+        display: var(--fl);
+        flex-flow: var(--desk);
+        width: var(--L);
+        height: var(--cont-h);
+        background: var(--home-page);
+        box-shadow: var(--home-shadow);
+        transition: var(--slide); 
+        z-index: 2;
+    }
+    .page-info i{
+        position: var(--rel);
+        top: var(--home);
+        left: var(--liseret-l);
+        display: var(--fl);
+        flex-flow: var(--desk);
+        justify-content: var(--cen);
+        align-items: var(--cen);
+        width: var(--cont-h);
+        height: var(--liseret-h);
+        margin-top: var(--liseret-l);
+        margin-bottom: var(--m);
+        background: var(--bg-lis);
+        border-radius: var(--liseret-bord-1);
+        border-bottom-left-radius: var(--res);
+        z-index: 7;
     
+    }
 }
