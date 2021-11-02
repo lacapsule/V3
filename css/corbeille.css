@@ -92,11 +92,13 @@ a {
 .nom{
     text-align: var(--cen);
     color: var(--blanc);
+    margin-left: var(--text);
     font-family: var(--pol);
 }
-.lien img {
-    margin-top: 100px;
+.lien > a > img {
+    margin-top: var(--bg-lab);
     width: var(--bg);
     height: var(--a);
-    padding: var(--pad);
+    margin-left: var(--text);
+    padding: var(--text);
 }

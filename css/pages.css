@@ -5,8 +5,8 @@
 main {
     display: grid;
     grid-template: 
-    "item1 item1" 80% / 1fr
-    "item2 item3" 50% 50% / 1fr 1fr
+    "item1 item1" 100% 
+    "item2 item3" 50% 50% 
     "item4 item4" 100% / 1fr 1fr 1fr;
     justify-content: var(--sa);
     width: var(--w);
@@ -27,6 +27,7 @@ iframe.carte-infos, .texte1, .texte2, .texte3  {
 }
 iframe.carte-infos {
     grid-area: item1;
+    border-radius: 50px;
 }
 .texte1 {
     grid-area: item2;
