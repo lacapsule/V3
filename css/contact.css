@@ -119,7 +119,7 @@ form textarea::placeholder {
     color: var(--blanc);
 }
 form textarea {
-    height: var(--foo);
+    height: var(--bg);
 }
 form input[type="submit"] {
     height: var(--home);
