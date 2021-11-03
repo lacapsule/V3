@@ -2,45 +2,66 @@
 @import url(style.css);
 @import url(info.css);
 @import url(footer.css);
+
 main {
-    display: grid;
-    grid-template: 
-    "item1 item1" 100% 
-    "item2 item3" 50% 50% 
-    "item4 item4" 100% / 1fr 1fr 1fr;
-    justify-content: var(--sa);
+    display: var(--blo);
+    position: var(--rel);
     width: var(--w);
+    height: var(--a);
+}
+.container {
+    display: grid;
+    grid-template-areas: 
+    "carte carte" 
+    "adresse ouverture" 
+    "description description";
+    grid-template-rows: var(--liseret) var(--page) var(--boite);
+    grid-template-columns: 1fr 1fr;
+    width: var(--L);
     height: var(--etoile);
     top: var(--home);
     bottom: var(--bg);
-    padding-top: var(--bg-lab);
+    padding-top: var(--bg);
     background-color: var(--home-page);
     z-index: 5;
 }
 iframe.carte-infos, .texte1, .texte2, .texte3  {
-    position: var(--rel);
     display: var(--blo);
+    position: var(--rel);
+    left: var(--res);
+    top: var(--text);
+    right: var(--res);
+    bottom: var(--bot);
     height: var(--a);
     padding: var(--text);
     color: var(--texte);
     z-index: 6;
 }
 iframe.carte-infos {
-    grid-area: item1;
+    grid-area: carte;
     border-radius: 50px;
 }
 .texte1 {
-    grid-area: item2;
+    grid-area: adresse;
 }
 .texte2 {
-    grid-area: item3;
+    grid-area: ouverture;
     background-color: var(--bg-lis);
 }
 .texte3 {
-    grid-area: item4;
+    grid-area: description;
     border: 2px solid var(--bg-lis);
-    padding-bottom: 5%;
+    padding-bottom: var(--icone);
 }
 a {
     color: var(--jaune);
+}
+h1 {
+    font-size: var(--bot);
+}
+h2 {
+    font-size: var(--text);
+}
+h3 {
+    font-size: var(--text);
 }
