@@ -14,7 +14,7 @@ main {
     top: var(--home);
     bottom: var(--bg);
     padding-top: var(--bg-lab);
-    background-color: var(--blue);
+    background-color: var(--home-page);
     z-index: 5;
 }
 iframe.carte-infos, .texte1, .texte2, .texte3  {
