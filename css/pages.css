@@ -17,8 +17,9 @@ main {
     "description description";
     grid-template-rows: var(--liseret) var(--page) var(--boite);
     grid-template-columns: 1fr 1fr;
+    align-items: var(--sa);
     width: var(--L);
-    height: var(--etoile);
+    height: var(--L);
     top: var(--home);
     bottom: var(--bg);
     padding-top: var(--bg);
@@ -52,6 +53,7 @@ iframe.carte-infos {
     grid-area: description;
     border: 2px solid var(--bg-lis);
     padding-bottom: var(--icone);
+    text-align: var(--cen);
 }
 a {
     color: var(--jaune);
