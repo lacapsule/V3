@@ -18,6 +18,7 @@ footer.dock {
     bottom: var(--res);
     width: var(--cont-h);
     height: var(--bg);
+    padding-top: var(--bg);
     animation: var(--tilt);
     z-index: 10;
 }

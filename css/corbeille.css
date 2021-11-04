@@ -1,6 +1,20 @@
 @import url(variables.css);
 @import url(style.css);
 @import url(footer.css);
+#coche-corbeille:checked ~ .page-corbeille {
+    width: var(--L);
+    height: var(--cont-h);
+    bottom: var(--pos-fermer);
+    opacity: var(--visible);
+}
+#coche-corbeille:checked ~ label #corbeille {
+    display: var(--no);
+    pointer-events: var(--no);
+}
+#coche-corbeille:checked ~ label #fermer {
+    display: var(--blo);
+    bottom: var(--res);
+}
 label #corbeille, label #fermer {
     position: var(--rel);
     cursor: var(--point);
@@ -24,7 +38,6 @@ label #corbeille, label #fermer {
     transition: var(--slide); 
     z-index: 4;
 }
-
 .page-corbeille i{
     position: var(--abs);
     top: var(--liseret-t);
@@ -40,30 +53,6 @@ label #corbeille, label #fermer {
     border-bottom-left-radius: var(--res);
 
 }
-.page-corbeille i::before {
-    content: '';
-    position: var(--abs);
-    top: var(--liseret-boucle-t);
-    left: var(--res);
-    width: var(--liseret-boucle-w);
-    height: var(--liseret-boucle-h);
-    background: var(--bg-pages);
-    border-top-left-radius: var(--liseret-bord-2);
-    border-bottom-left-radius: var(--liseret-bord-2);
-    z-index: 2;
-}
-
-.page-corbeille i::after {
-    content: '';
-    position: var(--abs);
-    top: var(--liseret-boucle-t);
-    left: var(--res);
-    width: var(--liseret-boucle-w);
-    height: var(--liseret-boucle-w);
-    background: var(--blue);
-
-}
-
 .page-corbeille i span {
     color: var(--blanc);
     font-size: var(--bot);
@@ -71,20 +60,12 @@ label #corbeille, label #fermer {
     font-variant: normal;
 }
 
-#coche-corbeille:checked ~ .page-corbeille {
-    width: var(--L);
-    height: var(--cont-h);
-    bottom: var(--pos-fermer);
-    opacity: var(--visible);
-}
-#coche-corbeille:checked ~ label #corbeille {
-    display: var(--no);
-    pointer-events: var(--no);
-}
-#coche-corbeille:checked ~ label #fermer {
-    display: var(--blo);
-    bottom: var(--res);
-}
+/*****************************************************
+******************************************************
+************************** contenu de la page ********
+******************************************************
+******************************************************/
+
 a {
     text-decoration: var(--n);
     
