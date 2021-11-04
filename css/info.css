@@ -30,26 +30,31 @@ label #info, label #fermer {
     display: var(--fl);
     flex-flow: var(--desk);
     width: var(--L);
-    height: var(--cont-h);
+    height: var(--h);
     background: var(--home-page);
     box-shadow: var(--home-shadow);
     transition: var(--slide); 
-    z-index: 2;
 }
-.page-info i::after {
-    content: '';
+.page-info i{
     position: var(--abs);
-    top: var(--liseret-boucle-t);
-    left: var(--res);
-    width: var(--liseret-boucle-w);
-    height: var(--liseret-boucle-w);
-    background: var(--blue);
-
+    top: var(--liseret-t);
+    left: var(--liseret-l);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--cen);
+    align-items: var(--cen);
+    width: var(--cont-h);
+    height: var(--liseret-h);
+    background: var(--bg-lis);
+    border-radius: var(--liseret-bord-1);
+    border-bottom-left-radius: var(--res);
+    z-index: 8;
 }
 .page-info i span {
     color: var(--texte);
     font-size: var(--bot);
     font-family: var(--pol);
+    z-index: 8;
 }
 
 /*****************************************************
