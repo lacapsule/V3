@@ -1,5 +1,4 @@
 @import url(variables.css);
-@import url(style.css);
 @import url(footer.css);
 #coche-info {
     display: var(--no);
