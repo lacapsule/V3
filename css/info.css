@@ -80,21 +80,11 @@ label #info, label #fermer {
     grid-template-columns: 1fr 1fr;
     grid-gap: var(--text);
     align-items: var(--sa);
-    width: var(--L);
-    height: var(--L);
-    top: var(--home);
-    bottom: var(--bg);
-    padding-top: var(--bg);
     background-color: var(--home-page);
-    z-index: 6;
 }
-iframe.carte-infos, .texte1, .texte2, .texte3  {
+.carte-infos, span  {
     display: var(--blo);
     position: var(--rel);
-    left: var(--res);
-    top: var(--text);
-    right: var(--res);
-    bottom: var(--bot);
     height: var(--a);
     padding: var(--text);
     color: var(--texte);
@@ -117,9 +107,6 @@ iframe.carte-infos {
     padding-bottom: var(--icone);
     text-align: var(--cen);
 }
-a {
-    color: var(--jaune);
-}
 h1 {
     font-size: var(--bot);
 }
@@ -129,36 +116,6 @@ h2 {
 h3 {
     font-size: var(--text);
 }
-@media screen and (min-width: 450px) {
-    .page-info {
-        position: var(--fix);
-        right: var(--res);
-        bottom: var(--pos-page);
-        display: var(--fl);
-        flex-flow: var(--desk);
-        width: var(--L);
-        height: var(--cont-h);
-        background: var(--home-page);
-        box-shadow: var(--home-shadow);
-        transition: var(--slide); 
-        z-index: 2;
-    }
-    .page-info i{
-        position: var(--rel);
-        top: var(--home);
-        left: var(--liseret-l);
-        display: var(--fl);
-        flex-flow: var(--desk);
-        justify-content: var(--cen);
-        align-items: var(--cen);
-        width: var(--cont-h);
-        height: var(--liseret-h);
-        margin-top: var(--liseret-l);
-        margin-bottom: var(--m);
-        background: var(--bg-lis);
-        border-radius: var(--liseret-bord-1);
-        border-bottom-left-radius: var(--res);
-        z-index: 7;
-    
-    }
+a {
+    color: var(--jaune);
 }
