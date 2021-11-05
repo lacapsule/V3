@@ -1,7 +1,7 @@
 @import url(resetForm.css);
 @import url(variables.css);
 @import url(animations.css);
-#coche-contact {
+#coche-contact, #fermer{
     display: var(--no);
 }
 label #contact {
@@ -20,7 +20,7 @@ label #fermer {
     width: var(--home);
     height: var(--home);
     transition: var(--slide);
-    z-index: 5;
+    z-index: 4;
 }
 #coche-contact:checked ~ .page-contact {
     height: var(--cont-h);

@@ -19,6 +19,18 @@
     /** affichage **********************************/
     --blo: block;
     --no: none;
+    /** flex option ********************************/
+    --fl: flex;
+    --desk: row wrap;
+    --mob: column nowrap;
+    --mob-w: column wrap;
+    --home-j: flex-start;
+    --end: flex-end;
+    --ar: space-between;
+    --sa: space-around;
+    --cen: center;
+    /** grid option ********************************/
+    --template:;
     /** positions **********************************/
     --abs: absolute;
     --sti: sticky;
@@ -33,19 +45,7 @@
     --liseret-boucle-w: 15px;
     --liseret-boucle-h: 30px;
     --liseret-bord-1: 30px;
-    --liseret-bord-2: 20px;
-    /** flex option ********************************/
-    --fl: flex;
-    --desk: row wrap;
-    --mob: column nowrap;
-    --mob-w: column wrap;
-    --home-j: flex-start;
-    --end: flex-end;
-    --ar: space-between;
-    --sa: space-around;
-    --cen: center;
-    /** grid option ********************************/
-    --template: 
+    --liseret-bord-2: 20px; 
     /** tailles ************************************/
     --if: 120vh;
     --w: 100vw;

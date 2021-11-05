@@ -53,13 +53,14 @@ label #corbeille, label #fermer {
     background: var(--bg-lis);
     border-radius: var(--liseret-bord-1);
     border-bottom-left-radius: var(--res);
-
+    z-index: 7;
 }
 .page-corbeille i span {
     color: var(--blanc);
     font-size: var(--bot);
     font-family: var(--pol);
     font-variant: normal;
+    z-index: 7;
 }
 
 /*****************************************************
@@ -67,21 +68,33 @@ label #corbeille, label #fermer {
 ************************** contenu de la page ********
 ******************************************************
 ******************************************************/
-
-a {
-    text-decoration: var(--n);
-    
+#corbeille {
+    display: var(--blo);
+    position: var(--rel);
+    width: var(--w);
+    height: var(--cont-h);
+    z-index: 6;
 }
-.nom{
-    text-align: var(--cen);
-    color: var(--blanc);
-    margin-left: var(--text);
-    font-family: var(--pol);
+.container {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--sa);
+    justify-content: var(--sa);
+    background-color: var(--home-page);
+    z-index: 6;
 }
-.lien > a > img {
-    margin-top: var(--bg-lab);
+.lien > a {
+    display: var(--fl);
+    flex-flow:  var(--mob);
+    align-items: var(--cen);
+} 
+img {
     width: var(--bg);
     height: var(--a);
-    margin-left: var(--text);
-    padding: var(--text);
+    margin-top: var(--home);
+}
+.nom {
+    text-align: var(--cen);
+    color: var(--blanc);
+    margin-top: var(--btn);
 }

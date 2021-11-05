@@ -12,90 +12,19 @@ footer.dock {
     flex-flow: var(--desk);
     align-items: var(--cen);
     justify-content: var(--sa);
-    left: var(--res);
-    top: var(--cont-h);
-    right: var(--res);
-    bottom: var(--res);
     width: var(--cont-h);
-    height: var(--bg);
-    padding-top: var(--bg);
-    animation: var(--tilt);
+    height: var(--a);
+    padding-bottom: var(--text);
     z-index: 10;
 }
-.lien img {
-    width: var(--bg);
-    height: var(--a);
-    padding: var(--pad);
-}
-#contact {
-    order: 1;
+img {
     display: var(--blo);
-    position: var(--rel);
+    position: var(--abs);
     width: var(--home);
     height: var(--home);
     z-index: 5;
 }
-#contact:hover {
-    transform: var(--sca);
-    border-radius: var(--foo);
-    box-shadow: var(--round);
-}
-#corbeille {
-    order: 2;
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--home);
-    height: var(--home);
-    z-index: 5;
-}
-#corbeille:hover {
-    transform: var(--sca);
-    border-radius: var(--foo);
-    box-shadow: var(--round);
-}
-#home {
-    order: 3;
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--home);
-    height: var(--home);
-    z-index: 5;
-}
-#home:hover {
-    transform: var(--sca);
-    border-radius: var(--foo);
-    box-shadow: var(--round);
-}
-#fermer {
-    display: var(--no);
-    position: var(--rel);
-    z-index: 4;
-}
-#fermer:hover {
-    transform: var(--sca);
-}
-#info {
-    order: 4;
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--home);
-    height: var(--home);
-    z-index: 5;
-}
-#info:hover {
-    transform: var(--sca);
-    border-radius: var(--foo);
-    box-shadow: var(--round);
-}
-#linux {
-    order: 5;
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--home);
-    height: var(--home);
-    z-index: 5;
-}
-#linux:hover {
+img:hover {
     transform: var(--sca);
     border-radius: var(--foo);
     box-shadow: var(--round);
