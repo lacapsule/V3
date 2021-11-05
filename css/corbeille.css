@@ -80,6 +80,7 @@ label #corbeille, label #fermer {
     flex-flow: var(--desk);
     align-items: var(--sa);
     justify-content: var(--sa);
+    height: var(--h);
     background-color: var(--home-page);
     z-index: 6;
 }
@@ -91,10 +92,10 @@ label #corbeille, label #fermer {
 img {
     width: var(--bg);
     height: var(--a);
-    margin-top: var(--home);
+    margin-top: var(--bg);
 }
 .nom {
     text-align: var(--cen);
     color: var(--blanc);
-    margin-top: var(--btn);
+    margin-top: var(--boite);
 }
