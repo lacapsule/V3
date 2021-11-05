@@ -78,6 +78,7 @@ label #info, label #fermer {
     "description description";
     grid-template-rows: var(--liseret) var(--page) var(--boite);
     grid-template-columns: 1fr 1fr;
+    grid-gap: var(--text);
     align-items: var(--sa);
     width: var(--L);
     height: var(--L);
