@@ -81,6 +81,7 @@ label #corbeille, label #fermer {
     align-items: var(--sa);
     justify-content: var(--sa);
     height: var(--h);
+    padding-top: var(--bg);
     background-color: var(--home-page);
     z-index: 6;
 }
