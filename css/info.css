@@ -80,6 +80,7 @@ label #info, label #fermer {
     grid-template-columns: 1fr 1fr;
     grid-gap: var(--text);
     align-items: var(--sa);
+    padding-top: var(--bg);
     background-color: var(--home-page);
 }
 .carte-infos, span  {
