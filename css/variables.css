@@ -88,10 +88,7 @@
     /** transition *********************************/
     --slide: all .5s ease-in-out;
     /** animations *********************************/
-    --anim-bg-img: 25s ease-in-out opacity infinite;
-    --anim-bg: 25s ease-in-out bg infinite;
     --foo-op: 25s ease-in-out foo infinite;
-    --tilt: 5s ease-in-out tilt infinite;
     /** shadow *************************************/
     --shad: 8px 0px 25px 10px var(--footer);
     --round: 2px 2px 2px 2px var(--bg-color2);

@@ -11,7 +11,7 @@ label #contact {
     width: var(--home);
     height: var(--home);
     transition: var(--slide);
-    z-index: 5;
+    z-index: 7;
 }
 label #contact,
 label #fermer {
@@ -20,7 +20,7 @@ label #fermer {
     width: var(--home);
     height: var(--home);
     transition: var(--slide);
-    z-index: 4;
+    z-index: 7;
 }
 #coche-contact:checked ~ .page-contact {
     height: var(--cont-h);
