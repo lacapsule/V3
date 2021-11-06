@@ -90,11 +90,12 @@ span {
     color: var(--texte);
     z-index: 6;
 }
-.carte-infos, span  {
+.carte-infos, span:not(.stick)  {
     display: var(--blo);
     position: var(--rel);
     height: var(--a);
     padding: var(--text);
+    box-shadow: var(--neumorph);
 }
 iframe.carte-infos {
     grid-area: carte;

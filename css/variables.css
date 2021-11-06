@@ -99,6 +99,7 @@
     --shad: 8px 0px 25px 10px var(--footer);
     --round: 2px 2px 2px 2px var(--bg-color2);
     --home-shadow: 0 25px 50px rgba(0,0,0,.15);
+    --neumorph: 10px 10px 20px rgba(0,0,0,0.2), -10px -10px 20px rgba(2, 2, 36, 0.4);
     /** curseur ************************************/
     --point: pointer;
 }
