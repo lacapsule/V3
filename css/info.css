@@ -79,6 +79,7 @@ label #info, label #fermer {
     grid-template-rows: var(--liseret) var(--page) var(--boite);
     grid-template-columns: 1fr 1fr;
     grid-gap: var(--text);
+    height: var(--a);
     padding-top: var(--bg);
     background-color: var(--home-page);
 }
