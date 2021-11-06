@@ -24,7 +24,7 @@ img {
     height: var(--home);
     z-index: 5;
 }
-img:hover {
+img:not(.bg):hover {
     transform: var(--sca);
     border-radius: var(--foo);
     box-shadow: var(--round);
