@@ -67,7 +67,7 @@ label #info, label #fermer {
     display: var(--blo);
     position: var(--rel);
     width: var(--w);
-    height: var(--a);
+    height: var(--h);
     z-index: 6;
 }
 .container {
@@ -79,7 +79,6 @@ label #info, label #fermer {
     grid-template-rows: var(--liseret) var(--page) var(--boite);
     grid-template-columns: 1fr 1fr;
     grid-gap: var(--text);
-    align-items: var(--sa);
     padding-top: var(--bg);
     background-color: var(--home-page);
 }
@@ -105,7 +104,7 @@ iframe.carte-infos {
 .texte3 {
     grid-area: description;
     border: 2px solid var(--bg-lis);
-    padding-bottom: var(--icone);
+    padding-bottom: var(--bot);
     text-align: var(--cen);
 }
 h1 {

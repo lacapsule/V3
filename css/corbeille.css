@@ -73,6 +73,7 @@ label #corbeille, label #fermer {
     position: var(--rel);
     width: var(--w);
     height: var(--cont-h);
+    font-family: var(--pol);
     z-index: 6;
 }
 .container {
