@@ -67,46 +67,56 @@ label #info, label #fermer {
     display: var(--blo);
     position: var(--rel);
     width: var(--w);
-    height: var(--h);
+    height: var(--if);
+    background-color: var(--home-page);
     z-index: 6;
 }
 .container {
-    display: grid;
-    grid-template-areas: 
-    "carte carte" 
-    "adresse ouverture" 
-    "description description";
-    grid-template-rows: var(--liseret) var(--page) var(--boite);
-    grid-template-columns: 1fr 1fr;
+    display: var(--gr);
+    grid-template-areas: var(--temp-inf);
+    grid-template-rows: var(--liseret) var(--frac) var(--a);
+    grid-template-columns: var(--frac) var(--frac);
     grid-gap: var(--text);
     height: var(--a);
     padding-top: var(--bg);
-    background-color: var(--home-page);
+    background-color: var(--tran);
+}
+span {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--sa);
+    justify-content: var(--sa);
+    text-align: var(--cen);
+    color: var(--texte);
+    z-index: 6;
 }
 .carte-infos, span  {
     display: var(--blo);
     position: var(--rel);
     height: var(--a);
     padding: var(--text);
-    color: var(--texte);
-    z-index: 6;
 }
 iframe.carte-infos {
     grid-area: carte;
-    border-radius: 50px;
+    border-radius: var(----liseret-h);
 }
 .texte1 {
     grid-area: adresse;
+    border: var(--text) var(--gris);
+    border-radius: var(--liseret-h);
+    background-color: var(--gris);
 }
 .texte2 {
     grid-area: ouverture;
+    border: var(--text) var(--lis);
+    border-radius: var(--liseret-h);
     background-color: var(--bg-lis);
 }
 .texte3 {
     grid-area: description;
     border: 2px solid var(--bg-lis);
-    padding-bottom: var(--bot);
-    text-align: var(--cen);
+    border-radius: var(--liseret-h);
+    line-height: var(--line);
 }
 h1 {
     font-size: var(--bot);

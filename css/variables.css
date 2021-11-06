@@ -4,12 +4,14 @@
     --box: border-box;
     --a: auto;
     --hi: hidden;
+    --tran: transparent;
     /** color **************************************/
     --bg-color: #000;
     --bg-color2: rgb(9, 6, 37);
     --bg-pages: #262626;
     --bg-lis: rgb(224, 105, 14);
     --blue: #121241;
+    --gris: #35495e;
     --texte: rgb(198, 202, 240);
     --blanc: rgb(255,255,255);
     --home-page: rgba(28, 28, 75, 0.7);
@@ -30,7 +32,10 @@
     --sa: space-around;
     --cen: center;
     /** grid option ********************************/
-    --template:;
+    --gr: grid;
+    --temp-inf: "carte carte" "adresse ouverture" 
+    "description description";
+    --frac: 1fr;
     /** positions **********************************/
     --abs: absolute;
     --sti: sticky;
@@ -47,7 +52,7 @@
     --liseret-bord-1: 30px;
     --liseret-bord-2: 20px; 
     /** tailles ************************************/
-    --if: 120vh;
+    --if: 200vh;
     --w: 100vw;
     --h: 100vh;
     --L: 100%;
@@ -66,6 +71,7 @@
     --home: 3.5em;
     --contact: 3em;
     --icone: 3em;
+    --line: 2rem;
     --text: 1rem;
     --bot: 1.2em;
     --w-init: 0;
