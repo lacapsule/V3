@@ -95,28 +95,25 @@ span {
     position: var(--rel);
     height: var(--a);
     padding: var(--text);
+    border-radius: var(--liseret-h);
     box-shadow: var(--neumorph);
 }
 iframe.carte-infos {
     grid-area: carte;
-    border-radius: var(----liseret-h);
 }
 .texte1 {
     grid-area: adresse;
     border: var(--text) var(--gris);
-    border-radius: var(--liseret-h);
     background-color: var(--gris);
 }
 .texte2 {
     grid-area: ouverture;
     border: var(--text) var(--lis);
-    border-radius: var(--liseret-h);
     background-color: var(--bg-lis);
 }
 .texte3 {
     grid-area: description;
     border: 2px solid var(--bg-lis);
-    border-radius: var(--liseret-h);
     line-height: var(--line);
 }
 h1 {
