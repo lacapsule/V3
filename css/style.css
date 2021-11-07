@@ -25,6 +25,7 @@ html, body {
     padding: var(--res);
     overflow: var(--h);
     background: var(--bg-color);
+    font-family: var(--pol);
     -ms-overflow-style: none;
     scrollbar-width: none;
     /*animation: var(--anim-bg);*/
