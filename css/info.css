@@ -118,11 +118,12 @@ iframe.carte-infos {
 }
 .equipe {
     grid-area: equipe;
+    align-self: var(--cen);
     display: var(--fl);
     flex-flow: var(--desk);
     align-items: var(--cen);
     justify-content: var(--sa);
-    width: var(--cont-h);
+    width: var(--a);
     height: var(--a);
     background-color: var(--bg-pages);
 }
