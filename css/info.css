@@ -101,20 +101,36 @@ span {
 iframe.carte-infos {
     grid-area: carte;
 }
-.texte1 {
+.adresse {
     grid-area: adresse;
     border: var(--text) var(--gris);
-    background-color: var(--gris);
+    background-color: var(--bg-pages);
 }
-.texte2 {
+.ouverture {
     grid-area: ouverture;
     border: var(--text) var(--lis);
     background-color: var(--bg-lis);
 }
-.texte3 {
+.description {
     grid-area: description;
     border: 2px solid var(--bg-lis);
     line-height: var(--line);
+}
+.equipe {
+    grid-area: equipe;
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--sa);
+    width: var(--cont-h);
+    height: var(--a);
+    background-color: var(--bg-pages);
+}
+#equipe, img {
+    display: var(--inblo);
+    position: var(--rel);
+    height: var(--a);
+    margin-top: var(--text);
 }
 h1 {
     font-size: var(--bot);

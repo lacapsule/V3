@@ -20,6 +20,7 @@
     --jaune: #FBCE51;
     /** affichage **********************************/
     --blo: block;
+    --inblo: inline-block;
     --no: none;
     /** flex option ********************************/
     --fl: flex;
@@ -34,7 +35,7 @@
     /** grid option ********************************/
     --gr: grid;
     --temp-inf: "carte carte" "adresse ouverture" 
-    "description description";
+    "description description" "equipe equipe";
     --frac: 1fr;
     /** positions **********************************/
     --abs: absolute;
@@ -52,7 +53,7 @@
     --liseret-bord-1: 30px;
     --liseret-bord-2: 20px; 
     /** tailles ************************************/
-    --if: 200vh;
+    --if: 500vh;
     --w: 100vw;
     --h: 100vh;
     --L: 100%;
