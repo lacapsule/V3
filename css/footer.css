@@ -29,3 +29,6 @@ img:not(.bg):hover {
     border-radius: var(--foo);
     box-shadow: var(--round);
 }
+title {
+    font-size: 3em;
+}
