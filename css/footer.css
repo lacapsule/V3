@@ -17,7 +17,7 @@ footer.dock {
     padding-bottom: var(--text);
     z-index: 10;
 }
-img {
+#contact, #corbeille, #home, #info, #linux {
     display: var(--blo);
     position: var(--abs);
     width: var(--home);
