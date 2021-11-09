@@ -94,8 +94,8 @@ label #corbeille, label #fermer {
     align-items: var(--cen);
     width: var(--bg);
 } 
-img.windows {
-    width: var(--bg);
+.windows {
+    width: var(--home);
     height: var(--a);
     padding-left: var(--line);
     padding-right: var(--line);
