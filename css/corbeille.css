@@ -94,11 +94,11 @@ label #corbeille, label #fermer {
     align-items: var(--cen);
     width: var(--bg);
 } 
-.windows {
+img.windows {
     width: var(--bg);
     height: var(--a);
-    margin-left: var(--line);
-    margin-right: var(--line);
+    padding-left: var(--line);
+    padding-right: var(--line);
 }
 .nom {
     width: var(--bg);
