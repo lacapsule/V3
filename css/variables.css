@@ -61,6 +61,7 @@
     --boite: 12rem;
     --liseret: 11rem;
     --btn: 10rem;
+    --cor: 8rem;
     --bg-lab: 7rem;
     --bg: 5rem;
     --cont-w: 98%;
@@ -91,14 +92,14 @@
     /** clip-path **********************************/
     --clip: ellipse(48% 7% at 51% 100%);
     /** transform **********************************/
-    --sca: scale(1.1);
+    --sca: scale(1.05);
     /** transition *********************************/
     --slide: all .5s ease-in-out;
     /** animations *********************************/
     --foo-op: 25s ease-in-out foo infinite;
     /** shadow *************************************/
     --shad: 8px 0px 25px 10px var(--footer);
-    --round: 2px 2px 2px 2px var(--bg-color2);
+    --round: 0.2px 0.2px 0.2px 0.2px var(--bg-color2);
     --home-shadow: 0 25px 50px rgba(0,0,0,.15);
     --neumorph: 10px 10px 20px rgba(0,0,0,0.2), -10px -10px 20px rgba(2, 2, 36, 0.4);
     /** curseur ************************************/

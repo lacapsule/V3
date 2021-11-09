@@ -68,11 +68,12 @@ label #corbeille, label #fermer {
 ************************** contenu de la page ********
 ******************************************************
 ******************************************************/
+
 #corbeille {
     display: var(--blo);
     position: var(--rel);
-    width: var(--w);
-    height: var(--cont-h);
+    width: var(--L);
+    height: var(--L);
     font-family: var(--pol);
     z-index: 6;
 }
@@ -81,8 +82,9 @@ label #corbeille, label #fermer {
     flex-flow: var(--desk);
     align-items: var(--sa);
     justify-content: var(--sa);
-    height: var(--h);
-    padding-top: var(--bg);
+    width: var(--L);
+    height: var(--cont-h);
+    padding-top: var(--bg-lab);
     background-color: var(--home-page);
     z-index: 6;
 }
@@ -90,14 +92,16 @@ label #corbeille, label #fermer {
     display: var(--fl);
     flex-flow:  var(--mob);
     align-items: var(--cen);
-} 
-img {
     width: var(--bg);
+} 
+.windows {
+    width: var(--home);
     height: var(--a);
-    margin-top: var(--bg);
+    padding-left: var(--line);
+    padding-right: var(--line);
 }
 .nom {
+    width: var(--bg);
     text-align: var(--cen);
     color: var(--blanc);
-    margin-top: var(--boite);
 }
