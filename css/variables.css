@@ -61,6 +61,7 @@
     --boite: 12rem;
     --liseret: 11rem;
     --btn: 10rem;
+    --cor: 8rem;
     --bg-lab: 7rem;
     --bg: 5rem;
     --cont-w: 98%;
@@ -91,7 +92,7 @@
     /** clip-path **********************************/
     --clip: ellipse(48% 7% at 51% 100%);
     /** transform **********************************/
-    --sca: scale(1.1);
+    --sca: scale(1.05);
     /** transition *********************************/
     --slide: all .5s ease-in-out;
     /** animations *********************************/

@@ -98,10 +98,10 @@ img.windows {
     width: var(--bg);
     height: var(--a);
     margin-top: var(--res);
-    padding: var(--pad);
+    padding: var(--text);
 }
 .nom {
     text-align: var(--cen);
     color: var(--blanc);
-    margin-top: var(--bg-lab);
+    margin-top: var(--cor);
 }
