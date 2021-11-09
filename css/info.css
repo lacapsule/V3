@@ -96,6 +96,7 @@ span {
     height: var(--a);
     padding: var(--text);
     border-radius: var(--liseret-h);
+    -webkit-box-shadow: var(--neumorph);
     box-shadow: var(--neumorph);
 }
 iframe.carte-infos {
