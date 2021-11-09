@@ -82,7 +82,7 @@ label #corbeille, label #fermer {
     flex-flow: var(--desk);
     align-items: var(--sa);
     justify-content: var(--sa);
-    width: var(--a);
+    width: var(--L);
     height: var(--cont-h);
     padding-top: var(--bg-lab);
     background-color: var(--home-page);
