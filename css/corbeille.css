@@ -98,6 +98,7 @@ img.windows {
     width: var(--bg);
     height: var(--a);
     margin-top: var(--res);
+    padding: var(--pad);
 }
 .nom {
     text-align: var(--cen);
