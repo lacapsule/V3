@@ -90,7 +90,7 @@ label #corbeille, label #fermer {
 }
 .lien > a {
     display: var(--fl);
-    flex-flow:  var(--mob-w);
+    flex-flow:  var(--mob);
     align-items: var(--cen);
     width: var(--bg);
 } 
@@ -99,6 +99,7 @@ label #corbeille, label #fermer {
     height: var(--a);
 }
 .nom {
+    width: var(--bg);
     text-align: var(--cen);
     color: var(--blanc);
 }
