@@ -130,6 +130,7 @@ iframe.carte-infos {
 #equipe, img {
     display: var(--inblo);
     position: var(--rel);
+    width: var(--bg);
     height: var(--a);
     margin-top: var(--text);
 }
