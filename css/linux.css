@@ -48,7 +48,7 @@ label #linux, label #fermer {
     background: var(--bg-lis);
     border-radius: var(--liseret-bord-1);
     border-bottom-left-radius: var(--res);
-
+    z-index: 7;
 }
 .page-linux i span {
     color: var(--texte);
@@ -61,3 +61,37 @@ label #linux, label #fermer {
 ************************** contenu de la page ********
 ******************************************************
 ******************************************************/
+
+#tutos {
+    display: var(--blo);
+    position: var(--rel);
+    width: var(--w);
+    height: var(--cont-h);
+    font-family: var(--pol);
+    z-index: 6;
+}
+.container {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--sa);
+    justify-content: var(--sa);
+    height: var(--h);
+    padding-top: var(--bg);
+    background-color: var(--home-page);
+    z-index: 6;
+}
+.lien > a {
+    display: var(--fl);
+    flex-flow:  var(--mob);
+    align-items: var(--cen);
+} 
+img {
+    width: var(--bg);
+    height: var(--a);
+    margin-top: var(--bg);
+}
+.nom {
+    text-align: var(--cen);
+    color: var(--blanc);
+    margin-top: var(--boite);
+}

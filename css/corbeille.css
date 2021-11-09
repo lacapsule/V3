@@ -53,7 +53,7 @@ label #corbeille, label #fermer {
     background: var(--bg-lis);
     border-radius: var(--liseret-bord-1);
     border-bottom-left-radius: var(--res);
-    z-index: 7;
+    z-index: 3;
 }
 .page-corbeille i span {
     color: var(--blanc);
