@@ -66,7 +66,7 @@ label #info, label #fermer {
 #infos {
     display: var(--blo);
     position: var(--rel);
-    width: var(--w);
+    width: var(--L);
     height: var(--if);
     background-color: var(--home-page);
     z-index: 6;
@@ -80,6 +80,7 @@ label #info, label #fermer {
     height: var(--a);
     padding-top: var(--bg);
     background-color: var(--tran);
+    z-index: 7;
 }
 span {
     display: var(--fl);
@@ -88,7 +89,7 @@ span {
     justify-content: var(--sa);
     text-align: var(--cen);
     color: var(--texte);
-    z-index: 6;
+    z-index: 8;
 }
 .carte-infos, span:not(.stick)  {
     display: var(--blo);

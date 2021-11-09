@@ -103,5 +103,6 @@ label #corbeille, label #fermer {
 .nom {
     width: var(--bg);
     text-align: var(--cen);
+    padding-top: var(--res);
     color: var(--blanc);
 }
