@@ -95,7 +95,7 @@ label #corbeille, label #fermer {
     align-items: var(--cen);
     width: var(--btn);
     height: var(--home);
-    transition: 0.5s ease;
+    transition: 1s ease;
 } 
 .lien:hover > a:hover {
     transform: var(--dock);
