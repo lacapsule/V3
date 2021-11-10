@@ -84,7 +84,7 @@ label #corbeille, label #fermer {
     justify-content: var(--cen);
     width: var(--L);
     height: var(--L);
-    padding-top: var(--bg);
+    padding-top: var(--bg-lab);
     padding-bottom: var(--page);
     background-color: var(--home-page);
     z-index: 6;
