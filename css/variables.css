@@ -93,6 +93,7 @@
     --clip: ellipse(48% 7% at 51% 100%);
     /** transform **********************************/
     --sca: scale(1.05);
+    --dock: translateY(-20px) perspective(15px) scale3d(1.1, 1.1, 0.1) translateZ(10px);
     /** transition *********************************/
     --slide: all .5s ease-in-out;
     /** animations *********************************/
@@ -102,6 +103,9 @@
     --round: 0.2px 0.2px 0.2px 0.2px var(--bg-color2);
     --home-shadow: 0 25px 50px rgba(0,0,0,.15);
     --neumorph: 10px 10px 20px rgba(0,0,0,0.2), -10px -10px 20px rgba(2, 2, 36, 0.4);
+    --ombre: 0.2em 0.4em 0.1em rgba(0, 0, 0, 0.3),
+    -0.3em 0.1em 0.1em rgba(2, 2, 2, 0.6),
+    0.3em -0.2em 0.1em rgba(0, 0, 0, 0.3);
     /** curseur ************************************/
     --point: pointer;
 }

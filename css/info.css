@@ -71,7 +71,7 @@ label #info, label #fermer {
     background-color: var(--home-page);
     z-index: 6;
 }
-.container {
+.container-infos {
     display: var(--gr);
     grid-template-areas: var(--temp-inf);
     grid-template-rows: var(--liseret) var(--frac) var(--a);
