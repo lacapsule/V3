@@ -25,8 +25,8 @@ html, body {
     /*animation: var(--anim-bg);*/
     z-index: 0;
 }
-html, body::-webkit-scrollbar {
-        display: var(--n);
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+        display: var(--no);
 }
 
 header i{
