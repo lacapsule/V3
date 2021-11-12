@@ -4,3 +4,8 @@ function onlyOne(checkbox) {
         if (item !== checkbox) item.checked = false
 })
 }
+
+function closeWindow() {
+    window.open('','_parent','');
+    window.close();
+}

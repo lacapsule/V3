@@ -1,0 +1,118 @@
+@import url(variables.css);
+
+html, body {
+    display: var(--fl);
+    position: var(--rel);
+    flex-flow: var(--mob);
+    align-items: var(--cen);
+    align-content: var(--cen);
+    justify-content: var(--ar);
+    justify-items: var(--ar);
+    left: var(--res);
+    top: var(--res);
+    right: var(--res);
+    bottom: var(--res);
+    width: var(--L);
+    height: var(--L);
+    margin: var(--res);
+    padding: var(--res);
+    box-sizing: var(--box);
+    overflow: var(--h);
+    background: var(--bg-color);
+    font-family: var(--pol);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    /*animation: var(--anim-bg);*/
+    z-index: 0;
+}
+html, body::-webkit-scrollbar {
+        display: var(--n);
+}
+
+header i{
+    position: var(--abs);
+    top: var(--liseret-t);
+    left: var(--liseret-l);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--cen);
+    align-items: var(--cen);
+    width: var(--cont-h);
+    height: var(--liseret-h);
+    background: var(--bg-lis);
+    border-radius: var(--liseret-bord-1);
+    border-bottom-left-radius: var(--res);
+    z-index: 2;
+}
+header i h1 {
+    color: var(--blanc);
+    font-size: var(--bot);
+    font-family: var(--pol);
+    font-variant: normal;
+    z-index: 3;
+}
+h2 {
+    color: var(--bg-lis);
+    font-size: var(--titre);
+    padding: var(--text);
+}
+.container-tutos{
+    margin-top: var(--boite);
+    display: var(--fl);
+    flex-flow: var(--mob);
+    align-content: var(--cen);
+}
+
+.container-tutos .text {
+    display: var(--fl);
+    flex-flow: var(--mob);
+    justify-content: var(--cen);
+    align-items: var(--home-j);
+    border: 2px solid var(--bg-lis);
+    line-height: var(--line);
+    border-radius: var(--liseret-h);
+    -webkit-box-shadow: var(--neumorph);
+    box-shadow: var(--neumorph);
+
+}
+
+.container-tutos .text p{
+    color: var(--texte);
+    padding: var(--text);
+}
+
+.commande {
+    color: var(--bg-lis);
+    font-weight: var(--bold);
+    text-align: var(--cen);   
+}
+
+b {
+    font-weight: var(--bold);
+    color: var(--bg-lis);
+}
+.container-tutos .img, .container-tutos .video {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--cen);
+    background: var(--bg-lis);
+    border-radius: var(--liseret-h);
+    -webkit-box-shadow: var(--neumorph);
+    box-shadow: var(--neumorph);
+}
+
+
+.container-tutos .img img, .container-tutos .video video {
+    width: var(--cont-w);
+    border-radius: var(--icone);
+    padding: var(--line);
+}
+
+footer a {
+    position:var(--stick);
+}
+
+footer a img{
+    width: var(--home);
+    height: var(--home);
+}

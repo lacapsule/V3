@@ -74,6 +74,7 @@
     --contact: 3em;
     --icone: 3em;
     --line: 2rem;
+    --titre: 1.5rem;
     --text: 1rem;
     --bot: 1.2em;
     --w-init: 0;
@@ -86,6 +87,7 @@
     --auto: auto;
     /** texte **************************************/
     --pol: 'ubuntu', verdana, 'sans-sérif';
+    --bold: bold;
     /** opacités ***********************************/
     --visible: 1;
     --invisible: 0;
