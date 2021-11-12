@@ -31,8 +31,8 @@ html, body {
     /*animation: var(--anim-bg);*/
     z-index: 0;
 }
-html, body::-webkit-scrollbar {
-        display: var(--n);
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+        display: var(--no);
 }
 header {
     display: var(--fl);
@@ -57,4 +57,4 @@ iframe {
     width: var(--cont-h);
     height: var(--L);
 }
-a {text-decoration: var(--n);}
+a {text-decoration: var(--no);}
