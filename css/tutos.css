@@ -18,7 +18,7 @@ html, body {
     padding: var(--res);
     box-sizing: var(--box);
     overflow: var(--h);
-    background: var(--bg-color);
+    background: var(--home-page);
     font-family: var(--pol);
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -58,12 +58,17 @@ h2 {
 }
 .container-tutos{
     margin-top: var(--boite);
+    width: var(--L);
     display: var(--fl);
     flex-flow: var(--mob);
+    justify-content: var(--ar);
+    justify-items: var(--ar);
     align-content: var(--cen);
+    background: var(--home-page);
 }
 
 .container-tutos .text {
+    margin-top: var(--titre);
     display: var(--fl);
     flex-flow: var(--mob);
     justify-content: var(--cen);
@@ -92,6 +97,7 @@ b {
     color: var(--bg-lis);
 }
 .container-tutos .img, .container-tutos .video {
+    margin-top: var(--titre);
     display: var(--fl);
     flex-flow: var(--desk);
     justify-content: var(--cen);
