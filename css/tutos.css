@@ -37,8 +37,8 @@ header{
 
 header a{
     position: var(--fix);
-    bottom:var(--bot);
-    right: var(--bot);
+    bottom:var(--liseret-boucle-w);
+    right: var(--liseret-boucle-w);
 }
 
 header a img{
