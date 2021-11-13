@@ -29,6 +29,23 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
         display: var(--no);
 }
 
+header{
+    display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--cen);
+}
+
+header a{
+    position: var(--fix);
+    bottom:var(--bot);
+    right: var(--bot);
+}
+
+header a img{
+    width: var(--home);
+    height: var(--home);
+}
+
 header i{
     position: var(--abs);
     top: var(--liseret-t);
@@ -114,11 +131,12 @@ b {
     padding: var(--line);
 }
 
-footer a {
-    position:var(--stick);
+footer p {
+    color: var(--texte);
 }
 
-footer a img{
-    width: var(--home);
-    height: var(--home);
+footer p a {
+    text-decoration: var(--no);
+    color: var(--bg-lis);
+    font-weight: var(--bold);
 }
