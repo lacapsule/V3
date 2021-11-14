@@ -34,8 +34,8 @@
     --cen: center;
     /** grid option ********************************/
     --gr: grid;
-    --temp-inf: "carte carte" "adresse ouverture" 
-    "description description" "equipe equipe";
+    --temp-inf: "carte carte" "alert alert" "adresse ouverture" 
+    "description description" "equipe contact";
     --frac: 1fr;
     /** positions **********************************/
     --abs: absolute;
@@ -57,6 +57,7 @@
     --w: 100vw;
     --h: 100vh;
     --L: 100%;
+    --alert: 90%;
     --page: 20rem;
     --boite: 12rem;
     --liseret: 11rem;
@@ -70,6 +71,7 @@
     --etoile: 80em;
     --foo-top: 50vh;
     --foo: 50%;
+    --marge: 5%;
     --home: 3.5em;
     --contact: 3em;
     --icone: 3em;

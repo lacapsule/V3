@@ -103,6 +103,13 @@ span {
 iframe.carte-infos {
     grid-area: carte;
 }
+mark.alert {
+    grid-area: alert;
+    text-align: var(--cen);
+    border-radius: var(--liseret-boucle-t);
+    width: var(--alert);
+    margin-left: var(--marge);
+}
 .adresse {
     grid-area: adresse;
     border: var(--text) var(--gris);
@@ -125,7 +132,7 @@ iframe.carte-infos {
     flex-flow: var(--desk);
     align-items: var(--cen);
     justify-content: var(--sa);
-    width: var(--a);
+    width: var(--L);
     height: var(--a);
     background-color: var(--bg-pages);
 }
@@ -144,6 +151,24 @@ h2 {
 }
 h3 {
     font-size: var(--text);
+}
+.fiche-contact {
+    grid-area: contact;
+    position: var(--rel);
+    align-self: var(--cen);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--sa);
+    left: -90%;
+    width: var(--L);
+    height: var(--a);
+    background-color: var(--bg-lis);
+    transition: 1s ease-in-out;
+    z-index: 6;
+}
+.fiche-contact:hover {
+    left: -5%;
 }
 a {
     color: var(--jaune);
