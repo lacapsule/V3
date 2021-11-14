@@ -75,7 +75,7 @@ h2 {
 }
 .container-tutos{
     margin-top: var(--boite);
-    width: var(--L);
+    width: var(--cont-w);
     display: var(--fl);
     flex-flow: var(--mob);
     justify-content: var(--ar);
@@ -114,7 +114,7 @@ b {
     color: var(--bg-lis);
 }
 .container-tutos .img, .container-tutos .video {
-    margin-top: var(--titre);
+    margin-top: var(--text);
     display: var(--fl);
     flex-flow: var(--desk);
     justify-content: var(--cen);
