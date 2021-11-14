@@ -1,5 +1,4 @@
 @import url(variables.css);
-@import url(style.css);
 @import url(footer.css);
 #coche-info {
     display: var(--no);
@@ -36,7 +35,6 @@ label #info, label #fermer {
     box-shadow: var(--home-shadow);
     transition: var(--slide); 
 }
-
 .page-info i{
     position: var(--abs);
     top: var(--liseret-t);
@@ -50,37 +48,128 @@ label #info, label #fermer {
     background: var(--bg-lis);
     border-radius: var(--liseret-bord-1);
     border-bottom-left-radius: var(--res);
-
-}
-.page-info i::before {
-    content: '';
-    position: var(--abs);
-    top: var(--liseret-boucle-t);
-    left: var(--res);
-    width: var(--liseret-boucle-w);
-    height: var(--liseret-boucle-h);
-    background: var(--bg-pages);
-    border-top-left-radius: var(--liseret-bord-2);
-    border-bottom-left-radius: var(--liseret-bord-2);
-    z-index: 2;
-}
-.page-info i::after {
-    content: '';
-    position: var(--abs);
-    top: var(--liseret-boucle-t);
-    left: var(--res);
-    width: var(--liseret-boucle-w);
-    height: var(--liseret-boucle-w);
-    background: var(--blue);
-
+    z-index: 8;
 }
 .page-info i span {
     color: var(--texte);
     font-size: var(--bot);
     font-family: var(--pol);
+    z-index: 8;
 }
-.page-info .carte-infos {
-    margin: var(--auto);
-    margin-top: var(--m-top);
-    
+
+/*****************************************************
+******************************************************
+************************** contenu de la page ********
+******************************************************
+******************************************************/
+
+#infos {
+    display: var(--blo);
+    position: var(--rel);
+    width: var(--L);
+    height: var(--if);
+    background-color: var(--home-page);
+    z-index: 6;
+}
+.container-infos {
+    display: var(--gr);
+    grid-template-areas: var(--temp-inf);
+    grid-template-rows: var(--liseret) var(--frac) var(--a);
+    grid-template-columns: var(--frac) var(--frac);
+    grid-gap: var(--text);
+    height: var(--a);
+    padding-top: var(--bg);
+    background-color: var(--tran);
+    z-index: 7;
+}
+span {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--sa);
+    justify-content: var(--sa);
+    text-align: var(--cen);
+    color: var(--texte);
+    z-index: 8;
+}
+.carte-infos, span:not(.stick)  {
+    display: var(--blo);
+    position: var(--rel);
+    height: var(--a);
+    padding: var(--text);
+    border-radius: var(--liseret-h);
+    -webkit-box-shadow: var(--neumorph);
+    box-shadow: var(--neumorph);
+}
+iframe.carte-infos {
+    grid-area: carte;
+}
+mark.alert {
+    grid-area: alert;
+    text-align: var(--cen);
+    border-radius: var(--liseret-boucle-t);
+    width: var(--alert);
+    margin-left: var(--marge);
+}
+.adresse {
+    grid-area: adresse;
+    border: var(--text) var(--gris);
+    background-color: var(--bg-pages);
+}
+.ouverture {
+    grid-area: ouverture;
+    border: var(--text) var(--lis);
+    background-color: var(--bg-lis);
+}
+.description {
+    grid-area: description;
+    border: 2px solid var(--bg-lis);
+    line-height: var(--line);
+}
+.equipe {
+    grid-area: equipe;
+    align-self: var(--cen);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--sa);
+    width: var(--L);
+    height: var(--a);
+    background-color: var(--bg-pages);
+}
+#equipe, img {
+    display: var(--inblo);
+    position: var(--rel);
+    width: var(--bg);
+    height: var(--a);
+    margin-top: var(--text);
+}
+h1 {
+    font-size: var(--bot);
+}
+h2 {
+    font-size: var(--text);
+}
+h3 {
+    font-size: var(--text);
+}
+.fiche-contact {
+    grid-area: contact;
+    position: var(--rel);
+    align-self: var(--cen);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--sa);
+    left: -90%;
+    width: var(--L);
+    height: var(--a);
+    background-color: var(--bg-lis);
+    transition: 1s ease-in-out;
+    z-index: 6;
+}
+.fiche-contact:hover {
+    left: -5%;
+}
+a {
+    color: var(--jaune);
 }

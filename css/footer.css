@@ -6,75 +6,25 @@
 @import url(info.css);
 @import url(linux.css);
 @import url(animations.css);
-#contact {
-    order: 1;
+footer.dock {
+    display: var(--fl);
+    position: var(--sti);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--sa);
+    width: var(--cont-h);
+    height: var(--a);
+    padding-bottom: var(--text);
+    z-index: 10;
+}
+#contact, #corbeille, #home, #info, #linux {
     display: var(--blo);
-    position: var(--rel);
+    position: var(--abs);
     width: var(--home);
     height: var(--home);
     z-index: 5;
 }
-#contact:hover {
-    transform: var(--sca);
-    border-radius: var(--foo);
-    box-shadow: var(--round);
-}
-#corbeille {
-    order: 2;
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--home);
-    height: var(--home);
-    z-index: 5;
-}
-#corbeille:hover {
-    transform: var(--sca);
-    border-radius: var(--foo);
-    box-shadow: var(--round);
-}
-#home {
-    order: 3;
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--home);
-    height: var(--home);
-    z-index: 5;
-}
-#home:hover {
-    transform: var(--sca);
-    border-radius: var(--foo);
-    box-shadow: var(--round);
-}
-#fermer {
-    display: var(--no);
-    position: var(--rel);
-    z-index: 4;
-}
-#fermer:hover {
-    transform: var(--sca);
-}
-#info {
-    order: 4;
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--home);
-    height: var(--home);
-    z-index: 5;
-}
-#info:hover {
-    transform: var(--sca);
-    border-radius: var(--foo);
-    box-shadow: var(--round);
-}
-#linux {
-    order: 5;
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--home);
-    height: var(--home);
-    z-index: 5;
-}
-#linux:hover {
+img:not(.bg, .windows):hover {
     transform: var(--sca);
     border-radius: var(--foo);
     box-shadow: var(--round);

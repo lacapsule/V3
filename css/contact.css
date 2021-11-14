@@ -1,8 +1,7 @@
 @import url(resetForm.css);
-@import url(style.css);
 @import url(variables.css);
 @import url(animations.css);
-#coche-contact {
+#coche-contact, #fermer{
     display: var(--no);
 }
 label #contact {
@@ -12,7 +11,7 @@ label #contact {
     width: var(--home);
     height: var(--home);
     transition: var(--slide);
-    z-index: 5;
+    z-index: 7;
 }
 label #contact,
 label #fermer {
@@ -21,7 +20,7 @@ label #fermer {
     width: var(--home);
     height: var(--home);
     transition: var(--slide);
-    z-index: 5;
+    z-index: 7;
 }
 #coche-contact:checked ~ .page-contact {
     height: var(--cont-h);
@@ -66,29 +65,6 @@ label #fermer {
     border-radius: var(--liseret-bord-1);
     border-bottom-left-radius: var(--res);
 }
-.page-contact i::before {
-    content: '';
-    position: var(--abs);
-    top: var(--liseret-boucle-t);
-    left: var(--res);
-    width: var(--liseret-boucle-w);
-    height: var(--liseret-boucle-h);
-    background: var(--bg-pages);
-    border-top-left-radius: var(--liseret-bord-2);
-    border-bottom-left-radius: var(--liseret-bord-2);
-    z-index: 2;
-}
-.page-contact i::after {
-    content: '';
-    position: var(--abs);
-    top: var(--liseret-boucle-t);
-    left: var(--res);
-    width: var(--liseret-boucle-w);
-    height: var(--liseret-boucle-w);
-    background: var(--blue);
-
-}
-
 .page-contact i span {
     position: var(--abs);
     color: var(--texte);
@@ -96,16 +72,21 @@ label #fermer {
     font-family: var(--pol);
 }
 
+/*****************************************************
+******************************************************
+************************** contenu de la page ********
+******************************************************
+******************************************************/
+
 form {
     position: var(--abs);
-    top: var(--res);
+    top: var(--text);
     margin-top: var(--m-top);
     display: var(--fl);
     flex-flow: var(--mob);
     justify-content: var(--ar);
     width: var(--cont-h);
 }
-
 form input,
 form textarea {
     margin: var(--pad);
@@ -121,27 +102,21 @@ form input::placeholder,
 form textarea::placeholder {
     color: var(--blanc);
 }
-
 form textarea {
     height: var(--bg);
 }
-form textarea:focus ~ .dock 
-
 form input[type="submit"] {
     height: var(--home);
     width: var(--submit);
     color: var(--blue);
     background: var(--jaune);
-    padding-bottom: 2.5rem;
     vertical-align: var(--cen);
     cursor: var(--point);
 }
-
 form input[type="submit"]:hover {
     background: var(--bg-lis);
     color: var(--texte);
 }
-
 form input:focus,
 form textarea:focus {
     padding-left: var(--bot);
@@ -154,16 +129,12 @@ form textarea:focus {
 form textarea:focus ~ form {
     bottom: 5rem;
 }
-
 form input[type="text"]:valid,
 form input[type="mail"]:valid,
 form input[type="text"]:valid,
 form textarea:valid {
     color: var(--vert);
 }
-
-
-
 
   
 

@@ -3,13 +3,15 @@
     --res: 0;
     --box: border-box;
     --a: auto;
-    --h: hidden;
+    --hi: hidden;
+    --tran: transparent;
     /** color **************************************/
     --bg-color: #000;
     --bg-color2: rgb(9, 6, 37);
     --bg-pages: #262626;
     --bg-lis: rgb(224, 105, 14);
     --blue: #121241;
+    --gris: #35495e;
     --texte: rgb(198, 202, 240);
     --blanc: rgb(255,255,255);
     --home-page: rgba(28, 28, 75, 0.7);
@@ -18,13 +20,29 @@
     --jaune: #FBCE51;
     /** affichage **********************************/
     --blo: block;
+    --inblo: inline-block;
     --no: none;
+    /** flex option ********************************/
+    --fl: flex;
+    --desk: row wrap;
+    --mob: column nowrap;
+    --mob-w: column wrap;
+    --home-j: flex-start;
+    --end: flex-end;
+    --ar: space-between;
+    --sa: space-around;
+    --cen: center;
+    /** grid option ********************************/
+    --gr: grid;
+    --temp-inf: "carte carte" "alert alert" "adresse ouverture" 
+    "description description" "equipe contact";
+    --frac: 1fr;
     /** positions **********************************/
     --abs: absolute;
     --sti: sticky;
     --fix: fixed;
     --rel: relative;
-    --pos-page: -1000px;
+    --pos-page: -1500px;
     --pos-fermer: 10%;
     --liseret-t: 40px;
     --liseret-l: -15px;
@@ -33,37 +51,37 @@
     --liseret-boucle-w: 15px;
     --liseret-boucle-h: 30px;
     --liseret-bord-1: 30px;
-    --liseret-bord-2: 20px;
-    
-    /** flex option ********************************/
-    --fl: flex;
-    --desk: row wrap;
-    --mob: column nowrap;
-    --home-j: flex-start;
-    --end: flex-end;
-    --ar: space-between;
-    --sa: space-around;
-    --cen: center;
+    --liseret-bord-2: 20px; 
     /** tailles ************************************/
-    --if: 120vh;
+    --if: 500vh;
     --w: 100vw;
     --h: 100vh;
     --L: 100%;
+    --alert: 90%;
+    --page: 20rem;
+    --boite: 12rem;
+    --liseret: 11rem;
+    --btn: 10rem;
+    --cor: 8rem;
+    --bg-lab: 7rem;
     --bg: 5rem;
     --cont-w: 98%;
     --submit: 96.5%;
     --cont-h: 90%;
-    --foo-top: 50vh;
     --etoile: 80em;
+    --foo-top: 50vh;
     --foo: 50%;
+    --marge: 5%;
     --home: 3.5em;
     --contact: 3em;
     --icone: 3em;
+    --line: 2rem;
+    --titre: 1.5rem;
     --text: 1rem;
     --bot: 1.2em;
-    --btn: 10rem;
     --w-init: 0;
     --h-init: 0;
+    --m: -12%;
     /** padding ************************************/
     --pad: 0.5em;
     /** margin *************************************/
@@ -71,24 +89,27 @@
     --auto: auto;
     /** texte **************************************/
     --pol: 'ubuntu', verdana, 'sans-sérif';
+    --bold: bold;
     /** opacités ***********************************/
     --visible: 1;
     --invisible: 0;
     /** clip-path **********************************/
     --clip: ellipse(48% 7% at 51% 100%);
     /** transform **********************************/
-    --sca: scale(1.1);
+    --sca: scale(1.05);
+    --dock: translateY(-20px) perspective(15px) scale3d(1.1, 1.1, 0.1) translateZ(10px);
     /** transition *********************************/
     --slide: all .5s ease-in-out;
     /** animations *********************************/
-    --anim-bg-img: 25s ease-in-out opacity infinite;
-    --anim-bg: 25s ease-in-out bg infinite;
     --foo-op: 25s ease-in-out foo infinite;
-    --tilt: 5s ease-in-out tilt infinite;
     /** shadow *************************************/
     --shad: 8px 0px 25px 10px var(--footer);
-    --round: 2px 2px 2px 2px var(--bg-color2);
+    --round: 0.2px 0.2px 0.2px 0.2px var(--bg-color2);
     --home-shadow: 0 25px 50px rgba(0,0,0,.15);
+    --neumorph: 10px 10px 20px rgba(0,0,0,0.2), -10px -10px 20px rgba(2, 2, 36, 0.4);
+    --ombre: 0.2em 0.4em 0.1em rgba(0, 0, 0, 0.3),
+    -0.3em 0.1em 0.1em rgba(2, 2, 2, 0.6),
+    0.3em -0.2em 0.1em rgba(0, 0, 0, 0.3);
     /** curseur ************************************/
     --point: pointer;
 }

@@ -20,11 +20,11 @@
     <div class="contact">
         <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-contact">
         <label for="coche-contact">
-            <img id="contact" src="media/img/contact.png" alt="icône de contact"/>   
-            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
+            <img title="Nous Contacter" id="contact" src="media/img/contact.png" alt="icône de contact"/>   
+            <img title="Fermer" id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
         </label>
         <div class="page-contact">
-            <i><span>Contact</span></i>
+            <i><span class="stick">Contact</span></i>
             <form action="#" method="post">
                 <input type="text" name="nom" id="nom" required placeholder="Votre nom...">
                 <input type="text" name="email" placeholder="adresse@email.com" required pattern="^[a-zA-Z.*.0-9]+@[a-zA-Z0-9]+.[a-zA-Z]{2,6}$" title="Ce n'est pas une adresse mail valide !" required/>
@@ -37,65 +37,52 @@
         </div>   
     </div>
     <div class="corbeille">
-        <input type="checkbox" name="check" id="coche-corbeille">
+        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-corbeille">
         <label for="coche-corbeille">
-            <img id="corbeille" src="media/img/corbeille.png" alt="corbeille"/> 
-            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
+            <img title="Trucs et astuces" id="corbeille" src="media/img/corbeille.png" alt="corbeille"/> 
+            <img title="Fermer" id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
         </label>
     <div class="page-corbeille">
-        <i><span>Corbeille</span></i>
-        <div class="lien">
-            <a href="https://github.com/Sycnex/Windows10Debloater">
-                <img class="windows" src="media/img/windows.png" alt="Icone de windows">
-            </a>
-            <div class="nom">
-                Purger
-            </div>
-        </div>
-        <div class="lien">
-            <a href="https://github.com/TarikSeyceri/Windows-Cleaner">
-                <img class="windows" src="media/img/ccleaner.png" alt="Icone de windows">
-            </a>
-            <div class="nom">
-                Nettoyer
-                </div>
-            </div>
+        <i><span class="stick">Trucs et astuces</span></i>
+        <iframe
+            class= "accueil-infos"
+            src="pages/corbeille.html"
+            width="90%"
+            height="50%"
+            allowfullscreen=""
+            rel="noopener noreferrer"
+            sandbox="allow-same-origin allow-popups"
+            loading="lazy">
+        </iframe>
     </div>
     </div>  
     <div class="home">
         <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-home">
         <label for="coche-home">
-            <img id="home" src="media/img/home.png" alt="icône du menu"/>    
-            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
+            <img title="Accueil" id="home" src="media/img/home.png" alt="icône du menu"/>    
+            <img title="Fermer" id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
         </label>
     <div class="page-home">
-        <i><span>Home</span></i>
-        <!--<div class="lien">
-            <div class="icone">
-                <a href="">
-                <img src="media/img/link.png" alt="Icone lien">
-                </a>
-            </div>
-                <div class="nom">
-                Exemple de lien
-                </div>
-        </div>-->
+        <i><span class="stick">Home</span></i>
+       
     </div>  
     </div>
     <div class="info">
         <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-info"/>
         <label for="coche-info">
-            <img id="info" src="media/img/info.png" alt="icône d'info"/> 
-            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
+            <img title="Informations" id="info" src="media/img/info.png" alt="icône d'info"/> 
+            <img title="Fermer" id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
         </label>
     <div class="page-info">
-        <i><span>Infos</span></i>
+        <i><span class="stick">Infos</span></i>
         <iframe
             class= "accueil-infos"
-            src="pages/accueilInfos.html"
+            src="pages/infos.html"
             width="90%"
             height="50%"
             allowfullscreen=""
+            rel="noopener noreferrer"
+            sandbox="allow-same-origin allow-popups allow-scripts"
             loading="lazy">
         </iframe>
         </div>
@@ -103,20 +90,22 @@
     <div class="linux">
         <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-linux"/>
         <label for="coche-linux">
-            <img id="linux" src="media/img/linux.png" alt="icône d'linux"/> 
-            <img id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
+            <img title="Tutoriels" id="linux" src="media/img/tuto-close.png" alt="icône des tutos"/> 
+            <img title="Fermer" id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
         </label>
     <div class="page-linux">
-        <i><span>Linux</span></i>
-        <!--<iframe id="page-info"
-        title="Informations"
-        width="100%"
-        height="90%"
-        src="https://lacapsule.github.io/slideshow/"></iframe>-->
+        <i><span class="stick">Tutos</span></i>
+        <iframe
+            class="accueil-tutos"
+            src="pages/tutos.html"
+            width="90%"
+            height="50%"
+            allowfullscreen=""
+            rel="noopener noreferrer"
+            sandbox="allow-same-origin allow-popups allow-scripts"
+            loading="lazy"></iframe>
         </div>
     </div>  
-
-
 </footer>
 </body>
 </html>
