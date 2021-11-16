@@ -132,7 +132,7 @@ mark.alert {
     flex-flow: var(--desk);
     align-items: var(--cen);
     justify-content: var(--sa);
-    width: var(--L);
+    width: 90%;
     height: var(--a);
 }
 
@@ -143,9 +143,12 @@ mark.alert {
     justify-content: center;
     align-items: center;
     background: var(--bg-pages);
-    width: var(--a);
+    border-radius: 3rem;
+    border: 3px solid var(--bg-lis);
+    width: 90%;
     height: var(--a);
-    margin: 30px 0 30px 0;
+    margin: 30px;
+    overflow: hidden;
 }
 #equipe, img {
     display: var(--inblo);
@@ -164,24 +167,7 @@ h3 {
     font-size: var(--text);
 }
 
-.fiche-contact {
-    grid-area: contact;
-    position: var(--rel);
-    align-self: var(--cen);
-    display: var(--fl);
-    flex-flow: var(--desk);
-    align-items: var(--cen);
-    justify-content: var(--cen);
-    bottom: -100px;
-    width: var(--cont-w);
-    height: var(--a);
-    background-color: var(--bg-lis);
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    transition: 1s ease-in-out;
-    overflow-x: hidden;
-    z-index: 6;
-}
+
 .fiche-contact:hover {
     bottom: var(--res);
 }
