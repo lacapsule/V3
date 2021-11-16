@@ -82,6 +82,10 @@ label #info, label #fermer {
     background-color: var(--tran);
     z-index: 7;
 }
+.map{
+    width: var(--L);
+    height: var(--a);
+}
 span {
     display: var(--fl);
     flex-flow: var(--desk);
