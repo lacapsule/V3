@@ -82,10 +82,22 @@ label #info, label #fermer {
     background-color: var(--tran);
     z-index: 7;
 }
-.map{
-    width: var(--L);
+.carte {
+    grid-area: carte;
+    position: var(--rel);
+    margin-top: -200;
+    width: var(--a);
     height: var(--a);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--sa);
+    justify-content: var(--cen);
+    z-index: 8;
 }
+.carte a img {
+    width: var(--a);
+    height: var(--a);
+}   
 span {
     display: var(--fl);
     flex-flow: var(--desk);
@@ -135,31 +147,32 @@ mark.alert {
     display: var(--fl);
     flex-flow: var(--desk);
     align-items: var(--cen);
-    justify-content: var(--sa);
-    width: 90%;
+    justify-content: var(--cen);
     height: var(--a);
 }
 
 .equipe .carte {
-    display: flex;
-    flex-flow: column wrap;
-    align-content: center;
-    justify-content: center;
+    display: var(--fl);
+    flex-flow: var(--mob);
+    align-content: var(--cen);
+    justify-content: var(--cen);
     align-items: center;
     background: var(--bg-pages);
     border-radius: 3rem;
     border: 3px solid var(--bg-lis);
-    width: 90%;
     height: var(--a);
     margin: 30px;
-    overflow: hidden;
 }
-#equipe, img {
+#equipe, .avatar {
     display: var(--inblo);
     position: var(--rel);
     width: var(--bg);
     height: var(--a);
     margin-top: var(--text);
+}
+.carte .icones a img {
+    width: 50px;
+    height: 50px;
 }
 h1 {
     font-size: var(--bot);
