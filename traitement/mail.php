@@ -7,7 +7,7 @@ if(isset($_SERVER['HTTP_ORIGIN'])){
                 $mail_mail = htmlspecialchars($_POST['mail']);
 
                 if(!filter_var($mail_mail, FILTER_VALIDATE_EMAIL){
-                    header('location:../index.html');
+                    header('location:https://www.lacapsule.bzh');
                 }else{
 
                     $mail_to = "harela@pwtg.fr";
@@ -33,12 +33,15 @@ if(isset($_SERVER['HTTP_ORIGIN'])){
 
                                 mail($to, $subject, $message, $headers);
 
-                                header ('location:index.html');
+                                header ('location:https://www.lacapsule.bzh');
                     
                 }
             }else{
-                header ('location: index.html');
+                header ('location:https://www.lacapsule.bzh');
             }
+        }else{
+            http_response_code(405);
+            echo 'Requête non autorisée !';
         }
     }
 }
