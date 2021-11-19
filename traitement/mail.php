@@ -3,7 +3,7 @@
 if(isset($_SERVER['HTTP_ORIGIN'])){
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         if(isset($_POST['raison']) && empty($_POST['raison'])){
-            if(!preg_match('!^ *$!s', $_POST['nom']) && !preg_match('!^ *$!s', $_POST['prenom']) && !preg_match('!^ *$!s', $_POST['mail']) && !preg_match('!^ *$!s', $_POST['sujet']) && !preg_match('!^ *$!s', $_POST['message'])){
+            if(!preg_match('!^ *$!s', $_POST['nom']) && !preg_match('!^ *$!s', $_POST['mail']) && !preg_match('!^ *$!s', $_POST['sujet']) && !preg_match('!^ *$!s', $_POST['message'])){
                 $mail_mail = htmlspecialchars($_POST['mail']);
 
                 if(!filter_var($mail_mail, FILTER_VALIDATE_EMAIL){
@@ -12,7 +12,6 @@ if(isset($_SERVER['HTTP_ORIGIN'])){
 
                     $mail_to = "harela@pwtg.fr";
                     $mail_nom = htmlspecialchars($_POST['nom']);
-                    $mail_prenom = htmlspecialchars($_POST['prenom']);
                     $mail_sujet = htmlspecialchars($_POST['sujet']);
                     $mail_content = htmlspecialchars($_POST['message']);
 
