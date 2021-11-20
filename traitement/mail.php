@@ -6,9 +6,6 @@ if(isset($_SERVER['HTTP_ORIGIN'])){
             if(!preg_match('!^ *$!s', $_POST['nom']) && !preg_match('!^ *$!s', $_POST['email']) && !preg_match('!^ *$!s', $_POST['sujet']) && !preg_match('!^ *$!s', $_POST['message'])){
                 $mail_mail = htmlspecialchars($_POST['email']);
 
-                if(!filter_var($mail_mail, FILTER_VALIDATE_EMAIL){
-                    header('location:https://www.lacapsule.bzh');
-                }else{
 
                     $mail_to = "harela@pwtg.fr";
                     $mail_nom = htmlspecialchars($_POST['nom']);
@@ -35,7 +32,6 @@ if(isset($_SERVER['HTTP_ORIGIN'])){
 
                                 header ('location:https://www.lacapsule.bzh');
                     
-                }
             }else{
                 header ('location:https://www.lacapsule.bzh');
             }
