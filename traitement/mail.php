@@ -3,8 +3,8 @@
 if(isset($_SERVER['HTTP_ORIGIN'])){
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         if(isset($_POST['raison']) && empty($_POST['raison'])){
-            if(!preg_match('!^ *$!s', $_POST['nom']) && !preg_match('!^ *$!s', $_POST['mail']) && !preg_match('!^ *$!s', $_POST['sujet']) && !preg_match('!^ *$!s', $_POST['message'])){
-                $mail_mail = htmlspecialchars($_POST['mail']);
+            if(!preg_match('!^ *$!s', $_POST['nom']) && !preg_match('!^ *$!s', $_POST['email']) && !preg_match('!^ *$!s', $_POST['sujet']) && !preg_match('!^ *$!s', $_POST['message'])){
+                $mail_mail = htmlspecialchars($_POST['email']);
 
                 if(!filter_var($mail_mail, FILTER_VALIDATE_EMAIL){
                     header('location:https://www.lacapsule.bzh');
