@@ -111,7 +111,7 @@ span:not(.stick)  {
     z-index: 8;
 }
 a.map {
-    width: var(--L);
+    width: var(--cont-w);
     height: var(--a);
     background-image: url('../media/img/map.png');
     background-size: cover;
