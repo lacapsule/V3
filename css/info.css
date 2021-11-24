@@ -74,30 +74,14 @@ label #info, label #fermer {
 .container-infos {
     display: var(--gr);
     grid-template-areas: var(--temp-inf);
-    grid-template-rows: var(--liseret) var(--frac) var(--a);
+    grid-template-rows: var(--liseret) var(--bot) var(--frac) var(--a) var(--a);
     grid-template-columns: var(--frac) var(--frac);
     grid-gap: var(--text);
     height: var(--a);
-    padding-top: var(--bg);
+    padding-top: var(--bg-lab);
     background-color: var(--tran);
     z-index: 7;
 }
-.carte {
-    grid-area: carte;
-    position: var(--rel);
-    margin-top: -200;
-    width: var(--a);
-    height: var(--a);
-    display: var(--fl);
-    flex-flow: var(--desk);
-    align-items: var(--sa);
-    justify-content: var(--cen);
-    z-index: 8;
-}
-.carte a img {
-    width: var(--a);
-    height: var(--a);
-}   
 span {
     display: var(--fl);
     flex-flow: var(--desk);
@@ -107,7 +91,7 @@ span {
     color: var(--texte);
     z-index: 8;
 }
-.carte-infos, span:not(.stick)  {
+span:not(.stick)  {
     display: var(--blo);
     position: var(--rel);
     height: var(--a);
@@ -116,8 +100,23 @@ span {
     -webkit-box-shadow: var(--neumorph);
     box-shadow: var(--neumorph);
 }
-iframe.carte-infos {
+#carte {
     grid-area: carte;
+    position: var(--rel);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    height: var(--btn);
+    align-items: var(--sa);
+    justify-content: var(--cen);
+    z-index: 8;
+}
+a.map {
+    width: var(--L);
+    height: var(--a);
+    background-image: url('../media/img/map.png');
+    background-size: cover;
+    background-position: var(--cen);
+    border-radius: var(--liseret-boucle-t);
 }
 mark.alert {
     grid-area: alert;
@@ -148,6 +147,7 @@ mark.alert {
     flex-flow: var(--desk);
     align-items: var(--cen);
     justify-content: var(--cen);
+    width: var(--a);
     height: var(--a);
 }
 
