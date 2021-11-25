@@ -68,12 +68,6 @@ header i h1 {
     font-variant: normal;
     z-index: 3;
 }
-div.img:active img:active {
-    width: var(--L);
-    height: var(--a);
-    transform: scale(1.15);
-    background-color: rgb(0, 0, 0);
-}
 h2 {
     color: var(--bg-lis);
     font-size: var(--titre);
@@ -136,7 +130,6 @@ b {
     border-radius: var(--icone);
     padding: var(--line);
 }
-
 footer p {
     color: var(--texte);
 }
