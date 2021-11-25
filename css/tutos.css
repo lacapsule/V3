@@ -134,7 +134,12 @@ b {
 
 /* LightBox */
 
-#newdoc-open {
+#newdoc-open,
+#command-open,
+#gopro-open,
+#change-open,
+#perm-open,
+#exec-open{
     width: 100%;
     height: 100%;
     display: flex;
@@ -149,18 +154,33 @@ b {
     transition: all 1.5s ease-in-out; 
 
 }
-#newdoc-open a {
+#newdoc-open a ,
+#command-open a,
+#gopro-open a,
+#change-open a,
+#perm-open a,
+#exec-open a{
     position: absolute;
     top: 5px;
     right: 5px;
     color: var(--texte);
 }
-#newdoc a img {
+#newdoc-open a .light,
+#command-open a .light,
+#gopro-open a .light,
+#change-open a .light,
+#perm-open a .light,
+#exec-open a .light{
     width: 100%;
     height: 100%;
 }
-#newdoc-open:target {
-    transform: scale(75%);
+#newdoc-open:target,
+#command-open:target,
+#gopro-open:target,
+#change-open:target,
+#perm-open:target,
+#exec-open:target{
+    transform: scale(100%);
 }
 .close{
     width: 100px;
