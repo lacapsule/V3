@@ -118,6 +118,7 @@ b {
     display: var(--fl);
     flex-flow: var(--desk);
     justify-content: var(--cen);
+    align-items: var(--cen);
     background: var(--bg-lis);
     border-radius: var(--liseret-h);
     -webkit-box-shadow: var(--neumorph);
@@ -125,11 +126,41 @@ b {
 }
 
 
-.container-tutos .img img, .container-tutos .video video {
-    width: var(--cont-w);
+.container-tutos .img a img, .container-tutos .video video {
+    width: var(--a);
     border-radius: var(--icone);
-    padding: var(--line);
+    padding: 10px 0;
 }
+
+/* LightBox */
+
+#newdoc-open {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.6);
+    position: fixed;
+    top: 0;
+    left: auto;
+    transform: scale(0);
+    transition: all 1.5s ease-in-out; 
+
+}
+#newdoc a {
+    width: 100%;
+    height: 100%;
+}
+#newdoc a img {
+    width: 150%;
+    height: 100%;
+}
+#newdoc-open:target {
+    transform: scale(125%);
+}
+
 footer p {
     color: var(--texte);
 }
