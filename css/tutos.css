@@ -127,7 +127,7 @@ b {
 
 
 .container-tutos .img a img, .container-tutos .video video {
-    width: var(--a);
+    width: var(--cont-w);
     border-radius: var(--icone);
     padding: 10px 0;
 }
@@ -154,11 +154,11 @@ b {
     height: 100%;
 }
 #newdoc a img {
-    width: 150%;
+    width: 100%;
     height: 100%;
 }
 #newdoc-open:target {
-    transform: scale(125%);
+    transform: scale(100%);
 }
 
 footer p {
