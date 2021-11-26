@@ -134,6 +134,12 @@ b {
 
 /* LightBox */
 
+.light{
+    width: 80%;
+    height: auto;
+}
+
+
 #newdoc-open,
 #command-open,
 #gopro-open,
@@ -183,6 +189,7 @@ b {
     width: 100%;
     height: 100%;
 }
+
 .close{
     width: 100px;
     height: 100px;
