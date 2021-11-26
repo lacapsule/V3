@@ -85,6 +85,7 @@ h2 {
 }
 
 .container-tutos .text {
+    width: var(--cont-w);
     margin-top: var(--titre);
     display: var(--fl);
     flex-flow: var(--mob);
@@ -99,15 +100,21 @@ h2 {
 }
 
 .container-tutos .text p{
+    width: var(--cont-w);
     color: var(--texte);
     padding: var(--text);
 }
 
-.commande {
+.container-tutos .text .commande {
+    width: var(--cont-w);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     color: var(--bg-lis);
     font-weight: var(--bold);
-    text-align: var(--cen);   
 }
+
 
 b {
     font-weight: var(--bold);
