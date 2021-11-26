@@ -127,18 +127,26 @@ b {
     box-shadow: var(--neumorph);
 }
 
-
-.container-tutos .img a img, .container-tutos .video video {
+.container-tutos .img a {
     width: var(--cont-w);
-    border-radius: var(--liseret-boucle-w);
-    padding: 10px 0;
+    display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--cen);
+    align-items: var(--cen);
+}
+
+.container-tutos .img img, .container-tutos .video video {
+    width: var(--cont-h);
+    height: var(--a);
+    border-radius: var(--liseret-h);
+    padding: var(--liseret-boucle-w) var(--res);    
 }
 
 /* LightBox */
 
 .light{
-    width: 80%;
-    height: auto;
+    width: var(--cont-h);
+    height: var(--a);
 }
 
 
@@ -147,18 +155,25 @@ b {
 #trois-open,
 #quatre-open,
 #cinq-open,
-#six-open{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+#six-open,
+#sept-open,
+#huit-open,
+#neuf-open,
+#dix-open,
+#onze-open,
+#douze-open
+{
+    width: var(--L);
+    height: var(--L);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--cen);
+    align-items: var(--cen);
     background: rgba(0,0,0,.95);
-    position: fixed;
-    top: 0;
-    transform: scale(0);
-    left: auto;
+    position: var(--fix);
+    top: var(--res);
+    transform: scale(var(--res));
+    left: var(--a);
     transition: all .2s ease-in-out; 
 
 }
@@ -167,29 +182,45 @@ b {
 #trois-open a,
 #quatre-open a,
 #cinq-open a,
-#six-open a{
-    position: absolute;
+#six-open a,
+#sept-open a,
+#huit-open a,
+#neuf-open a,
+#dix-open a,
+#onze-open a,
+#douze-open a{
+    position: var(--abs);
     top: 5px;
     right: 5px;
     color: var(--texte);
 }
-#newdoc-open a .light,
-#command-open a .light,
-#gopro-open a .light,
-#change-open a .light,
-#perm-open a .light,
-#exec-open a .light{
-    width: 100%;
-    height: 100%;
+#un-open a .light,
+#deux-open a .light,
+#trois-open a .light,
+#quatre-open a .light,
+#cinq-open a .light,
+#six-open a .light,
+#sept-open a .light,
+#neuf-open a .light,
+#dix-open a .light,
+#onze-open a .light,
+#douze-open a .light{
+    width: var(--L);
+    height: var(--L);
 }
 #un-open:target,
 #deux-open:target,
 #trois-open:target,
 #quatre-open:target,
 #cinq-open:target,
-#six-open:target{
-    opacity: 1;
-    transform: scale(100%);
+#six-open:target,
+#sept-open:target,
+#huit-open:target,
+#neuf-open:target,
+#dix-open:target,
+#onze-open:target,
+#douze-open:target{
+    transform: scale(var(--L));
 }
 
 .close{
