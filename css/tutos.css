@@ -157,7 +157,6 @@ b {
     background: rgba(0,0,0,.95);
     position: fixed;
     top: 0;
-    opacity: 0;
     transform: scale(0);
     left: auto;
     transition: all .2s ease-in-out; 
