@@ -243,3 +243,24 @@ footer p a {
     color: var(--bg-lis);
     font-weight: var(--bold);
 }
+code {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--home-j);
+    width: var(--a);
+    height: var(--a);
+    padding: 0 1.5em 0 1.5em;
+    background-color: rgb(37, 35, 35);
+}
+pre {
+    display: var(--blo);
+    color: white;
+    padding: 1.5em;
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;    
+    word-wrap: break-word;       
+  }
+  
