@@ -12,7 +12,7 @@ html, body {
     top: var(--res);
     right: var(--res);
     bottom: var(--res);
-    width: var(--L);
+    width: var(--w);
     height: var(--a);
     margin: var(--res);
     padding: var(--res);
