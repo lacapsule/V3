@@ -37,8 +37,8 @@ header{
 
 header a{
     position: var(--fix);
-    bottom:var(--marge);
-    right: var(--marge);
+    bottom:var(--pos-fermer);
+    right: var(--pos-fermer);
 }
 
 header a img{
