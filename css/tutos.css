@@ -37,8 +37,8 @@ header{
 
 header a{
     position: var(--fix);
-    bottom:var(--liseret-boucle-w);
-    right: var(--liseret-boucle-w);
+    bottom:var(--marge);
+    right: var(--marge);
 }
 
 header a img{
