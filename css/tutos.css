@@ -17,16 +17,14 @@ html, body {
     margin: var(--res);
     padding: var(--res);
     box-sizing: var(--box);
-    overflow: var(--h);
     background: var(--home-page);
     font-family: var(--pol);
     -ms-overflow-style: none;
     scrollbar-width: none;
-    /*animation: var(--anim-bg);*/
     z-index: 0;
 }
 html::-webkit-scrollbar, body::-webkit-scrollbar {
-        display: var(--no);
+    display: var(--no);
 }
 
 header{
@@ -37,8 +35,8 @@ header{
 
 header a{
     position: var(--fix);
-    bottom:var(--pos-fermer);
-    right: var(--pos-fermer);
+    bottom:var(--pad);
+    right: var(--text);
 }
 
 header a img{
@@ -66,6 +64,7 @@ header i h1 {
     font-size: var(--bot);
     font-family: var(--pol);
     font-variant: normal;
+    margin-left: 0.5em;
     z-index: 3;
 }
 h2 {
@@ -75,7 +74,7 @@ h2 {
 }
 .container-tutos{
     margin-top: var(--boite);
-    width: var(--L);
+    width: var(--cont-w);
     height: var(--a);
     display: var(--fl);
     flex-flow: var(--mob);
@@ -100,13 +99,13 @@ h2 {
 }
 
 .container-tutos .text p{
-    width: var(--cont-w);
+    width: var(--cont-h);
     color: var(--texte);
     padding: var(--text);
 }
 
 .container-tutos .text .commande {
-    width: var(--cont-w);
+    width: var(--cont-h);
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
