@@ -75,7 +75,6 @@ label #home, label #fermer {
     width: var(--L);
     height: var(--if);
     font-family: var(--pol);
-    z-index: 6;
 }
 .container-home {
     display: var(--fl);
@@ -95,7 +94,6 @@ label #home, label #fermer {
     align-items: var(--cen);
     width: var(--btn);
     height: var(--btn);
-    margin-top: var(--bg-lab);
     transition: 1s ease;
 } 
 .lien:hover > a:hover {
