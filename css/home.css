@@ -94,7 +94,7 @@ label #home, label #fermer {
     flex-flow:  var(--mob);
     align-items: var(--cen);
     width: var(--btn);
-    height: var(--home);
+    height: var(--btn);
     margin-top: var(--bg-lab);
     transition: 1s ease;
 } 
