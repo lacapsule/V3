@@ -41,6 +41,19 @@ header {
     width: var(--w);
     height: var(--bg);
 }
+
+.rs .rs-link a img{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 3.5em;
+    width: 3.5em;
+    margin: 10px 0;
+    border-radius: 0 30px 30px 0;
+}
+
+
 .bg {
     position: var(--rel);
     width: var(--bg);
