@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Capsule - Tutoriel Script Mise à Jour</title>
+    <link rel="stylesheet" href="../../css/tutos.css">
+    <script src="../../script.bak/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+</head>
+<body>
+    <!--Liseret haut de page / Titre du tuto-->
+    <header>
+        <a href="javascript:closeWindow();"><img src="../../media/img/retour.png" alt="Fermer la fenêtre" title="Fermer la fenêtre"></a>
+        <i><h1>Script de maj sous Linux</h1></i>
+    </header>
+
+    <main class="container-perso">
+    <!--Contenu du tuto-->
+    <pre>
+        <code class="prettyprint">
+            {
+                "name": "Personnel",
+                "description": "Espaces personnels de chaque salarié",
+                "displayField": "testDeContenu",
+                "fields": [
+                  {
+                    "id": "testDeContenu",
+                    "name": "Test de contenu",
+                    "type": "Symbol",
+                    "localized": true,
+                    "required": false,
+                    "validations": [],
+                    "disabled": false,
+                    "omitted": false
+                  }
+                ],
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "tczkm6i16wy7"
+                    }
+                  },
+                  "id": "personnel",
+                  "type": "ContentType",
+                  "createdAt": "2021-12-02T09:18:56.329Z",
+                  "updatedAt": "2021-12-02T09:18:56.812Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "publishedVersion": 1,
+                  "publishedAt": "2021-12-02T09:18:56.812Z",
+                  "firstPublishedAt": "2021-12-02T09:18:56.812Z",
+                  "createdBy": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "User",
+                      "id": "7HXPWuLUiCOszDkL254EK5"
+                    }
+                  },
+                  "updatedBy": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "User",
+                      "id": "7HXPWuLUiCOszDkL254EK5"
+                    }
+                  },
+                  "publishedCounter": 1,
+                  "version": 2,
+                  "publishedBy": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "User",
+                      "id": "7HXPWuLUiCOszDkL254EK5"
+                    }
+                  }
+                }
+              }
+            </code>
+        </pre>
+    <!--Vidéo du tuto-->
+    <div class="video">
+        <video src="../../media/video/exemple.mp4" controls></video>
+    </div>
+
+    <div class="text">  
+        <p>Aujourd’hui dans ce tutoriel nous allons voir comment créer un script afin de mettre à jour rapidement linux mint.</p>
+        <!--Sous titre dans le tuto-->
+        <h2>Création du document update</h2>
+
+        <p>Premièrement nous allons nous rendre sur notre espace de travail (Bureau). Faire un clique droit, puis aller sur “Créer un nouveau document” puis “Document vide”. Nous allons appeler notre document “update”.</p>
+
+    </div>
+    <!--Image / gif dans le tuto-->
+    <div class="img" id="un-close">
+        <a href="#un-open"><img src="../../media/img/tutos/script/newdoc.gif" alt="GIF montrant la création du nouveau document" loading="lazy"></a>
+    </div>
+
+    <div id="un-open">
+        <a href="#un-close"><img class="close" src="../../media/img/tutos/light-close.png" alt="Fermer"></a>
+        <img class="light" src="../../media/img/tutos/script/newdoc.gif" alt="GIF montrant la création du nouveau document">
+    </div>
+
+</main>
+
+<footer>
+    <!--Auteur du tuto-->
+    <p>Tutoriel écrit par <a href="#">&copy;LeStitcheurFou</a></p>
+</footer>
+
+</body>
+</html>
