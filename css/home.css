@@ -1,0 +1,56 @@
+@import url(variables.css);
+@import url(footer.css);
+
+/*****************************************************
+******************************************************
+************************** contenu de la page ********
+******************************************************
+******************************************************/
+
+#home {
+    display: var(--blo);
+    position: var(--rel);
+    width: var(--L);
+    height: var(--if);
+    font-family: var(--pol);
+    z-index: 6;
+}
+.container-home {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--sa);
+    justify-content: var(--cen);
+    width: var(--L);
+    height: var(--L);
+    padding-top: var(--bg-lab);
+    padding-bottom: var(--page);
+    background-color: var(--home-page);
+    z-index: 6;
+}
+.lien > a {
+    display: var(--fl);
+    flex-flow:  var(--mob);
+    align-items: var(--cen);
+    width: var(--btn);
+    height: var(--home);
+    transition: 1s ease;
+} 
+.lien:hover > a:hover {
+    transform: var(--dock);
+    text-shadow: var(--ombre);
+    box-shadow: var(--shad);
+} 
+.windows {
+    width: var(--bg);
+    height: var(--a);
+    padding-left: var(--line);
+    padding-right: var(--line);
+}
+.nom {
+    width: var(--bg);
+    height: var(--a);
+    margin-top: var(--pad);
+    text-align: var(--cen);
+    padding-top: var(--pad);
+    color: var(--blanc);
+}
