@@ -5,6 +5,7 @@
 @import url(corbeille.css);
 @import url(accueil.css);
 @import url(info.css);
+@import url(home.css);
 @import url(linux.css);
 @import url(header.css);
 html, body {
@@ -28,11 +29,10 @@ html, body {
     font-family: var(--pol);
     -ms-overflow-style: none;
     scrollbar-width: none;
-    /*animation: var(--anim-bg);*/
     z-index: 0;
 }
 html::-webkit-scrollbar, body::-webkit-scrollbar {
-        display: var(--no);
+    display: var(--no);
 }
 header {
     display: var(--fl);
@@ -41,8 +41,7 @@ header {
     width: var(--w);
     height: var(--bg);
 }
-
-.rs .rs-link a img{
+.rs .rs-link a img {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -52,8 +51,6 @@ header {
     margin: 10px 0;
     border-radius: 0 30px 30px 0;
 }
-
-
 .bg {
     position: var(--rel);
     width: var(--bg);

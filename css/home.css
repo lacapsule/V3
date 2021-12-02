@@ -1,11 +1,79 @@
 @import url(variables.css);
 @import url(footer.css);
+#coche-home {
+    display: var(--no);
+}
+#coche-home:checked ~ .page-home {
+    width: var(--L);
+    height: var(--cont-h);
+    bottom: var(--pos-fermer);
+    opacity: var(--visible);
+}
+#coche-home:checked ~ label #home {
+    display: var(--no);
+    pointer-events: var(--no);
+}
+#coche-home:checked ~ label #fermer {
+    display: var(--blo);
+    bottom: var(--res);
+}
+label #home, label #fermer {
+    position: var(--fix);
+    cursor: var(--point);
+    width: var(--home);
+    height: var(--home);
+    transition: var(--slide);
+    z-index: 5;
+}
+.page-home {
+    display: var(--fl);
+    position: var(--fix);
+    flex-flow: var(--desk);
+    justify-content: var(--home-j);
+    align-items: var(--home-j);
+    right: var(--res);
+    bottom: var(--pos-page);
+    width: var(--cont-h);
+    height: var(--cont-h);
+    background: var(--home-page);
+    opacity: var(--invisible);
+    transition: var(--slide); 
+    z-index: 4;
+}
+.page-home i{
+    position: var(--abs);
+    top: var(--liseret-t);
+    left: var(--liseret-l);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--cen);
+    align-items: var(--cen);
+    width: var(--cont-h);
+    height: var(--liseret-h);
+    background: var(--bg-lis);
+    border-radius: var(--liseret-bord-1);
+    border-bottom-left-radius: var(--res);
+    z-index: 3;
+}
+.page-home i span {
+    color: var(--blanc);
+    font-size: var(--bot);
+    font-family: var(--pol);
+    font-variant: normal;
+    z-index: 7;
+}
+
+/*****************************************************
+******************************************************
+************************** contenu de la page ********
+******************************************************
+******************************************************/
 
 #home {
     display: var(--blo);
     position: var(--rel);
     width: var(--L);
-    height: var(--if);
+    height: var(--L);
     font-family: var(--pol);
     z-index: 6;
 }
@@ -19,7 +87,7 @@
     padding-top: var(--bg-lab);
     padding-bottom: var(--page);
     background-color: var(--home-page);
-    z-index: 6;
+    z-index: 4;
 }
 .lien > a {
     display: var(--fl);
@@ -27,6 +95,7 @@
     align-items: var(--cen);
     width: var(--btn);
     height: var(--home);
+    margin-top: var(--bg-lab);
     transition: 1s ease;
 } 
 .lien:hover > a:hover {
