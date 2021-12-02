@@ -18,7 +18,7 @@
     bottom: var(--res);
 }
 label #home, label #fermer {
-    position: var(--fix);
+    position: var(--rel);
     cursor: var(--point);
     width: var(--home);
     height: var(--home);
@@ -38,7 +38,7 @@ label #home, label #fermer {
     background: var(--home-page);
     opacity: var(--invisible);
     transition: var(--slide); 
-    z-index: 4;
+    z-index: 8;
 }
 .page-home i{
     position: var(--abs);
@@ -73,7 +73,7 @@ label #home, label #fermer {
     display: var(--blo);
     position: var(--rel);
     width: var(--L);
-    height: var(--L);
+    height: var(--if);
     font-family: var(--pol);
     z-index: 6;
 }
