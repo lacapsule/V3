@@ -96,8 +96,8 @@ header {
     content: "Discord";
     display: block;
     position: var(--rel);
-    top: -2em;
-    left: -3.5em;
+    top: -2.25em;
+    left: -3.8em;
     color: white;
     font-size: 1.4em;
     z-index: 3;
