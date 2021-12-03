@@ -46,10 +46,61 @@ header {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height: 3.5em;
-    width: 3.5em;
+    height: 3.3em;
+    width: 3.3em;
     margin: 10px 0;
     border-radius: 0 30px 30px 0;
+}
+.rs-link:hover {
+    display: inline-block;
+    width: 4em;
+    height: 4.5em;
+    right: 0;
+    border-radius: 0 50px 50px 0;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+}
+.rs-link:nth-child(1):hover {
+    padding-left: 8em;
+    background-color: #3e75c3;
+}
+.rs-link:nth-child(2):hover {
+    padding-left: 7em;
+    background-color: #38a8e0;
+}
+.rs-link:nth-child(3):hover {
+    padding-left: 6em;
+    background-color: #7289da;
+}
+.rs-link:nth-child(1):hover:after {
+    content: "Github";
+    display: block;
+    position: var(--rel);
+    top: -1.8em;
+    left: -3.5em;
+    color: white;
+    font-size: 2em;
+    z-index: 3;
+}
+.rs-link:nth-child(2):hover:after {
+    content: "Twitter";
+    display: block;
+    position: var(--rel);
+    top: -1.9em;
+    left: -3.5em;
+    color: white;
+    font-size: 1.8em;
+    z-index: 3;
+}
+.rs-link:nth-child(3):hover:after {
+    content: "Discord";
+    display: block;
+    position: var(--rel);
+    top: -2em;
+    left: -3.5em;
+    color: white;
+    font-size: 1.6em;
+    z-index: 3;
 }
 .bg {
     position: var(--rel);
