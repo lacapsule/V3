@@ -65,12 +65,12 @@ header {
     background-color: #3e75c3;
 }
 .rs-link:nth-child(2):hover {
-    padding-left: 7em;
-    background-color: #38a8e0;
-}
-.rs-link:nth-child(3):hover {
     padding-left: 6em;
     background-color: #7289da;
+}
+.rs-link:nth-child(3):hover {
+    padding-left: 7em;
+    background-color: #38a8e0;
 }
 .rs-link:nth-child(1):hover:after {
     content: "Github";
@@ -83,16 +83,6 @@ header {
     z-index: 3;
 }
 .rs-link:nth-child(2):hover:after {
-    content: "Twitter";
-    display: block;
-    position: var(--rel);
-    top: -1.9em;
-    left: -3.5em;
-    color: white;
-    font-size: 1.8em;
-    z-index: 3;
-}
-.rs-link:nth-child(3):hover:after {
     content: "Discord";
     display: block;
     position: var(--rel);
@@ -100,6 +90,16 @@ header {
     left: -3.8em;
     color: white;
     font-size: 1.4em;
+    z-index: 3;
+}
+.rs-link:nth-child(3):hover:after {
+    content: "Twitter";
+    display: block;
+    position: var(--rel);
+    top: -1.9em;
+    left: -3.5em;
+    color: white;
+    font-size: 1.8em;
     z-index: 3;
 }
 .bg {
