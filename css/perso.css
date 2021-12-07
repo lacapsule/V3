@@ -34,6 +34,16 @@ header{
     justify-content: center;
     align-items: center;
 }
+header a{
+    position: var(--fix);
+    bottom:var(--pad);
+    right: var(--text);
+}
+
+header a img{
+    width: var(--home);
+    height: var(--home);
+}
 
 h1, h2{
     text-align: center;
