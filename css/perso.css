@@ -1,0 +1,59 @@
+@import url(variables.css);
+
+
+html, body {
+    display: var(--fl);
+    position: var(--rel);
+    flex-flow: var(--mob);
+    align-items: var(--cen);
+    align-content: var(--cen);
+    justify-content: var(--ar);
+    justify-items: var(--ar);
+    left: var(--res);
+    top: var(--res);
+    right: var(--res);
+    bottom: var(--res);
+    width: var(--w);
+    height: var(--a);
+    margin: var(--res);
+    padding: var(--res);
+    box-sizing: var(--box);
+    background: var(--home-page);
+    font-family: var(--pol);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    z-index: 0;
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: var(--no);
+}
+
+header{
+    display: var(--fl);
+    flex-flow: var(--mob);
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--texte);
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    text-align: justify;
+    color: var(--texte);
+}
+
+#home{
+    background: var(--home-page);
+    width: var(--L);
+    height: var(--L);
+}
+
+
