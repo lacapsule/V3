@@ -113,9 +113,9 @@ iframe {
     display: var(--blo);
     position: var(--rel);
     top: var(--res);
-    margin: var(--auto);
+    margin: var(--res);
     border: var(--res);
-    width: var(--cont-h);
+    width: var(--L);
     height: var(--L);
 }
 a {text-decoration: var(--no);}

@@ -34,15 +34,16 @@ header{
     justify-content: center;
     align-items: center;
 }
-header a{
+aside a{
     position: var(--fix);
     bottom:var(--pad);
     right: var(--text);
 }
 
-header a img{
+aside a img{
     width: var(--home);
     height: var(--home);
+    z-index: 10;
 }
 
 h1, h2{
