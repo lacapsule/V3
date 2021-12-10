@@ -1,154 +1,203 @@
 @import url(variables.css);
 
-
-html, body {
-    display: var(--fl);
-    position: var(--rel);
-    flex-flow: var(--mob);
-    align-items: var(--cen);
-    align-content: var(--cen);
-    justify-content: var(--ar);
-    justify-items: var(--ar);
-    left: var(--res);
-    top: var(--res);
-    right: var(--res);
-    bottom: var(--res);
-    width: var(--w);
-    height: var(--a);
-    margin: var(--res);
-    padding: var(--res);
-    box-sizing: var(--box);
-    background: var(--home-page);
-    font-family: var(--pol);
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    z-index: 0;
+html,
+body {
+  display: var(--fl);
+  position: var(--rel);
+  flex-flow: var(--mob);
+  align-items: var(--cen);
+  align-content: var(--cen);
+  justify-content: var(--ar);
+  justify-items: var(--ar);
+  left: var(--res);
+  top: var(--res);
+  right: var(--res);
+  bottom: var(--res);
+  width: var(--w);
+  height: var(--a);
+  margin: var(--res);
+  padding: var(--res);
+  box-sizing: var(--box);
+  background: var(--home-page);
+  font-family: var(--pol);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  z-index: 0;
 }
-html::-webkit-scrollbar, body::-webkit-scrollbar {
-    display: var(--no);
-}
-
-header{
-    display: var(--fl);
-    flex-flow: var(--mob);
-    justify-content: center;
-    align-items: center;
-}
-aside a{
-    position: var(--fix);
-    bottom:var(--pad);
-    right: var(--text);
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: var(--no);
 }
 
-aside a img{
-    width: var(--home);
-    height: var(--home);
-    z-index: 10;
+header {
+  display: var(--fl);
+  flex-flow: var(--mob);
+  justify-content: center;
+  align-items: center;
+}
+aside a {
+  position: var(--fix);
+  bottom: var(--pad);
+  right: var(--text);
+  z-index: 7;
 }
 
-h1, h2{
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--texte);
+aside a img {
+  width: var(--home);
+  height: var(--home);
+  z-index: 10;
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--texte);
 }
 .avatar {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
-
 p {
-    text-align: justify;
-    color: var(--texte);
+  text-align: justify;
+  color: var(--texte);
 }
 
-#home{
-    background: var(--home-page);
-    width: var(--L);
-    height: var(--L);
+.citation {
+  position: relative;
+  font-family: "Verdana", serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: var(--texte);
+}
+.citation cite {
+  font-family: "Verdana", sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--texte);
+  float: right;
+}
+.citation cite:before {
+  content: "\2015"" ";
+}
+.citation:after {
+  content: "\201d";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  font-size: 6em;
+  font-style: italic;
+  color: var(--texte);
+  z-index: -1;
 }
 
+#home {
+  background: var(--home-page);
+  width: var(--L);
+  height: var(--L);
+}
 
-.un, .deux, .trois {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
+.un,
+.deux,
+.trois {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: var(--cont-w);
+}
+
+article a {
+    height: 100%;
+}
+
+article a img {
+    width: 300px;
+    height: 150px;
     
+}
+
+article a figcaption {
+    position: absolute;
+    bottom: 0;
+    width: var(--L);
+    height: 30px;
+    z-index: 6;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 
 .flip-card {
-    background: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-} 
-.flip-card img {
-    width: 150px;
-    height: 150px;
+  background: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
 }
-.flip-card h2, .flip-card p {
-    color: black;
+.flip-card img {
+  width: 150px;
+  height: 150px;
+}
+.flip-card h2,
+.flip-card p {
+  color: black;
 }
 
 .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform .6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border: 2px solid rgba(255, 255, 255, .7);
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px 0 rgba(255, 255, 255, .5);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 0 rgba(255, 255, 255, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .flip-card-front {
-    background: var(--texte);
-    color: var(--home-page);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: var(--texte);
+  color: var(--home-page);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .flip-card-back {
-    background: var(--texte);
-    color: white;
-    transform: rotateY(180deg);
+  background: var(--texte);
+  color: white;
+  transform: rotateY(180deg);
 }
 
 .flip-card-back h2 {
-    font-size: 1em;
-    color: var(--home-page);
+  font-size: 1em;
+  color: var(--home-page);
 }
 
-.flip-card-back p{
-    text-transform: uppercase;
+.flip-card-back p {
+  text-transform: uppercase;
 }
 
 .flip-card-back a {
-    position: absolute;
-    bottom: 2px;
-    right: 2px;
-    text-decoration: var(--no);
-    color: var(--home-page);
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  text-decoration: var(--no);
+  color: var(--home-page);
 }
 
 .flip-card-back a:hover {
-    color: var(--home);
+  color: var(--home);
 }
-
-
-
