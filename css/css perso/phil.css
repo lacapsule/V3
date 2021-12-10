@@ -1,0 +1,23 @@
+@import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+body {
+    margin: 0%;
+    padding: 0%;
+    background: rgb(20, 20, 20);
+    z-index: 0;
+}
+header {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(12, 12, 12);
+    font-style: italic;
+    font-family: 'Major Mono Display', monospace, 'sans-sérif';
+    color: white;
+    z-index: 2;
+}
+.avatar {
+}
