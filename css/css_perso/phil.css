@@ -1,5 +1,4 @@
 @import url(variables.css);
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 body {
     margin: 0%;
     padding: 0%;
@@ -15,7 +14,7 @@ header {
     left: 0%;
     background-color: rgb(12, 12, 12);
     font-style: italic;
-    font-family: 'Major Mono Display', monospace, 'sans-sérif';
+    font-family: monospace, 'sans-sérif';
     color: white;
     z-index: 2;
 }
