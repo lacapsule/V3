@@ -101,72 +101,67 @@ p {
 .deux,
 .trois {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   width: var(--L);
 }
 
-#illu, #illu2
-{
-    margin: 50px;
-    height: 300px;
-    width: 100%;
-    border-radius: 5px;
-    background-size: cover;
-    position: relative;
-    box-shadow: 0px 4px 4px #1c1a19;
+#illu,
+#illu2 {
+  margin: 50px;
+  height: 300px;
+  width: 50%;
+  border-radius: 5px;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0px 4px 4px #1c1a19;
 }
-#illu{
-  background: url('../media/img/perso/alex/libre.png') no-repeat;
+#illu {
+  background: url("../media/img/perso/alex/libre.png") no-repeat;
 }
-#illu2{
-  background: url('../media/img/perso/alex/pem.png') no-repeat;
-}
-
-#illu-description
-{
-    position: absolute;
-    bottom: 0;
-    border-radius: 0px 0px 5px 5px;
-    width: 99.5%;
-    height: 33px;
-    padding-top: 15px;
-    padding-left: 4px;
-    background-color: rgba(24,24,24,0.8);
-    color: var(--texte);
-    font-size: 1em;
-    font-family: var(--pol);
-    
+#illu2 {
+  background: url("../media/img/perso/alex/pem.png") no-repeat;
 }
 
-.bouton
-{
-    height: 25px;
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
-    background: url('../media/img/perso/fond_degrade.png') repeat-x;
-    border: 1px solid #222250;
-    border-radius: 5px;
-    font-size: 1em;
-    text-align: center;
-    padding: 3px 8px 0px 8px;
-    color: var(--texte);
-    text-decoration: none;
-    font-family: var(--pol);
+#illu-description {
+  position: absolute;
+  bottom: 0;
+  border-radius: 0px 0px 5px 5px;
+  width: 99.5%;
+  height: 33px;
+  padding-top: 15px;
+  padding-left: 4px;
+  background-color: rgba(24, 24, 24, 0.8);
+  color: var(--texte);
+  font-size: 1em;
+  font-family: var(--pol);
 }
 
-.bouton img
-{
-    border: 0;
+.bouton {
+  height: 25px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  background: url("../media/img/perso/fond-degrade.png") repeat-x;
+  border: 1px solid #222250;
+  border-radius: 5px;
+  font-size: 1em;
+  text-align: center;
+  padding: 3px 8px 0px 8px;
+  color: var(--texte);
+  text-decoration: none;
+  font-family: var(--pol);
+  transition: .3 ease-in-out;
 }
 
-.bouton:hover{
-
-
+.bouton img {
+  border: 0;
 }
 
+.bouton:hover {
+  background: url("../media/img/perso/fond-degrade-hover.png") repeat-x;
+}
 
 .flip-card {
   background: transparent;
