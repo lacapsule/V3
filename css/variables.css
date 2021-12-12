@@ -22,6 +22,7 @@
     --blo: block;
     --inblo: inline-block;
     --no: none;
+    --cov: cover;
     /** flex option ********************************/
     --fl: flex;
     --desk: row wrap;
@@ -42,6 +43,9 @@
     --sti: sticky;
     --fix: fixed;
     --rel: relative;
+    --right: right;
+    --citop: 10px;
+    --negatop: -10px;
     --pos-page: -1500px;
     --pos-fermer: 10%;
     --liseret-t: 40px;
@@ -82,14 +86,21 @@
     --w-init: 0;
     --h-init: 0;
     --m: -12%;
+    --illu-h: 300px;
+    --illu-w: 500px;
+    
     /** padding ************************************/
     --pad: 0.5em;
     /** margin *************************************/
     --m-top: 100px;
     --auto: auto;
+    --illu-m: 20px;
     /** texte **************************************/
     --pol: 'ubuntu', verdana, 'sans-sérif';
     --bold: bold;
+    --ita: italic;
+    --justi: justify;
+    --up: uppercase;
     /** opacités ***********************************/
     --visible: 1;
     --invisible: 0;
