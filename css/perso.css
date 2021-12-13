@@ -142,7 +142,7 @@ p {
   justify-content: var(--sa);
   align-items: var(--cen);
   border-radius: 0 0 5px 5px;
-  width: 99.5%;
+  width: var(--illu);
   height: var(--home);
   padding-top: var(--liseret-boucle-w);
   padding-left: 4px;
@@ -153,7 +153,7 @@ p {
 }
 
 .bouton {
-  height: var(--line);
+  height: var(--titre);
   background: url("../media/img/perso/fond-degrade.png") repeat-x;
   border: 1px solid #222250;
   border-radius: var(--line);
@@ -183,13 +183,13 @@ p {
 .flip-card {
   background: transparent;
   margin: var(--liseret-h);
-  width: 300px;
-  height: 300px;
+  width: var(--page);
+  height: var(--page);
   perspective: 1000px;
 }
 .flip-card img {
-  width: 150px;
-  height: 150px;
+  width: var(--home);
+  height: var(--home);
 }
 .flip-card h2,
 .flip-card p {
