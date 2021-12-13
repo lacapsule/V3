@@ -1,8 +1,11 @@
 @import url(variables.css);
 body {
-    margin: 0%;
-    padding: 0%;
-    background: rgb(20, 20, 20);
+    display: var(--fl);
+    position: var(--rel);
+    flex-flow: var(--mob);
+    margin: var(--res);
+    padding: var(--res);
+    background-color: rgb(9, 6, 37);
     z-index: 0;
 }
 header {
@@ -12,11 +15,25 @@ header {
     align-items: center;
     top: 0%;
     left: 0%;
-    background-color: rgb(12, 12, 12);
-    font-style: italic;
+    background-color: rgba(28, 28, 75, 0.7);
     font-family: monospace, 'sans-sérif';
+    font-style: oblique;
     color: white;
     z-index: 2;
 }
-.avatar {
+header:hover {
+    color:rgb(224, 105, 14);
+}
+.citation {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: space-around;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(224, 105, 14);
+    border-radius: 10px;
+    z-index: 3;
+    font-family: monospace, 'sans-sérif';
+    color: white;
 }
