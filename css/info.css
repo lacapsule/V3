@@ -74,7 +74,7 @@ label #info, label #fermer {
 .container-infos {
     display: var(--gr);
     grid-template-areas: var(--temp-inf);
-    grid-template-rows: var(--liseret) var(--bot) var(--frac) var(--a) var(--a);
+    grid-template-rows: var(--liseret) var(--icone) var(--frac) var(--a) var(--a);
     grid-template-columns: var(--frac) var(--frac);
     grid-gap: var(--text);
     height: var(--a);
@@ -120,9 +120,14 @@ a.map {
 }
 mark.alert {
     grid-area: alert;
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--cen);
     text-align: var(--cen);
     border-radius: var(--liseret-boucle-t);
     width: var(--alert);
+    min-height: var(--a);
     margin-left: var(--marge);
 }
 .adresse {
