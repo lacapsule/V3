@@ -1,11 +1,11 @@
-@import url(variables.css);
+@import url(../variables.css);
 body {
     display: var(--fl);
     position: var(--rel);
     flex-flow: var(--mob);
     margin: var(--res);
     padding: var(--res);
-    background-color: rgb(9, 6, 37);
+    background-color: var(--bg-color2);
     z-index: 0;
 }
 header {
@@ -13,27 +13,39 @@ header {
     position: sticky;
     justify-content: center;
     align-items: center;
-    top: 0%;
-    left: 0%;
-    background-color: rgba(28, 28, 75, 0.7);
+    top: 0;
+    left: 0;
+    background-color: var(--home-page);
+    border-radius: 0 0 20px 20px;
     font-family: monospace, 'sans-sérif';
     font-style: oblique;
-    color: white;
+    color: var(--blanc);
     z-index: 2;
 }
 header:hover {
-    color:rgb(224, 105, 14);
+    color: var(--bg-lis);
 }
+.avatarphil {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    width: 110px;
+    height: 110px;
+} 
 .citation {
     display: flex;
-    position: relative;
-    justify-content: space-around;
-    align-items: space-around;
-    width: 90%;
-    height: 100%;
-    background-color: rgb(224, 105, 14);
-    border-radius: 10px;
-    z-index: 3;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    justify-content: center;
+    align-items: center;
+    width: 1290px;
+    height: 100px;
+    background-color: var(--bg-lis);
+    border-radius: 0 50px 50px 50px;
+    box-shadow: 0rem 0rem 10rem black;
+    text-align: center;
     font-family: monospace, 'sans-sérif';
     color: white;
+    z-index: 3;
 }
