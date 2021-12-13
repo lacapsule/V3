@@ -9,6 +9,17 @@ body {
   background-color: var(--bg-color2);
   z-index: 0;
 }
+aside a {
+  position: var(--fix);
+  bottom: var(--pad);
+  right: var(--text);
+  z-index: 7;
+}
+aside a img {
+  width: var(--home);
+  height: var(--home);
+  z-index: 10;
+}
 header {
   display: var(--fl);
   position: var(--stick);
@@ -22,6 +33,9 @@ header {
   font-style: oblique;
   color: var(--blanc);
   z-index: 2;
+}
+h1 {
+  text-align: center;
 }
 header:hover {
   color: var(--bg-lis);
