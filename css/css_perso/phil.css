@@ -69,3 +69,32 @@ header:hover {
   color: white;
   z-index: 3;
 }
+.top2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+.avatarphil2 {
+    margin-left: 88.5em;
+    margin-top: var(--line);
+    width: var(--bg-lab);
+    height: var(--bg-lab);
+}
+.formevideo1 {
+    margin-top: -2.5em;
+    margin-left: 55em;
+    display: var(--fl);
+    width: var(--illu-w);
+    height: var(--illu-h);
+    background: var(--bg-lis);
+    border-radius: 50px 0 50px 50px;
+    box-shadow: var(--neumorph);
+}
+.intro {
+    margin-top: -17em;
+    margin-left: 56.6em;
+    display: var(--fl);
+    width: 300px;
+    height: 250px;
+}
