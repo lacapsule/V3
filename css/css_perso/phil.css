@@ -40,7 +40,6 @@ h1 {
 header:hover {
   color: var(--bg-lis);
 }
-
 .top {
   margin-top: 50px;
   display: flex;
@@ -48,26 +47,27 @@ header:hover {
   justify-content: space-around;
   align-items: flex-start;
 }
-
 .avatarphil {
-  margin-left: var(--marge);
+  margin-left: var(--line);
   width: var(--bg-lab);
   height: var(--bg-lab);
 }
 .citation {
-  padding: 20px;
-  display: var(--fl);
-  flex-flow: var(--desk);
-  justify-content: var(--cen);
-  align-items: var(--cen);
-  width: var(--cont-w);
-  height: auto;
-  background-color: var(--bg-lis);
-  border-radius: 0 50px 50px 50px;
-  box-shadow: 0rem 0rem 10rem black;
-  font-family: monospace, "sans-sérif";
-  color: white;
-  z-index: 3;
+    margin-top: 4%;
+    margin-left: 1%;
+    padding: 1em 1em 1em 2em;
+    display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--cen);
+    align-items: var(--cen);
+    width: var(--cont-w);
+    height: auto;
+    background-color: var(--bg-lis);
+    border-radius: 0 50px 50px 50px;
+    box-shadow: var(--neumorph);
+    font-family: monospace, "sans-sérif";
+    color: white;
+    z-index: 3;
 }
 .top2 {
     display: flex;
