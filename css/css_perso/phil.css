@@ -76,15 +76,18 @@ header:hover {
     align-items: flex-start;
   }
 .avatarphil2 {
-    margin-left: 88.5em;
+    margin-left: var(--etoile);
     margin-top: var(--line);
     width: var(--bg-lab);
     height: var(--bg-lab);
 }
 .formevideo1 {
     margin-top: -2.5em;
-    margin-left: 55em;
+    margin-left: var(--page);
     display: var(--fl);
+    flex-flow: var(--desk);
+    justify-content: var(--cen);
+    align-items: var(--cen);
     width: var(--illu-w);
     height: var(--illu-h);
     background: var(--bg-lis);
