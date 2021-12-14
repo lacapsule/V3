@@ -26,6 +26,7 @@
     /** flex option ********************************/
     --fl: flex;
     --desk: row wrap;
+    --desk-nw: row nowrap;
     --mob: column nowrap;
     --mob-w: column wrap;
     --home-j: flex-start;
@@ -92,6 +93,7 @@
     
     /** padding ************************************/
     --pad: 0.5em;
+    --pad-v: 25px;
     /** margin *************************************/
     --m-top: 100px;
     --auto: auto;
@@ -114,6 +116,8 @@
     --slide: all .5s ease-in-out;
     /** animations *********************************/
     --foo-op: 25s ease-in-out foo infinite;
+    /** border  ************************************/
+    --br-v: 50px;
     /** shadow *************************************/
     --shad: 8px 0px 25px 10px var(--footer);
     --round: 0.2px 0.2px 0.2px 0.2px var(--bg-color2);

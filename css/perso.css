@@ -34,6 +34,7 @@ header {
   flex-flow: var(--mob);
   justify-content: var(--cen);
   align-items: var(--cen);
+  background: var(--home-page);
 }
 aside a {
   position: var(--fix);

@@ -53,51 +53,61 @@ header:hover {
   height: var(--bg-lab);
 }
 .citation {
-    margin-top: 4%;
-    margin-left: 1%;
-    padding: 1em 1em 1em 2em;
-    display: var(--fl);
-    flex-flow: var(--desk);
-    justify-content: var(--cen);
-    align-items: var(--cen);
-    width: var(--cont-w);
-    height: auto;
-    background-color: var(--bg-lis);
-    border-radius: 0 50px 50px 50px;
-    box-shadow: var(--neumorph);
-    font-family: monospace, "sans-sérif";
-    color: white;
-    z-index: 3;
+  margin-top: 4%;
+  margin-left: 1%;
+  padding: 1em 1em 1em 2em;
+  display: var(--fl);
+  flex-flow: var(--desk);
+  justify-content: var(--cen);
+  align-items: var(--cen);
+  width: var(--cont-w);
+  height: auto;
+  background-color: var(--bg-lis);
+  border-radius: 0 50px 50px 50px;
+  box-shadow: var(--neumorph);
+  font-family: monospace, "sans-sérif";
+  color: white;
+  z-index: 3;
 }
 .top2 {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
-.avatarphil2 {
-    margin-left: var(--etoile);
-    margin-top: var(--line);
-    width: var(--bg-lab);
-    height: var(--bg-lab);
+  margin-top: 50px;
+  width: var(--cont-w);
+  display: var(--fl);
+  flex-flow: var(--desk-nw);
+  justify-content: var(--end);
+  align-items: var(--home-j);
 }
-.formevideo1 {
-    margin-top: -2.5em;
-    margin-left: var(--page);
-    display: var(--fl);
-    flex-flow: var(--desk);
-    justify-content: var(--cen);
-    align-items: var(--cen);
-    width: var(--illu-w);
-    height: var(--illu-h);
-    background: var(--bg-lis);
-    border-radius: 50px 0 50px 50px;
-    box-shadow: var(--neumorph);
+.circle2{
+  margin-top: var(--negatop);
+}
+.avatarphil2 {
+  margin-right: var(--etoile);
+  width: var(--bg-lab);
+  height: var(--bg-lab);
+}
+.formevideo {
+  margin-left: var(--page);
+  display: var(--fl);
+  flex-flow: var(--desk);
+  justify-content: var(--cen);
+  align-items: var(--cen);
+  width: var(--illu-w);
+  height: var(--illu-h);
+  background: var(--bg-lis);
+  border-radius: 50px 0 50px 50px;
+  box-shadow: var(--neumorph);
 }
 .intro {
-    margin-top: -17em;
-    margin-left: 56.6em;
-    display: var(--fl);
-    width: 300px;
-    height: 250px;
+  display: var(--fl);
+  width: var(--illu-w);
+  height: var(--illu-h);
+}
+
+video[src="/media/video/phil/signature.mp4"] {
+  display: var(--fl);
+  justify-content: var(--cen);
+  align-items: var(--cen);
+  object-fit: var(--cov);
+  padding: var(--pad-v);
+  border-radius: var(--br-v);
 }
