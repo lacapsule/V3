@@ -88,7 +88,7 @@ label #home, label #fermer {
     background-color: var(--home-page);
     z-index: 4;
 }
-span.titre {
+.titre {
     display: var(--fl);
     flex-flow: var(--desk);
     align-items: var(--cen);
