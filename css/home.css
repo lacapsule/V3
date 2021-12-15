@@ -79,14 +79,20 @@ label #home, label #fermer {
 .container-home {
     display: var(--fl);
     flex-flow: var(--desk);
-    align-items: var(--sa);
+    align-items: var(--submit);
     justify-content: var(--sa);
     width: var(--L);
-    height: var(--L);
+    height: var(--cont-h);
     padding-top: var(--bg-lab);
     padding-bottom: var(--page);
     background-color: var(--home-page);
     z-index: 4;
+}
+article {
+    display: var(--blo);
+    position: var(--rel);
+    top: var(--res);
+    bottom: var(--res);
 }
 .titre {
     display: var(--fl);
@@ -95,9 +101,9 @@ label #home, label #fermer {
     justify-content: var(--cen);
     border-radius: var(--liseret-boucle-w);
     color: var(--texte);
-    width: var(--L);
+    width: var(--cont-w);
     max-height: var(--bot);
-    background-color: var(--bg-lis);
+    background-color: var(--caps);
 }
 .lien > a {
     display: var(--fl);
@@ -111,6 +117,7 @@ label #home, label #fermer {
     transform: var(--dock);
     text-shadow: var(--ombre);
     box-shadow: var(--shad);
+    filter: contrast(-20%) brightness(-20%);
 } 
 .avatar {
     width: var(--bg);
