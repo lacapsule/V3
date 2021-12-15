@@ -43,26 +43,6 @@ header {
     width: var(--w);
     height: var(--home);
 }
-
-i{
-   position: absolute;
-   height: 200px;
-   background: linear-gradient(transparent, #FFF);
-   border-bottom-left-radius: 5px;
-   border-bottom-right-radius: 5px;
-   animation: rain 5s linear infinite;
-}
-
-i:nth-child(3n+1){
-    background: linear-gradient(transparent, var(--bg-lis));
-}
-i:nth-child(3n+2){
-    background: linear-gradient(transparent, var(--texte));
-}
-i:nth-child(3n+3){
-    background: linear-gradient(transparent, var(--home-page));
-}
-
 img {
     height: 3.3em;
     width: 3.3em;
