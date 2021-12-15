@@ -94,6 +94,7 @@ label #home, label #fermer {
     align-items: var(--cen);
     justify-content: var(--cen);
     border-radius: var(--liseret-boucle-w);
+    color: var(--texte);
     width: var(--L);
     max-height: var(--bot);
     background-color: var(--bg-lis);
