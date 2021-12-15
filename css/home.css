@@ -93,6 +93,7 @@ label #home, label #fermer {
     flex-flow: var(--desk);
     align-items: var(--cen);
     justify-content: var(--cen);
+    border-radius: var(--liseret-boucle-w);
     width: var(--L);
     max-height: var(--bot);
     background-color: var(--bg-lis);
