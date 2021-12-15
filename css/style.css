@@ -43,6 +43,26 @@ header {
     width: var(--w);
     height: var(--home);
 }
+
+i{
+   position: absolute;
+   height: 200px;
+   background: linear-gradient(transparent, #FFF);
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   animation: rain 5s linear infinite;
+}
+
+i:nth-child(3n+1){
+    background: linear-gradient(transparent, var(--bg-lis));
+}
+i:nth-child(3n+2){
+    background: linear-gradient(transparent, var(--texte));
+}
+i:nth-child(3n+3){
+    background: linear-gradient(transparent, var(--home-page));
+}
+
 img {
     height: 3.3em;
     width: 3.3em;
@@ -61,18 +81,28 @@ img {
     z-index: 2;
 }
 .rs-link:nth-child(1):hover {
+    padding-left: 6em;
+    background-color: #379ad0;
+}
+.rs-link:nth-child(2):hover {
     padding-left: 8em;
     background-color: #3e75c3;
 }
-.rs-link:nth-child(2):hover {
-    padding-left: 7em;
-    background-color: #7289da;
-}
 .rs-link:nth-child(3):hover {
-    padding-left: 6em;
-    background-color: #38a8e0;
+   padding-left: 7em;
+    background-color: #7289da; 
 }
 .rs-link:nth-child(1):hover:after {
+    content: "Linkedin";
+    display: block;
+    position: var(--rel);
+    top: -2.5em;
+    left: -4.2em;
+    color: white;
+    font-size: 1.2em;
+    z-index: 3;
+}
+.rs-link:nth-child(2):hover:after {
     content: "Github";
     display: block;
     position: var(--rel);
@@ -82,7 +112,7 @@ img {
     font-size: 2em;
     z-index: 3;
 }
-.rs-link:nth-child(2):hover:after {
+.rs-link:nth-child(3):hover:after {
     content: "Discord";
     display: block;
     position: var(--rel);
@@ -90,16 +120,6 @@ img {
     left: -3.8em;
     color: white;
     font-size: 1.6em;
-    z-index: 3;
-}
-.rs-link:nth-child(3):hover:after {
-    content: "Twitter";
-    display: block;
-    position: var(--rel);
-    top: -2.3em;
-    left: -3.3em;
-    color: white;
-    font-size: 1.5em;
     z-index: 3;
 }
 .bg {
