@@ -93,11 +93,13 @@
     
     /** padding ************************************/
     --pad: 0.5em;
-    --pad-v: 25px;
+    --pad-v: 10px;
     /** margin *************************************/
     --m-top: 100px;
     --auto: auto;
     --illu-m: 20px;
+    --ml-v: 0.35em;
+    --mt-v: 4em;
     /** texte **************************************/
     --pol: 'ubuntu', verdana, 'sans-sérif';
     --bold: bold;
