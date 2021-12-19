@@ -55,7 +55,7 @@ label #home, label #fermer {
     border-bottom-left-radius: var(--res);
     z-index: 3;
 }
-.page-home i span {
+.page-home i {
     color: var(--blanc);
     font-size: var(--bot);
     font-family: var(--pol);
@@ -79,14 +79,31 @@ label #home, label #fermer {
 .container-home {
     display: var(--fl);
     flex-flow: var(--desk);
-    align-items: var(--sa);
-    justify-content: var(--cen);
+    align-items: var(--submit);
+    justify-content: var(--sa);
     width: var(--L);
-    height: var(--L);
+    height: var(--cont-h);
     padding-top: var(--bg-lab);
     padding-bottom: var(--page);
     background-color: var(--home-page);
     z-index: 4;
+}
+article {
+    display: var(--blo);
+    position: var(--rel);
+    top: var(--res);
+    bottom: var(--res);
+}
+.titre {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--cen);
+    border-radius: var(--liseret-boucle-w);
+    color: var(--texte);
+    width: var(--cont-w);
+    max-height: var(--bot);
+    background-color: var(--caps);
 }
 .lien > a {
     display: var(--fl);
@@ -100,8 +117,9 @@ label #home, label #fermer {
     transform: var(--dock);
     text-shadow: var(--ombre);
     box-shadow: var(--shad);
+    filter: contrast(-20%) brightness(-20%);
 } 
-.windows {
+.avatar {
     width: var(--bg);
     height: var(--a);
     padding-left: var(--line);
@@ -113,5 +131,6 @@ label #home, label #fermer {
     margin-top: var(--pad);
     text-align: var(--cen);
     padding-top: var(--pad);
+    padding-bottom: var(--bot);
     color: var(--blanc);
 }
