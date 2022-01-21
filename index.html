@@ -23,8 +23,28 @@
             <a href="https://discord.gg/hpQZn4NR" target="_blank"><img src="media/img/discord.png" alt="Discord"></a>
         </div>
     </div>
+
+    <div class="dropdown">
+        <div class="bars"></div>
+        <div class="bars"></div>
+        
+    </div>
 </header>
- 
+    <div class="dropdown-page">
+
+    </div>
+
+    <script>
+        let dropdowntoggle = document.querySelector(".dropdown");
+        let opendropdown = document.querySelector(".dropdown-page");
+
+        dropdowntoggle.onclick = function () {
+            opendropdown.classList.toggle("open");
+            dropdowntoggle.classList.toggle("active");
+        };
+    </script>
+
+
 <main> 
     <img class="bg" src="media/img/capsule.png" alt="logo de la capsule"/>
 </main>

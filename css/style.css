@@ -102,6 +102,45 @@ img {
     font-size: 1.6em;
     z-index: 3;
 }
+
+.dropdown {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+}
+
+.dropdown .bars {
+    position: absolute;
+    width: 30px;
+    height: .3rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.bars:nth-child(1){
+    transform: translateX(-20px) rotate(230deg);
+}
+.bars:nth-child(2){
+    transform: translateX(-2px) rotate(130deg);
+}
+
+.dropdown-page{
+    position: absolute;
+    top:-1000px;
+    height: 100%;
+    width: 100%;
+    background: #292929;
+    transition: .55s cubic-bezier(0,.74,1,.17);
+    z-index: 4;
+}
+
+.dropdown-page.open{
+    top:0;
+}
+
 .bg {
     position: var(--rel);
     width: var(--bg);
