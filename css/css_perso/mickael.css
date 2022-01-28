@@ -1,0 +1,131 @@
+@import url(../variables.css);
+
+body {
+  margin: var(--res);
+  padding: var(--res);
+  box-sizing: border-box;
+  background: url("../../media/img/perso/mickael/bg.png") no-repeat;
+  background-size: var(--cov);
+  display: var(--fl);
+  flex-flow: var(--mob);
+  justify-content: var(--sa);
+}
+
+aside a {
+  position: var(--fix);
+  bottom: var(--pad);
+  right: var(--text);
+  z-index: 7;
+}
+
+aside a img {
+  width: var(--home);
+  height: var(--home);
+  z-index: 10;
+}
+
+header {
+  width: var(--cont-h);
+  height: var(--a);
+  background: var(--no);
+  display: var(--fl);
+  flex-flow: var(--desk);
+  justify-content: var(--sa);
+  align-items: var(--cen);
+}
+
+header img {
+  width: 250px;
+  height: 250px;
+}
+
+header h1 {
+  font-family: var(--pol);
+  font-size: var(--line);
+  text-transform: var(--up);
+  color: var(--blanc);
+  background: var(--bg-lis);
+  padding: var(--bot);
+  border-radius: var(--text);
+}
+
+/**************MAIN*********/
+
+main {
+  display: var(--fl);
+  flex-flow: var(--mob);
+  justify-content: var(--sa);
+}
+
+.box {
+  display: var(--fl);
+  flex-flow: var(--mob);
+  justify-content: var(--ar);
+  align-items: var(--cen);
+  width: var(--foo);
+  height: var(--a);
+  padding: var(--pad-v);
+  margin: var(--liseret-h) var(--res);
+  background: #ed6a4b;
+}
+.box.un,
+.box.deux {
+  align-self: var(--home-j);
+  border-radius: var(--res) var(--text) var(--text) var(--res);
+  -webkit-box-shadow: 15px 15px 0px -6px #FFFFFF; 
+box-shadow: 15px 15px 0px -6px #FFFFFF;
+}
+
+.illu1 {
+    position: var(--abs);
+    right: var(--res);
+    top: 62%;
+}
+
+.box.trois,
+.box.quatre {
+  align-self: var(--end);
+  border-radius: var(--text) var(--res) var(--res) var(--text);
+  -webkit-box-shadow: -15px 15px 0px -5px #FFFFFF; 
+box-shadow: -15px 15px 0px -5px #FFFFFF;
+}
+
+.illu2 {
+    position: var(--abs);
+    left: var(--res);
+    top: 125%;
+}
+.box h2 {
+  color: var(--blanc);
+  font-family: var(--pol);
+  font-size: var(--titre);
+  text-transform: var(--up);
+}
+
+.box p{
+    text-align: var(--justi);
+    font-family: var(--pol);
+    font-size: var(--text);
+    text-transform: var(--up);
+    color: var(--blanc);
+}
+
+
+@media screen and (max-width: 900px) {
+    
+    .illu1{
+        position: var(--stat);
+        display: var(--fl);
+        flex-flow: var(--mob);
+        justify-content: var(--cen);
+        align-self: var(--end);
+    }
+    .illu2{
+        position: var(--stat);
+        display: var(--fl);
+        flex-flow: var(--mob);
+        justify-content: var(--cen);
+        align-items: var(--home-j);
+
+    }
+  }
