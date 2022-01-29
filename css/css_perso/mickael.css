@@ -72,8 +72,8 @@ main {
 .box.deux {
   align-self: var(--home-j);
   border-radius: var(--res) var(--text) var(--text) var(--res);
-  -webkit-box-shadow: 15px 15px 0px -6px #FFFFFF; 
-box-shadow: 15px 15px 0px -6px #FFFFFF;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;; 
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 }
 
 .illu1 {
@@ -86,8 +86,8 @@ box-shadow: 15px 15px 0px -6px #FFFFFF;
 .box.quatre {
   align-self: var(--end);
   border-radius: var(--text) var(--res) var(--res) var(--text);
-  -webkit-box-shadow: -15px 15px 0px -5px #FFFFFF; 
-box-shadow: -15px 15px 0px -5px #FFFFFF;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;; 
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 }
 
 .illu2 {
@@ -112,6 +112,21 @@ box-shadow: -15px 15px 0px -5px #FFFFFF;
 
 
 @media screen and (max-width: 900px) {
+
+  header {
+    width: var(--L);
+  }
+    main {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--sa);
+    justify-content: var(--cen);
+    width: var(--L);
+  }
+
+  .box {
+    width: var(--L);
+  }
     
     .illu1{
         position: var(--stat);
@@ -125,7 +140,8 @@ box-shadow: -15px 15px 0px -5px #FFFFFF;
         display: var(--fl);
         flex-flow: var(--mob);
         justify-content: var(--cen);
-        align-items: var(--home-j);
+        align-self: var(--home-j);
+        margin-bottom: var(--pos-fermer);
 
     }
   }
