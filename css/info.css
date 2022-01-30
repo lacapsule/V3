@@ -182,10 +182,8 @@ mark.alert {
 .def {
     display: var(--blo);
     font-size: var(--line);
-    background-color: var(--bg-lis);
-    border-radius: var(--liseret-h);
-    padding: var(--pad);
     color: var(--texte);
+    padding: var(--pad);
 }
 .activite {
     display: var(--fl);
@@ -194,6 +192,7 @@ mark.alert {
     justify-content: var(--cen);
     background: var(--bg-pages);
     border-radius: var(--liseret-h);
+    border: 3px solid var(--bg-lis);
     padding-bottom: var(--line);
     width: var(--L);
     height: var(--a);
@@ -201,7 +200,7 @@ mark.alert {
 .lien {
     width: var(--L);
     font-size: var(--titre);
-    color: var(--texte);
+    color: var(--bg-lis);
     padding: var(--text);
     border: var(--round);
     transition: var(--slide);
@@ -216,6 +215,7 @@ mark.alert {
     justify-content: var(--cen);
     background: var(--bg-pages);
     border-radius: var(--liseret-h);
+    border: 3px solid var(--bg-lis);
     padding-bottom: var(--line);
     width: var(--L);
     height: var(--a);
@@ -223,7 +223,7 @@ mark.alert {
 .docs {
     width: var(--L);
     font-size: var(--titre);
-    color: var(--texte);
+    color: var(--bg-lis);
     padding: var(--text);
     border: var(--round);
     transition: var(--slide);
