@@ -208,7 +208,6 @@ mark.alert {
 }
 .lien:hover {
     color: var(--jaune);
-    font-size: var(--line);
 }
 .telechargements {
     display: var(--fl);
@@ -231,7 +230,6 @@ mark.alert {
 }
 .docs:hover {
     color: var(--jaune);
-    font-size: var(--line);
 }
 h1 {
     font-size: var(--bot);
