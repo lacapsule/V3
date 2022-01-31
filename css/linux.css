@@ -54,6 +54,7 @@ label #linux, label #fermer {
     color: var(--texte);
     font-size: var(--bot);
     font-family: var(--pol);
+    z-index: 8;
 }
 
 /*****************************************************

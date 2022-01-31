@@ -105,8 +105,9 @@ img {
 
 .dropdown {
     position: absolute;
-    top: 50%;
+    top: var(--text);
     left: 50%;
+    height: var(--a);
     transform: translate(-50%,-50%);
     z-index: 5;
 }
@@ -117,7 +118,6 @@ img {
     height: .3rem;
     border-radius: 10px;
     background: rgba(255, 255, 255, 1);
-
 }
 
 .bars:nth-child(1){
@@ -127,26 +127,58 @@ img {
     transform: translateX(-2px) rotate(130deg);
 }
 
-.dropdown-page{
-    position: absolute;
-    top:-1000px;
-    height: 100%;
-    width: 100%;
-    background: #292929;
-    transition: .55s cubic-bezier(0,.74,1,.17);
-    z-index: 4;
+.dropdown-page {
+    position: var(--abs);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--cen);
+    top: var(--pos-page);
+    width: var(--w);
+    height: var(--cont-h);
+    background: var(--home-page);
+    transition: var(--bezier);
 }
-
-.dropdown-page.open{
-    top:0;
+.dropdown-page.open {
+    top: var(--res);
+    bottom: var(--m);
 }
-
+.dropdown-link {
+    position: var(--rel);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--sa);
+    justify-content: var(--cen);
+    width: var(--cont-h);
+    height: var(--dropdown);
+    margin: var(--res);
+    z-index: 5;
+}
+#item {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--cen);
+    margin: var(--line);
+    text-align: var(--cen);
+    background: var(--home-page);
+    box-shadow: var(--home-shadow);
+    font-size: var(--bot);
+    width: var(--mini-foo);
+    height: var(--a);
+   
+}
+#item:hover {
+    background: var(--bg-lis);
+    filter: invert(2);
+}
 .bg {
+    display: var(--blo);
     position: var(--rel);
     width: var(--bg);
     height: var(--a);
     animation: var(--anim-bg-img);
-    z-index: 1;
+    z-index: 0;
 }
 iframe {
     display: var(--blo);
@@ -156,5 +188,6 @@ iframe {
     border: var(--res);
     width: var(--L);
     height: var(--L);
+    z-index: 0;
 }
 a {text-decoration: var(--no);}

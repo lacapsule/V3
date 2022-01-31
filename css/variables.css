@@ -76,8 +76,10 @@
     --submit: 96.5%;
     --cont-h: 90%;
     --etoile: 80em;
+    --dropdown: 70%;
     --foo-top: 50vh;
     --foo: 50%;
+    --mini-foo: 35%;
     --marge: 5%;
     --home: 3.5em;
     --contact: 3em;
@@ -116,6 +118,7 @@
     /** transform **********************************/
     --sca: scale(1.05);
     --dock: translateY(-20px) perspective(15px) scale3d(1.1, 1.1, 0.1) translateZ(10px);
+    --bezier: .55s cubic-bezier(0,.74,1,.17);
     /** transition *********************************/
     --slide: all .5s ease-in-out;
     /** animations *********************************/
