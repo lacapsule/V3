@@ -197,7 +197,7 @@ mark.alert {
     width: var(--L);
     height: var(--a);
 }
-.lien {
+.liens {
     width: var(--L);
     font-size: var(--titre);
     color: var(--bg-lis);
@@ -205,7 +205,7 @@ mark.alert {
     border: var(--round);
     transition: var(--slide);
 }
-.lien:hover {
+.liens:hover {
     color: var(--jaune);
 }
 .telechargements {
