@@ -166,7 +166,7 @@ img {
     font-size: var(--bot);
     width: var(--mini-foo);
     height: var(--a);
-   
+    transition: var(--slide);
 }
 #item:hover {
     background: var(--bg-lis);
@@ -191,3 +191,20 @@ iframe {
     z-index: 0;
 }
 a {text-decoration: var(--no);}
+
+@media screen and (max-width: 800px) {
+    #item {
+        display: var(--fl);
+        flex-flow: var(--desk);
+        align-items: var(--cen);
+        justify-content: var(--cen);
+        margin: var(--res);
+        text-align: var(--cen);
+        background: var(--home-page);
+        box-shadow: var(--home-shadow);
+        font-size: var(--bot);
+        width: var(--cor);
+        height: var(--a);
+       
+    }
+}
