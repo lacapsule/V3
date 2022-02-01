@@ -65,6 +65,12 @@
     --h: 100vh;
     --L: 100%;
     --alert: 90%;
+    --cont-w: 98%;
+    --submit: 96.5%;
+    --cont-h: 90%;
+    --etoile: 80em;
+    --dropdown2: 85%;
+    --dropdown: 70%;
     --page: 20rem;
     --boite: 12rem;
     --liseret: 11rem;
@@ -72,11 +78,6 @@
     --cor: 8rem;
     --bg-lab: 7rem;
     --bg: 5rem;
-    --cont-w: 98%;
-    --submit: 96.5%;
-    --cont-h: 90%;
-    --etoile: 80em;
-    --dropdown: 70%;
     --foo-top: 50vh;
     --foo: 50%;
     --mini-foo: 35%;
@@ -90,7 +91,7 @@
     --bot: 1.2em;
     --w-init: 0;
     --h-init: 0;
-    --m2: -25%;
+    --m2: -35%;
     --m: -12%;
     --illu: 99.5%;
     --illu-h: 300px;

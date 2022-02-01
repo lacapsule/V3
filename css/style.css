@@ -147,8 +147,8 @@ img {
     align-items: var(--cen);
     justify-content: var(--cen);
     top: var(--pos-page);
-    width: var(--w);
-    height: var(--cont-h);
+    width: var(--dropdown);
+    height: var(--dropdown2);
     background: var(--home-page);
     transition: var(--bezier);
 }
@@ -172,7 +172,7 @@ img {
     flex-flow: var(--desk);
     align-items: var(--cen);
     justify-content: var(--cen);
-    margin: var(--line);
+    margin: var(--titre);
     text-align: var(--cen);
     background: var(--home-page);
     box-shadow: var(--home-shadow);
@@ -222,8 +222,10 @@ a {text-decoration: var(--no);}
    
 }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .dropdown-link {
+        position: var(--rel);
+        width: var(--w);
         margin-top: var(--m2);
     }
     #item {
