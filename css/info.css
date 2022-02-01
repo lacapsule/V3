@@ -74,7 +74,7 @@ label #info, label #fermer {
 .container-infos {
     display: var(--gr);
     grid-template-areas: var(--temp-inf);
-    grid-template-rows: var(--liseret) var(--icone) var(--frac) var(--a) var(--a);
+    grid-template-rows: var(--liseret) var(--icone) var(--frac) var(--a) var(--a) var(--a);
     grid-template-columns: var(--frac) var(--frac);
     grid-gap: var(--text);
     height: var(--a);
@@ -247,4 +247,58 @@ h3 {
 }
 a {
     color: var(--jaune);
+}
+@media screen and (max-width: 500px){
+    #infos,
+    .container-infos {
+        display: var(--fl);
+        position: var(--rel);
+        flex-flow: var(--desk);
+        align-items: var(--sa);
+        justify-content: var(--sa);
+        width: var(--L);
+        height: var(--a);
+        background-color: var(--home-page);
+        z-index: 6;
+    }
+    span {
+        display: var(--fl);
+        flex-flow: var(--mob);
+        align-items: var(--cen);
+        justify-content: var(--cen);
+        text-align: var(--cen);
+        color: var(--texte);
+        z-index: 8;
+    }
+    #carte {
+        height: var(--liseret);
+    }
+    a.map {
+        width: var(--w);
+        height: var(--liseret);
+        background-image: url('../media/img/map.png');
+        background-size: cover;
+        background-position: var(--cen);
+        border-radius: var(--liseret-boucle-t);
+    }
+    .alert {
+        display: var(--blo);
+        position: var(--rel);
+        width: var(--w);
+        height: var(--icone);
+        margin-right: var(--bot);
+    }
+
+    .adresse, 
+    .ouverture,
+    .description,
+    #activite,
+    #telechargements {
+        display: var(--blo);
+        position: var(--rel);
+        width: var(--w);
+        height: var(--a);
+        margin-left: var(--res);
+        margin-right: var(--res);
+    }
 }
