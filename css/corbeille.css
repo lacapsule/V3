@@ -93,7 +93,7 @@ label #corbeille, label #fermer {
     display: var(--blo);
     position: var(--rel);
     width: var(--L);
-    height: var(--text);
+    height: var(--titre);
     background: var(--gris);
     box-shadow: 2px;
     z-index: 3;
