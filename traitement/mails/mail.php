@@ -86,7 +86,7 @@
                                     </style>
                                     <div class='header'>
                                         <h1>Nouveau contact mail</h1> 
-                                        <img class='logo' src='https://www.lacapsule.bzh/media/img/capsule.png'>
+                                        <img class='logo' src='https://lacapsule.bzh/media/img/capsule.png'>
                                     </div>
                                     
                                     <div class='mail-content'>
