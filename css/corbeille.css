@@ -96,6 +96,7 @@ label #corbeille, label #fermer {
     height: var(--text);
     background: var(--gris);
     box-shadow: 2px;
+    z-index: 3;
 }
 #cat:hover {
     filter: invert(2);
@@ -109,6 +110,7 @@ label #corbeille, label #fermer {
     height: var(--bg-lab);
     padding-bottom: var(--bg);
     transition: 1s ease;
+    z-index: 4;
 } 
 .lien:hover > a:hover {
     transform: var(--dock);
@@ -130,42 +132,3 @@ label #corbeille, label #fermer {
     color: var(--blanc);
 }
 
-@media screen and (max-width: 1440px) {
-    .container-corbeille {
-        display: var(--fl);
-        flex-flow: var(--desk);
-        align-items: var(--home-j);
-        justify-content: var(--cen);
-        width: var(--L);
-        height: var(--cont-h);
-        padding-top: var(--bg-lab);
-        padding-bottom: var(--text);
-        background-color: var(--home-page);
-        z-index: 6;
-    }
-    .lien > a {
-        display: var(--fl);
-        flex-flow:  var(--mob);
-        align-items: var(--cen);
-        justify-content: var(--sa);
-        width: var(--btn);
-        height: var(--boite);
-        transition: 1s ease;
-    } 
-    .windows {
-        width: var(--bg);
-        height: var(--bg);
-        padding-left: var(--line);
-        padding-right: var(--line);
-    }
-    .nom {
-        width: var(--bg);
-        height: var(--bg);
-        margin-top: var(--pad);
-        text-align: var(--cen);
-        padding-top: var(--pad);
-        padding-left: var(--line);
-        padding-right: var(--line);
-        color: var(--blanc);
-    }
-}
