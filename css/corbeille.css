@@ -120,7 +120,7 @@ i {
     width: var(--btn);
     height: var(--bg-lab);
     padding-top: var(--text);
-    padding-bottom: var(--bg);
+    padding-bottom: var(--trucs);
     transition: 1s ease;
     z-index: 7;
 } 
