@@ -103,10 +103,14 @@ label #corbeille, label #fermer {
     box-shadow: 2px;
     color: var(--texte);
     transition: 0.5s ease-in-out;
-    z-index: 3;
+    opacity: 0.9;
+    z-index: 0;
 }
 #cat:hover {
     filter: invert(2);
+}
+i {
+    z-index: 3;
 }
 .lien > a {
     display: var(--fl);
