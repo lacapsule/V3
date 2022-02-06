@@ -90,12 +90,17 @@ label #corbeille, label #fermer {
     z-index: 6;
 }
 #cat {
-    display: var(--blo);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--cen);
     position: var(--rel);
     width: var(--L);
-    height: var(--titre);
+    height: var(--text);
+    padding: var(--pad);
     background: var(--gris);
     box-shadow: 2px;
+    transition: 0.5s ease-in-out;
     z-index: 3;
 }
 #cat:hover {
