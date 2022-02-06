@@ -81,20 +81,33 @@ label #corbeille, label #fermer {
     display: var(--fl);
     flex-flow: var(--desk);
     align-items: var(--home-j);
-    justify-content: var(--cen);
+    justify-content: var(--home-j);
     width: var(--L);
     height: var(--L);
     padding-top: var(--bg-lab);
-    padding-bottom: var(--page);
+    padding-bottom: var(--text);
     background-color: var(--home-page);
     z-index: 6;
+}
+#cat {
+    display: var(--blo);
+    position: var(--rel);
+    width: var(--L);
+    height: var(--text);
+    background: var(--gris);
+    box-shadow: 2px;
+}
+#cat:hover {
+    filter: invert(2);
 }
 .lien > a {
     display: var(--fl);
     flex-flow:  var(--mob);
     align-items: var(--cen);
+    justify-content: var(--cen);
     width: var(--btn);
-    height: var(--btn);
+    height: var(--bg-lab);
+    padding-bottom: var(--bg);
     transition: 1s ease;
 } 
 .lien:hover > a:hover {
