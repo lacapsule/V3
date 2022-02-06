@@ -146,9 +146,9 @@ article {
         align-items: var(--home-j);
         justify-content: var(--cen);
         width: var(--L);
-        height: var(--foo);
+        height: var(--cont-h);
         padding-top: var(--bg-lab);
-        padding-bottom: var(--page);
+        padding-bottom: var(--text);
         background-color: var(--home-page);
         z-index: 6;
     }
@@ -174,6 +174,7 @@ article {
         text-align: var(--cen);
         padding-top: var(--pad);
         padding-left: var(--line);
+        padding-bottom: var(--pad);
         padding-right: var(--line);
         color: var(--blanc);
     }
