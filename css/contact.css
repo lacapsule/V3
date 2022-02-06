@@ -84,6 +84,7 @@ form {
     margin-top: var(--m-top);
     display: var(--fl);
     flex-flow: var(--mob);
+    align-items: var(--sa);
     justify-content: var(--ar);
     width: var(--cont-h);
 }
@@ -101,6 +102,10 @@ form textarea {
 form input::placeholder,
 form textarea::placeholder {
     color: var(--blanc);
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--home-j);
 }
 form textarea {
     height: var(--bg);
@@ -137,5 +142,26 @@ form textarea:valid {
 }
 
   
-
+@media screen and (max-height: 660px) {
+    form {
+        height: 70%;
+    }
+    form input,
+    form textarea {
+        margin: var(--pad);
+        padding: var(--text);
+        height: var(--pad);
+    }
+}
+@media screen and (max-height: 500px) {
+    form {
+        height: 70%;
+    }
+    form input,
+    form textarea {
+        margin: var(--pad);
+        padding: var(--text);
+        height: var(--pad);
+    }
+}
 
