@@ -117,12 +117,13 @@ label #corbeille, label #fermer {
     height: var(--bg-lab);
     padding-bottom: var(--bg);
     transition: 1s ease;
-    z-index: 4;
+    z-index: 7;
 } 
 .lien:hover > a:hover {
     transform: var(--dock);
     text-shadow: var(--ombre);
     box-shadow: var(--shad);
+    z-index: 8;
 } 
 .windows {
     width: var(--bg);
