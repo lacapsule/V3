@@ -38,7 +38,7 @@ label #home, label #fermer {
     background: var(--home-page);
     opacity: var(--invisible);
     transition: var(--slide); 
-    z-index: 8;
+    z-index: 3;
 }
 .page-home i{
     position: var(--abs);
@@ -60,7 +60,7 @@ label #home, label #fermer {
     font-size: var(--bot);
     font-family: var(--pol);
     font-variant: normal;
-    z-index: 7;
+    z-index: 6;
 }
 
 /*****************************************************
@@ -93,6 +93,7 @@ article {
     position: var(--rel);
     top: var(--res);
     bottom: var(--res);
+    z-index: 4;
 }
 .titre {
     display: var(--fl);
@@ -104,6 +105,7 @@ article {
     width: var(--cont-w);
     max-height: var(--bot);
     background-color: var(--caps);
+    z-index: 4;
 }
 .lien > a {
     display: var(--fl);
@@ -112,18 +114,21 @@ article {
     width: var(--btn);
     height: var(--btn);
     transition: 1s ease;
+    z-index: 4;
 } 
 .lien:hover > a:hover {
     transform: var(--dock);
     text-shadow: var(--ombre);
     box-shadow: var(--shad);
     filter: contrast(-20%) brightness(-20%);
+    z-index: 4;
 } 
 .avatar {
     width: var(--bg);
     height: var(--a);
     padding-left: var(--line);
     padding-right: var(--line);
+    z-index: 4;
 }
 .nom {
     width: var(--bg);
@@ -133,4 +138,5 @@ article {
     padding-top: var(--pad);
     padding-bottom: var(--bot);
     color: var(--blanc);
+    z-index: 4;
 }

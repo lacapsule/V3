@@ -64,6 +64,7 @@
     --w: 100vw;
     --h: 100vh;
     --L: 100%;
+    --illu: 99.5%;
     --alert: 90%;
     --cont-w: 98%;
     --submit: 96.5%;
@@ -71,6 +72,9 @@
     --etoile: 80em;
     --dropdown2: 85%;
     --dropdown: 70%;
+    --foo-top: 50vh;
+    --foo: 50%;
+    --mini-foo: 35%;
     --page: 20rem;
     --boite: 12rem;
     --liseret: 11rem;
@@ -78,10 +82,8 @@
     --cor: 8rem;
     --bg-lab: 7rem;
     --bg: 5rem;
-    --foo-top: 50vh;
-    --foo: 50%;
-    --mini-foo: 35%;
     --marge: 5%;
+    --mini-dock: 3.3em;
     --home: 3.5em;
     --contact: 3em;
     --icone: 3em;
@@ -93,7 +95,6 @@
     --h-init: 0;
     --m2: -35%;
     --m: -12%;
-    --illu: 99.5%;
     --illu-h: 300px;
     --illu-w: 500px;
     

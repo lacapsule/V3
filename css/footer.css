@@ -13,16 +13,18 @@ footer.dock {
     align-items: var(--cen);
     justify-content: var(--sa);
     width: var(--cont-h);
-    height: var(--a);
+    height: var(--mini-dock);
+    padding-top: var(--pad);
     padding-bottom: var(--text);
+    background-color: black;
     z-index: 10;
 }
 #contact, #corbeille, #home, #info, #linux {
     display: var(--blo);
     position: var(--abs);
-    width: var(--home);
-    height: var(--home);
-    z-index: 5;
+    width: var(--marge);
+    height: var(--marge);
+    z-index: 15;
 }
 img:not(.bg, .windows, .avatar):hover {
     transform: var(--sca);
