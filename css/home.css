@@ -132,11 +132,49 @@ article {
 }
 .nom {
     width: var(--bg);
-    height: var(--a);
+    height: var(--bg);
     margin-top: var(--pad);
     text-align: var(--cen);
     padding-top: var(--pad);
-    padding-bottom: var(--bot);
     color: var(--blanc);
     z-index: 4;
+}
+@media screen and (max-width: 1440px) {
+    .container-home {
+        display: var(--fl);
+        flex-flow: var(--desk);
+        align-items: var(--home-j);
+        justify-content: var(--cen);
+        width: var(--L);
+        height: var(--foo);
+        padding-top: var(--bg-lab);
+        padding-bottom: var(--page);
+        background-color: var(--home-page);
+        z-index: 6;
+    }
+    .lien > a {
+        display: var(--fl);
+        flex-flow:  var(--mob);
+        align-items: var(--cen);
+        justify-content: var(--sa);
+        width: var(--btn);
+        height: var(--boite);
+        transition: 1s ease;
+    } 
+    .avatar {
+        width: var(--bg);
+        height: var(--bg);
+        padding-left: var(--line);
+        padding-right: var(--line);
+    }
+    .nom {
+        width: var(--bg);
+        height: var(--bg);
+        margin-top: var(--pad);
+        text-align: var(--cen);
+        padding-top: var(--pad);
+        padding-left: var(--line);
+        padding-right: var(--line);
+        color: var(--blanc);
+    }
 }
