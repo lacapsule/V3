@@ -119,7 +119,7 @@ i {
     justify-content: var(--cen);
     width: var(--btn);
     height: var(--bg-lab);
-    padding-top: var(--pad);
+    padding-top: var(--text);
     padding-bottom: var(--bg);
     transition: 1s ease;
     z-index: 7;
