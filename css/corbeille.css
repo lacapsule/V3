@@ -118,8 +118,8 @@ i {
     align-items: var(--cen);
     justify-content: var(--cen);
     width: var(--btn);
-    height: var(--bg-lab);
-    padding-top: var(--titre);
+    height: var(--trucs);
+    padding-top: var(--text);
     padding-bottom: var(--trucs);
     transition: 1s ease;
     z-index: 7;
