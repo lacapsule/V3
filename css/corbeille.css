@@ -99,6 +99,7 @@ label #corbeille, label #fermer {
     height: var(--text);
     padding: var(--pad);
     background: var(--gris);
+    border-radius: var(--liseret-h);
     box-shadow: 2px;
     transition: 0.5s ease-in-out;
     z-index: 3;
