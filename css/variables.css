@@ -64,6 +64,8 @@
     --liseret-bord-2: 20px; 
     /** tailles ************************************/
     --if: 500vh;
+    --illu-h: 300px;
+    --illu-w: 500px;
     --w: 100vw;
     --h: 100vh;
     --L: 100%;
@@ -93,14 +95,13 @@
     --icone: 3em;
     --line: 2rem;
     --titre: 1.5rem;
-    --text: 1rem;
     --bot: 1.2em;
+    --text: 1rem;
+    --textMini: 1em;
     --w-init: 0;
     --h-init: 0;
     --m2: -35%;
     --m: -12%;
-    --illu-h: 300px;
-    --illu-w: 500px;
     
     /** padding ************************************/
     --pad: 0.5em;

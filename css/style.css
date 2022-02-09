@@ -135,12 +135,12 @@ img {
 
 .dropdown.active .bars:nth-child(1){
     transform: translateX(-20px) rotate(130deg);
-    margin-top: 38em;
+    margin-top: 37em;
 }
 
 .dropdown.active .bars:nth-child(2){
     transform: translateX(-2px) rotate(230deg);
-    margin-top: 38em;
+    margin-top: 37em;
 }
 .dropdown-page {
     position: var(--abs);
@@ -164,13 +164,14 @@ img {
     flex-flow: var(--desk);
     align-items: var(--cen);
     justify-content: var(--cen);
-    width: var(--cont-h);
+    width: var(--dropdown);
     height: var(--dropdown);
-    top: var(--bg);
+    top: var(--text);
     margin: var(--res);
     z-index: 5;
 }
-#item {
+#item,
+#itemVersion {
     display: var(--fl);
     flex-flow: var(--desk);
     align-items: var(--cen);
@@ -186,17 +187,18 @@ img {
     border-radius: var(--liseret-h);
     transition: var(--slide);
 }
-#item:hover {
+#item:hover,
+#itemVersion:hover {
     background: var(--bg-lis);
     filter: invert(2);
 }
 #section {
-    width: var(--cont-h);
+    width: var(--L);
     height: var(--a);
     padding-bottom: var(--pad);
     background: var(--opac);
     color: var(--bg-lis);
-    border-radius: 50px 50px 35% 35%;
+    border-radius: 80px 80px 35% 35%;
 }
 #version {
     display: var(--fl);
@@ -205,9 +207,9 @@ img {
     margin-top: var(--text);
     justify-content: var(--cen);
     background: var(--clair);
-    border-radius: 75px 75px 50px 50px;
+    border-radius: 40px 40px 50px 50px;
 }
-section > #item {
+section > #itemVersion {
     display: var(--fl);
     position: var(--rel);
     flex-flow: var(--desk);
@@ -237,65 +239,61 @@ iframe {
 }
 a {text-decoration: var(--no);}
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 950px) {
     .dropdown-link {
         position: var(--rel);
         width: var(--L);
-        height: var(--cont-h);
-        top: var(--text);
+        top: var(--res);
         height: var(--dropdown);
-    }
-#item {
-    display: var(--fl);
-    flex-flow: var(--desk);
-    align-items: var(--cen);
-    justify-content: var(--cen);
-    margin: var(--res);
-    text-align: var(--cen);
-    background: var(--home-page);
-    box-shadow: var(--home-shadow);
-    border: 1px solid var(--jaune-bordures);
-    font-size: var(--bot);
-    width: var(--cont-h);
-    height: var(--home);
-}
-.dropdown.active .bars:nth-child(1){
-    transform: translateX(-20px) rotate(130deg);
-    margin-top: 35em;
-}
-.dropdown.active .bars:nth-child(2){
-    transform: translateX(-2px) rotate(230deg);
-    margin-top: 35em;
-}
-}
-@media screen and (max-width: 500px) {
-    .dropdown-link {
-        position: var(--rel);
-        width: var(--L);
-        height: var(--cont-h);
-        top: var(--text);
         height: var(--dropdown);
     }
     #item {
         display: var(--fl);
         flex-flow: var(--desk);
-        align-items: var(--cen);
+        align-items: var(--sa);
         justify-content: var(--cen);
-        margin: var(--res);
+        margin: var(--ml-v);
         text-align: var(--cen);
         background: var(--home-page);
         box-shadow: var(--home-shadow);
         border: 1px solid var(--jaune-bordures);
         font-size: var(--bot);
         width: var(--cont-h);
-        height: var(--home);  
+        height: var(--a);  
     }
+    #section {
+        width: var(--L);
+        height: var(--a);
+        background: var(--opac);
+        color: var(--bg-lis);
+        border-radius: 80px 80px 35% 35%;
+    }
+    section > #itemVersion {
+    display: var(--fl);
+    position: var(--rel);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--cen);
+    font-size: var(--text);
+    width: var(--icone);
+    height: var(--icone);
+    border-radius: 50%;
+}
+#version {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--sa);
+    justify-content: var(--cen);
+    background: var(--clair);
+    border-radius: 40px 40px 50px 50px;
+}
     .dropdown.active .bars:nth-child(1){
         transform: translateX(-20px) rotate(130deg);
-        margin-top: 35em;
+        margin-top: 36em;
     }
     .dropdown.active .bars:nth-child(2){
         transform: translateX(-2px) rotate(230deg);
-        margin-top: 35em;
+        margin-top: 36em;
     }
 }
