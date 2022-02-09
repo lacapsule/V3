@@ -168,6 +168,7 @@ img {
     height: var(--dropdown);
     top: var(--text);
     margin: var(--res);
+    overflow: scroll;
     z-index: 5;
 }
 #item,
@@ -245,8 +246,7 @@ a {text-decoration: var(--no);}
         position: var(--rel);
         width: var(--L);
         top: var(--res);
-        height: var(--dropdown);
-        height: var(--dropdown);
+        height: var(--dropdown2);
     }
     #item {
         display: var(--fl);
@@ -290,10 +290,10 @@ a {text-decoration: var(--no);}
 }
     .dropdown.active .bars:nth-child(1){
         transform: translateX(-20px) rotate(130deg);
-        margin-top: 36em;
+        margin-top: 33em;
     }
     .dropdown.active .bars:nth-child(2){
         transform: translateX(-2px) rotate(230deg);
-        margin-top: 36em;
+        margin-top: 33em;
     }
 }
