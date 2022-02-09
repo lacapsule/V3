@@ -135,16 +135,18 @@ img {
 
 .dropdown.active .bars:nth-child(1){
     transform: translateX(-20px) rotate(130deg);
+    margin-top: 38em;
 }
 
 .dropdown.active .bars:nth-child(2){
     transform: translateX(-2px) rotate(230deg);
+    margin-top: 38em;
 }
 .dropdown-page {
     position: var(--abs);
     display: var(--fl);
     flex-flow: var(--desk);
-    align-items: var(--cen);
+    align-items: var(--home-j);
     justify-content: var(--cen);
     top: var(--pos-page);
     width: var(--dropdown);
@@ -160,10 +162,11 @@ img {
     position: var(--rel);
     display: var(--fl);
     flex-flow: var(--desk);
-    align-items: var(--sa);
+    align-items: var(--cen);
     justify-content: var(--cen);
     width: var(--cont-h);
     height: var(--dropdown);
+    top: var(--bg);
     margin: var(--res);
     z-index: 5;
 }
@@ -237,9 +240,10 @@ a {text-decoration: var(--no);}
 @media screen and (max-width: 800px) {
     .dropdown-link {
         position: var(--rel);
-        width: var(--w);
+        width: var(--L);
         height: var(--cont-h);
-        margin-top: var(--text);
+        top: var(--text);
+        height: var(--dropdown);
     }
 #item {
     display: var(--fl);
@@ -252,16 +256,25 @@ a {text-decoration: var(--no);}
     box-shadow: var(--home-shadow);
     border: 1px solid var(--jaune-bordures);
     font-size: var(--bot);
-    width: var(--L);
+    width: var(--cont-h);
     height: var(--home);
+}
+.dropdown.active .bars:nth-child(1){
+    transform: translateX(-20px) rotate(130deg);
+    margin-top: 35em;
+}
+.dropdown.active .bars:nth-child(2){
+    transform: translateX(-2px) rotate(230deg);
+    margin-top: 35em;
 }
 }
 @media screen and (max-width: 500px) {
     .dropdown-link {
         position: var(--rel);
-        width: var(--w);
+        width: var(--L);
         height: var(--cont-h);
-        margin-top: var(--text);
+        top: var(--text);
+        height: var(--dropdown);
     }
     #item {
         display: var(--fl);
@@ -274,8 +287,15 @@ a {text-decoration: var(--no);}
         box-shadow: var(--home-shadow);
         border: 1px solid var(--jaune-bordures);
         font-size: var(--bot);
-        width: var(--L);
-        height: var(--home);
-       
+        width: var(--cont-h);
+        height: var(--home);  
+    }
+    .dropdown.active .bars:nth-child(1){
+        transform: translateX(-20px) rotate(130deg);
+        margin-top: 35em;
+    }
+    .dropdown.active .bars:nth-child(2){
+        transform: translateX(-2px) rotate(230deg);
+        margin-top: 35em;
     }
 }
