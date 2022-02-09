@@ -45,13 +45,15 @@
                 <p> Logiciel de maintenance (Linux) </p></a></div>
             <a href="https://stock.lacapsule.org/"><div id="item">
                 <p> Logiciel de gestion </p></a></div>
+                 <section id="version"> 
+                <span id="section"> Code source du site web </span>
             <a href="https://github.com/lacapsule/V3"><div id="item">
-                <p> Code source de la V3 du site </p></a></div>
+                <p> V3 </p></a></div>
             <a href="https://github.com/lacapsule/V2"><div id="item">
-                <p> Code source de la V2 du site </p></a></div>
+                <p> V2 </p></a></div>
             <a href="https://github.com/lacapsule/V1"><div id="item">
-                <p> Code source de la V1 du site </p></a></div>
-            
+                <p> V1 </p></a></div>
+            </section>
         </div>
     </section>
 
@@ -70,26 +72,26 @@
     <img class="bg" src="media/img/capsule.png" alt="logo de la capsule"/>
 </main>
 <footer class="dock">
-    <div class="contact">
-        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-contact">
-        <label for="coche-contact">
-            <img title="Nous Contacter" id="contact" src="media/img/contact.png" alt="icône de contact"/>   
+    <div class="info">
+        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-info"/>
+        <label for="coche-info">
+            <img title="Informations" id="info" src="media/img/info.png" alt="icône d'info"/> 
             <img title="Fermer" id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
         </label>
-        <div class="page-contact">
-            <i><span class="stick">Contact</span></i>
-            <form action="https://lacapsule.org/php/mail/mail.php" method="POST">
-                <input type="text" name="nom" id="nom" required placeholder="Votre nom...">
-                <input type="mail" name="email" placeholder="adresse@email.com" required pattern="^[a-zA-Z.*.0-9]+@[a-zA-Z0-9]+.[a-zA-Z]{2,6}$" title="Ce n'est pas une adresse mail valide !" required/>
-                <input type="text" name="sujet" id="sujet" required placeholder="Sujet de votre contact...">
-                <input type="hidden" name="raison">
-                <textarea name="message" id="message" cols="20" rows="5" required placeholder="Message..."></textarea>
-                <button class="boutons">
-                    <input type="submit" value="Envoyer">
-                </button>  
-            </form>
-        </div>   
-    </div>
+    <div class="page-info">
+        <i><span class="stick">Infos</span></i>
+        <iframe
+            class= "accueil-infos"
+            src="pages/infos.html"
+            width="90%"
+            height="50%"
+            allowfullscreen=""
+            rel="noopener noreferrer"
+            sandbox="allow-same-origin allow-popups allow-scripts"
+            loading="lazy">
+        </iframe>
+        </div>
+    </div> 
     <div class="corbeille">
         <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-corbeille">
         <label for="coche-corbeille">
@@ -130,26 +132,26 @@
         </iframe>
     </div>  
     </div>
-    <div class="info">
-        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-info"/>
-        <label for="coche-info">
-            <img title="Informations" id="info" src="media/img/info.png" alt="icône d'info"/> 
+    <div class="contact">
+        <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-contact">
+        <label for="coche-contact">
+            <img title="Nous Contacter" id="contact" src="media/img/contact.png" alt="icône de contact"/>   
             <img title="Fermer" id="fermer" src="media/img/close.png" alt="icône de fermeture du menu"/>
         </label>
-    <div class="page-info">
-        <i><span class="stick">Infos</span></i>
-        <iframe
-            class= "accueil-infos"
-            src="pages/infos.html"
-            width="90%"
-            height="50%"
-            allowfullscreen=""
-            rel="noopener noreferrer"
-            sandbox="allow-same-origin allow-popups allow-scripts"
-            loading="lazy">
-        </iframe>
-        </div>
-    </div>  
+        <div class="page-contact">
+            <i><span class="stick">Contact</span></i>
+            <form action="https://lacapsule.org/php/mail/mail.php" method="POST">
+                <input type="text" name="nom" id="nom" required placeholder="Votre nom...">
+                <input type="mail" name="email" placeholder="adresse@email.com" required pattern="^[a-zA-Z.*.0-9]+@[a-zA-Z0-9]+.[a-zA-Z]{2,6}$" title="Ce n'est pas une adresse mail valide !" required/>
+                <input type="text" name="sujet" id="sujet" required placeholder="Sujet de votre contact...">
+                <input type="hidden" name="raison">
+                <textarea name="message" id="message" cols="20" rows="5" required placeholder="Message..."></textarea>
+                <button class="boutons">
+                    <input type="submit" value="Envoyer">
+                </button>  
+            </form>
+        </div>   
+    </div>
     <div class="linux">
         <input type="checkbox" name="check" onclick="onlyOne(this)" id="coche-linux"/>
         <label for="coche-linux">

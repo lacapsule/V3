@@ -172,6 +172,7 @@ img {
     flex-flow: var(--desk);
     align-items: var(--cen);
     justify-content: var(--cen);
+    padding: var(--pad);
     margin: var(--titre);
     text-align: var(--cen);
     background: var(--home-page);
@@ -179,11 +180,39 @@ img {
     font-size: var(--bot);
     width: var(--mini-foo);
     height: var(--a);
+    border-radius: var(--liseret-h);
     transition: var(--slide);
 }
 #item:hover {
     background: var(--bg-lis);
     filter: invert(2);
+}
+#section {
+    width: var(--cont-h);
+    height: var(--a);
+    padding-bottom: var(--pad);
+    background: var(--opac);
+    color: var(--bg-lis);
+    border-radius: 50px 50px 35% 35%;
+}
+#version {
+    display: var(--fl);
+    flex-flow: var(--desk);
+    align-items: var(--sa);
+    margin-top: var(--text);
+    justify-content: var(--cen);
+    background: var(--clair);
+    border-radius: 75px 75px 50px 50px;
+}
+section > #item {
+    display: var(--fl);
+    position: var(--rel);
+    flex-flow: var(--desk);
+    align-items: var(--cen);
+    justify-content: var(--cen);
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
 }
 .bg {
     display: var(--blo);
