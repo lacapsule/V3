@@ -221,7 +221,7 @@ img {
     height: var(--text);
     padding-bottom: var(--textMini);
     background: var(--opac);
-    color: var(--jaune);
+    color: var(--bg-lis);
     font-weight: var(--bold);
     border-radius: 79.5px 79.5px 35% 35%;
 }
