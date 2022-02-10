@@ -151,7 +151,7 @@ img {
     top: var(--pos-page);
     width: var(--dropdown);
     height: var(--cont-h);
-    background: var(--bg-pages);
+    background: var(--opac);
     transition: var(--bezier);
     z-index: 5;
 }
