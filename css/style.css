@@ -132,15 +132,18 @@ img {
     transform: translateX(-2px) rotate(130deg);
     transition: .5s ease-in-out;
 }
-
-.dropdown.active .bars:nth-child(1){
+.dropdown.active {
+    position: var(--rel);
+    left: 1.3%;
+    top: 55%;
+    z-index: 10;
+}
+.dropdown.active .bars:nth-child(1) {
     transform: translateX(-20px) rotate(130deg);
-    margin-top: 42em;
 }
 
-.dropdown.active .bars:nth-child(2){
+.dropdown.active .bars:nth-child(2) {
     transform: translateX(-2px) rotate(230deg);
-    margin-top: 42em;
 }
 .dropdown-page {
     position: var(--abs);
@@ -296,12 +299,17 @@ a {text-decoration: var(--no);}
     background: var(--clair);
     border-radius: 40px 40px 50px 50px;
 }
-    .dropdown.active .bars:nth-child(1){
-        transform: translateX(-20px) rotate(130deg);
-        margin-top: 40em;
-    }
-    .dropdown.active .bars:nth-child(2){
-        transform: translateX(-2px) rotate(230deg);
-        margin-top: 40em;
-    }
+.dropdown.active {
+    position: var(--rel);
+    left: 3%;
+    top: 55%;
+    z-index: 10;
+}
+.dropdown.active .bars:nth-child(1) {
+    transform: translateX(-20px) rotate(130deg);
+}
+
+.dropdown.active .bars:nth-child(2) {
+    transform: translateX(-2px) rotate(230deg);
+}
 }
