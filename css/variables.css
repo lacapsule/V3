@@ -98,6 +98,7 @@
     --bot: 1.2em;
     --text: 1rem;
     --textMini: 1em;
+    --textm: 0.7em;
     --w-init: 0;
     --h-init: 0;
     --m2: -35%;
@@ -115,6 +116,7 @@
     /** texte **************************************/
     --pol: 'ubuntu', verdana, 'sans-sérif';
     --bold: bold;
+    --b: bolder;
     --ita: italic;
     --justi: justify;
     --up: uppercase;
@@ -135,6 +137,7 @@
     --br-v: 50px;
     /** shadow *************************************/
     --shad: 8px 0px 25px 10px var(--footer);
+    --soustexte: 2px 2px var(--bg-color2);
     --round: 0.2px 0.2px 0.2px 0.2px var(--bg-color2);
     --home-shadow: 0 25px 50px rgba(0,0,0,.15);
     --neumorph: 10px 10px 20px rgba(0,0,0,0.2), -10px -10px 20px rgba(2, 2, 36, 0.4);
