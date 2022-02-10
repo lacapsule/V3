@@ -189,6 +189,9 @@ img {
 .dropdown-link::-webkit-scrollbar {
     display: var(--no);
 }
+#item {
+    border: solid 3px var(--jaune);
+}
 #item,
 #itemVersion {
     display: var(--fl);
@@ -214,9 +217,10 @@ img {
 #section {
     width: var(--L);
     height: var(--a);
-    padding-bottom: var(--pad);
+    padding-bottom: var(--textMini);
     background: var(--opac);
-    color: var(--bg-lis);
+    color: var(--jaune);
+    font-weight: var(--bold);
     border-radius: 80px 80px 35% 35%;
 }
 #version {
