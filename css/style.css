@@ -267,7 +267,7 @@ iframe {
 a {text-decoration: var(--no);}
 
 
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 1025px) {
     .dropdown-link {
         position: var(--rel);
         width: var(--L);
