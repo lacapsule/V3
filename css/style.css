@@ -102,7 +102,8 @@ img {
     top: -2.15em;
     left: -3.8em;
     color: white;
-    font-size: 1.6em;
+    font-size: 1.7em;
+    line-height: 1.3em;
     font-weight: bold;
     z-index: 3;
 }
