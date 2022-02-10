@@ -121,16 +121,17 @@ img {
     height: .3rem;
     border-radius: 10px;
     background: rgba(255, 255, 255, 1);
+    transition: var(--slide);
     z-index: 2;
 }
 
 .bars:nth-child(1){
     transform: translateX(-20px) rotate(230deg);
-    transition: .5s ease-in-out;
+    transition: var(--slide);
 }
 .bars:nth-child(2){
     transform: translateX(-2px) rotate(130deg);
-    transition: .5s ease-in-out;
+    transition: var(--slide);
 }
 .dropdown.active {
     position: var(--rel);
@@ -140,10 +141,12 @@ img {
 }
 .dropdown.active .bars:nth-child(1) {
     transform: translateX(-20px) rotate(130deg);
+    transition: var(--slide);
 }
 
 .dropdown.active .bars:nth-child(2) {
     transform: translateX(-2px) rotate(230deg);
+    transition: var(--slide);
 }
 .dropdown-page {
     position: var(--abs);
