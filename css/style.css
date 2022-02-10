@@ -153,10 +153,12 @@ img {
     height: var(--cont-h);
     background: var(--home-page);
     transition: var(--bezier);
+    z-index: 5;
 }
 .dropdown-page.open {
     top: var(--res);
     bottom: var(--m);
+    z-index: 5;
 }
 .dropdown-link {
     position: var(--rel);
