@@ -175,6 +175,10 @@ img {
     scrollbar-width: none;
     z-index: 5;
 }
+.dropdown-page::-webkit-scrollbar,
+.dropdown-link::-webkit-scrollbar {
+    display: var(--no);
+}
 #item,
 #itemVersion {
     display: var(--fl);
