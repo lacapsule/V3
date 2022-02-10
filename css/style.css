@@ -61,7 +61,7 @@ img {
     z-index: 2;
 }
 .rs-link:nth-child(1):hover {
-    padding-left: 6em;
+    padding-left: 7em;
     background-color: #379ad0;
 }
 .rs-link:nth-child(2):hover {
@@ -69,17 +69,19 @@ img {
     background-color: #3e75c3;
 }
 .rs-link:nth-child(3):hover {
-   padding-left: 7em;
+    padding-left: 7em;
     background-color: #7289da; 
 }
 .rs-link:nth-child(1):hover:after {
-    content: "Linkedin";
+    content: "Linked";
     display: block;
     position: var(--rel);
-    top: -2.5em;
-    left: -4.2em;
+    top: -2.2em;
+    left: -3.5em;
     color: white;
-    font-size: 1.3em;
+    font-size: 1.8em;
+    line-height: 1.8em;
+    font-weight: bold;
     z-index: 3;
 }
 .rs-link:nth-child(2):hover:after {
@@ -90,6 +92,7 @@ img {
     left: -3.5em;
     color: white;
     font-size: 2em;
+    font-weight: bold;
     z-index: 3;
 }
 .rs-link:nth-child(3):hover:after {
@@ -100,6 +103,7 @@ img {
     left: -3.8em;
     color: white;
     font-size: 1.6em;
+    font-weight: bold;
     z-index: 3;
 }
 
