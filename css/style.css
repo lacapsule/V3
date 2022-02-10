@@ -292,6 +292,7 @@ a {text-decoration: var(--no);}
         width: var(--L);
         height: var(--a);
         background: var(--opac);
+        top: 80%;
         color: var(--bg-lis);
         border-radius: 79.5px 79.5px 35% 35%;
     }
@@ -343,4 +344,13 @@ a {text-decoration: var(--no);}
         height: var(--titre);
         border-radius: 50%;
     }
+}
+
+@media screen and (max-height: 650px) {
+.dropdown.active {
+    position: var(--fix);
+    left: 49.5%;
+    top: 5%;
+    z-index: 10;
+}
 }
