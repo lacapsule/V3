@@ -36,7 +36,7 @@ img:not(.bg, .windows, .avatar):hover {
 }
 @media screen and (max-height: 550px) {
     footer.dock {
-    padding-left: var(--line);
-    padding-right: var(--line);
+    padding-left: var(--padock);
+    padding-right: var(--padock);
 }
 }
