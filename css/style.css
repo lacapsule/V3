@@ -300,6 +300,7 @@ a {text-decoration: var(--no);}
         top: 80%;
         color: var(--bg-lis);
         border-radius: 79.5px 79.5px 35% 35%;
+        overflow: var(--h);
     }
     section > #itemVersion {
     display: var(--fl);
@@ -348,7 +349,6 @@ a {text-decoration: var(--no);}
         width: var(--titre);
         height: var(--titre);
         border-radius: 50%;
-        overflow: var(--h);
     }
 }
 
