@@ -13,7 +13,7 @@ footer.dock {
     align-items: var(--cen);
     justify-content: var(--sa);
     width: var(--cont-h);
-    height: var(--mini-dock);
+    height: var(--home);
     bottom: var(--res);
     padding-top: var(--pad);
     padding-left: var(--pad);
@@ -36,6 +36,7 @@ img:not(.bg, .windows, .avatar):hover {
 }
 @media screen and (max-height: 550px) {
     footer.dock {
-    padding-bottom: var(--line);
+    padding-left: var(--line);
+    padding-right: var(--line);
 }
 }
