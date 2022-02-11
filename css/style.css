@@ -348,6 +348,7 @@ a {text-decoration: var(--no);}
         width: var(--titre);
         height: var(--titre);
         border-radius: 50%;
+        overflow: var(--h);
     }
 }
 
