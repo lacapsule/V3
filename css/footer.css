@@ -33,3 +33,8 @@ img:not(.bg, .windows, .avatar):hover {
     border-radius: var(--foo);
     box-shadow: var(--round);
 }
+@media screen and (max-height: 450px) {
+    footer.dock {
+    bottom: var(--res);
+}
+}
