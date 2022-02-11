@@ -40,7 +40,7 @@ header {
     flex-flow: var(--mob);
     justify-content: var(--home-j);
     align-items: var(--home-j);
-    width: var(--w);
+    width: var(--L);
     height: var(--home);
     z-index: 0;
 }
@@ -273,9 +273,6 @@ a {text-decoration: var(--no);}
 
 
 @media screen and (max-width: 1025px) {
-    body {
-    overflow: var(--h);
-    }
     .dropdown-link {
         position: var(--rel);
         width: var(--L);
@@ -339,9 +336,6 @@ a {text-decoration: var(--no);}
 }
 
 @media screen and (max-width: 540px) {
-    body{
-    overflow: var(--h);
-    }
     section > #itemVersion {
         display: var(--fl);
         position: var(--rel);
@@ -358,9 +352,6 @@ a {text-decoration: var(--no);}
 }
 
 @media screen and (max-height: 650px) {
-    body {
-    overflow: var(--h);
-    }
 .dropdown.active {
     position: var(--fix);
     left: 49.5%;
