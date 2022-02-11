@@ -15,8 +15,8 @@ footer.dock {
     width: var(--cont-h);
     height: var(--mini-dock);
     padding-top: var(--pad);
-    padding-left: var(--text);
-    padding-right: var(--text);
+    padding-left: var(--pad);
+    padding-right: var(--pad);
     padding-bottom: var(--text);
     background-color: black;
     z-index: 10;
