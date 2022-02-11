@@ -222,7 +222,7 @@ img {
     filter: invert(2);
 }
 #section {
-    width: var(--w);
+    width: var(--L);
     height: var(--text);
     padding-bottom: var(--textMini);
     background: var(--opac);
