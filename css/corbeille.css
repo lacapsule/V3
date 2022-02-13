@@ -120,9 +120,9 @@ i {
     flex-flow:  var(--mob);
     align-items: var(--cen);
     justify-content: var(--cen);
-    width: var(--btn);
-    height: var(--trucs);
-    padding-top: var(--icone);
+    width: var(--cor);
+    height: var(--cor);
+    padding-top: var(--textm);
     padding-bottom: var(--trucs);
     transition: 1s ease;
     z-index: 7;
@@ -136,8 +136,8 @@ i {
 .windows {
     width: var(--bg);
     height: var(--bg);
-    padding-left: var(--line);
-    padding-right: var(--line);
+    padding-left: var(--text);
+    padding-right: var(--text);
 }
 .nom {
     width: var(--bg);
