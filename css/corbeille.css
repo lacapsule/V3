@@ -90,7 +90,7 @@ label #corbeille, label #fermer {
     z-index: 6;
 }
 article {
-    margin-bottom: var(--home);
+    margin-bottom: var(--bot);
 }
 #cat {
     display: var(--fl);
