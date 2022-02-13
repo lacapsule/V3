@@ -89,6 +89,9 @@ label #corbeille, label #fermer {
     background-color: var(--home-page);
     z-index: 6;
 }
+article {
+    margin-bottom: var(--home);
+}
 #cat {
     display: var(--fl);
     flex-flow: var(--desk);
