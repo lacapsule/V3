@@ -148,3 +148,11 @@ i {
     color: var(--blanc);
 }
 
+@media screen and (max-width: 550px) {
+    .container-corbeille {
+        display: var(--fl);
+        flex-flow: var(--desk);
+        align-items: var(--home-j);
+        justify-content: var(--cen);
+    }
+}
