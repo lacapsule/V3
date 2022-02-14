@@ -80,6 +80,7 @@
     --foo-top: 50vh;
     --foo: 50%;
     --mini-foo: 35%;
+    --demi: 25%;
     --page: 20rem;
     --boite: 12rem;
     --liseret: 11rem;
@@ -142,6 +143,8 @@
     --round: 0.2px 0.2px 0.2px 0.2px var(--bg-color2);
     --home-shadow: 0 25px 50px rgba(0,0,0,.15);
     --neumorph: 10px 10px 20px rgba(0,0,0,0.2), -10px -10px 20px rgba(2, 2, 36, 0.4);
+    --recto: 4px 4px 4px 6px rgba(0,0,0,0.2), -4px -4px -4px 6px rgba(2, 2, 36, 0.4);
+    --verso: 4px 4px 4px 6px rgba(0,0,0,0.2), 4px 4px 4px 6px rgba(2, 2, 36, 0.4);
     --ombre: 0.2em 0.4em 0.1em rgba(0, 0, 0, 0.3),
     -0.3em 0.1em 0.1em rgba(2, 2, 2, 0.6),
     0.3em -0.2em 0.1em rgba(0, 0, 0, 0.3);
