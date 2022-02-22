@@ -10,4 +10,12 @@ function closeWindow() {
     window.close();
 }
 
-
+function dirLinkedin() {
+    window.location.href = "https://www.linkedin.com/in/la-capsule-9ba316205/?originalSubdomain=fr";
+}
+function dirGithub() {
+    window.location.href = "https://github.com/lacapsule?tab=repositories";
+}
+function dirDiscord() {
+    window.location.href = "https://discord.com/invite/7SAwbWC6ab";
+}
