@@ -273,6 +273,10 @@ a {text-decoration: var(--no);}
 
 
 @media screen and (max-width: 1025px) {
+    .dropdown .bars {
+        position: var(--abs);
+        left: var(--foo);
+    }
     .dropdown-link {
         position: var(--rel);
         width: var(--L);
