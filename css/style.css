@@ -126,7 +126,7 @@ img {
 
 .dropdown .bars {
     position: var(--abs);
-    left: var(--foo);
+    left: calc(var(--foo) + var(--ml-v));
     width: 30px;
     height: .3rem;
     border-radius: 10px;
