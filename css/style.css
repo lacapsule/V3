@@ -59,7 +59,7 @@ img {
     right: 0;
     margin: 10px 0;
     border-radius: 0 50px 50px 0;
-    transition: 0.4s ease-in-out;
+    transition: 0.8s ease-in-out;
     z-index: 12;
 }
 .rs-link:nth-child(1):hover {
@@ -98,7 +98,7 @@ img {
     color: white;
     font-size: 2em;
     font-weight: bold;
-    z-index: 12;
+    z-index: 13;
 }
 .rs-link:nth-child(3):hover:after {
     content: "Discord";
@@ -110,7 +110,7 @@ img {
     font-size: 1.7em;
     line-height: 1.3em;
     font-weight: bold;
-    z-index: 12;
+    z-index: 14;
 }
 
 .dropdown {
