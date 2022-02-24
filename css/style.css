@@ -3,11 +3,9 @@
 @import url(animations.css);
 @import url(contact.css);
 @import url(corbeille.css);
-@import url(accueil.css);
 @import url(info.css);
 @import url(home.css);
 @import url(linux.css);
-@import url(header.css);
 html, body {
     display: var(--fl);
     position: var(--rel);
@@ -87,6 +85,7 @@ img {
     font-size: 1.8em;
     line-height: 1.8em;
     font-weight: bold;
+    cursor: var(--point);
     z-index: 12;
 }
 .rs-link:nth-child(2):hover:after {
@@ -98,6 +97,7 @@ img {
     color: white;
     font-size: 2em;
     font-weight: bold;
+    cursor: var(--point);
     z-index: 13;
 }
 .rs-link:nth-child(3):hover:after {
@@ -110,6 +110,7 @@ img {
     font-size: 1.7em;
     line-height: 1.3em;
     font-weight: bold;
+    cursor: var(--point);
     z-index: 14;
 }
 
