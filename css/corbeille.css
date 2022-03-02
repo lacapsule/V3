@@ -94,11 +94,12 @@ article {
 }
 #cat {
     display: var(--fl);
-    flex-flow: var(--desk);
+    flex-flow: var(--mob);
     align-items: var(--cen);
     justify-content: var(--cen);
     position: var(--rel);
-    width: var(--L);
+    top: var(--titre);
+    width: var(--cont-h);
     height: var(--text);
     padding: var(--pad);
     background: var(--gris);
@@ -110,7 +111,26 @@ article {
     z-index: 0;
 }
 #cat:hover {
-    filter: invert(2);
+    filter: saturate(35%);
+    transform: scale(1.1);
+}
+.cat {
+    display: var(--fl);
+    flex-flow: var(--mob);
+    align-items: var(--cen);
+    justify-content: var(--home-j);
+    position: var(--rel);
+    width: var(--cat);
+    height: var(--a);
+    margin: 1%;
+    border-radius: var(--liseret-h);
+    box-shadow: 2px;
+    background: var(--blue);
+    opacity: 0.9;
+    z-index: 0;
+}
+.cat:hover {
+    filter: invert(5%);
 }
 i {
     z-index: 3;
@@ -148,11 +168,43 @@ i {
     color: var(--blanc);
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
     .container-corbeille {
         display: var(--fl);
         flex-flow: var(--desk);
         align-items: var(--home-j);
         justify-content: var(--cen);
+    }
+    #cat {
+        display: var(--fl);
+        flex-flow: var(--desk);
+        align-items: var(--cen);
+        justify-content: var(--cen);
+        position: var(--rel);
+        width: var(--L);
+        height: var(--text);
+        padding: var(--pad);
+        background: var(--gris);
+        border-radius: var(--liseret-h);
+        box-shadow: 2px;
+        color: var(--texte);
+        transition: 0.5s ease-in-out;
+        opacity: 0.9;
+        z-index: 0;
+    }
+    .cat {
+        display: var(--fl);
+        flex-flow: var(--desk);
+        align-items: var(--cen);
+        justify-content: var(--cen);
+        position: var(--rel);
+        width: var(--L);
+        height: var(--a);
+        margin: 1%;
+        border-radius: var(--liseret-h);
+        box-shadow: 2px;
+        background: var(--blue);
+        opacity: 0.9;
+        z-index: 0;
     }
 }
