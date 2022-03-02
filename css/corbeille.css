@@ -147,6 +147,9 @@ i {
     transition: 1s ease;
     z-index: 7;
 } 
+.lien:first-child {
+    padding-top: var(--text);
+}
 .lien:hover > a:hover {
     transform: var(--dock);
     text-shadow: var(--ombre);
