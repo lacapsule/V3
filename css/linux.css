@@ -78,14 +78,13 @@ label #linux, label #fermer {
     justify-content: var(--sa);
     height: var(--h);
     padding-top: var(--bg);
+    margin-top: var(--citop);
     background-color: var(--home-page);
     z-index: 6;
 }
-.lien > a {
-    display: var(--fl);
-    flex-flow:  var(--mob);
-    align-items: var(--cen);
-} 
+.gitlink {
+    height: var(--cont-h);
+}
 img {
     width: var(--bg);
     height: var(--a);
