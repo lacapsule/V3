@@ -19,9 +19,9 @@ html, body {
     box-sizing: var(--box);
     background: var(--home-page);
     font-family: var(--pol);
-    overflow-y: hidden;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    overflow-y: var(--hi);
+    -ms-overflow-style: var(--no);
+    scrollbar-width: var(--no);
     z-index: 0;
 }
 html::-webkit-scrollbar, body::-webkit-scrollbar {
