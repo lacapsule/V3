@@ -39,7 +39,7 @@ label #linux, label #fermer {
     position: var(--abs);
     top: var(--liseret-t);
     left: var(--liseret-l);
-    display: var(--fl);
+    display: var(--no);
     flex-flow: var(--desk);
     justify-content: var(--cen);
     align-items: var(--cen);
@@ -67,7 +67,7 @@ label #linux, label #fermer {
     display: var(--blo);
     position: var(--rel);
     width: var(--w);
-    height: var(--cont-h);
+    height: var(--h);
     font-family: var(--pol);
     z-index: 6;
 }
@@ -76,8 +76,7 @@ label #linux, label #fermer {
     flex-flow: var(--desk);
     align-items: var(--sa);
     justify-content: var(--sa);
-    height: var(--h);
-    padding-top: var(--bg);
+    height: calc(var(--h) + var(--bg));
     margin-top: var(--citop);
     background-color: var(--home-page);
     z-index: 6;
