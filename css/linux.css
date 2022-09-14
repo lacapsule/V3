@@ -30,7 +30,7 @@ label #linux, label #fermer {
     display: var(--fl);
     flex-flow: var(--desk);
     width: var(--L);
-    height: var(--h);
+    height: var(--dropdown);
     background: var(--home-page);
     box-shadow: var(--home-shadow);
     transition: var(--slide); 
@@ -67,7 +67,7 @@ label #linux, label #fermer {
     display: var(--blo);
     position: var(--rel);
     width: var(--w);
-    height: var(--h);
+    height: var(--a);
     font-family: var(--pol);
     z-index: 6;
 }
@@ -76,13 +76,13 @@ label #linux, label #fermer {
     flex-flow: var(--desk);
     align-items: var(--sa);
     justify-content: var(--sa);
-    height: calc(var(--h) + var(--bg));
-    margin-top: var(--citop);
+    height: var(--dropdown);
     background-color: var(--home-page);
     z-index: 6;
 }
 .gitlink {
-    height: var(--cont-h);
+    height: var(--h);
+    padding-bottom: var(--btn);
 }
 img {
     width: var(--bg);
