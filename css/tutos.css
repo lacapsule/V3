@@ -19,6 +19,7 @@ html, body {
     box-sizing: var(--box);
     background: var(--home-page);
     font-family: var(--pol);
+    overflow-y: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none;
     z-index: 0;
