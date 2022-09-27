@@ -107,7 +107,7 @@ article {
     background-color: var(--caps);
     z-index: 4;
 }
-.lien > a {
+.lien > .perso {
     display: var(--fl);
     flex-flow:  var(--mob);
     align-items: var(--cen);
@@ -116,7 +116,7 @@ article {
     transition: 1s ease;
     z-index: 4;
 } 
-.lien:hover > a:hover {
+.lien:hover > .perso:hover {
     transform: var(--dock);
     text-shadow: var(--ombre);
     box-shadow: var(--shad);
@@ -152,7 +152,7 @@ article {
         background-color: var(--home-page);
         z-index: 6;
     }
-    .lien > a {
+    .lien > .perso {
         display: var(--fl);
         flex-flow:  var(--mob);
         align-items: var(--cen);

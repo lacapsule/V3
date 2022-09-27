@@ -32,6 +32,29 @@ html, body {
 html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: var(--no);
 }
+.principal {
+    position: var(--abs);
+    background-image: url(../media/img/capsule.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3.5em;
+    width: 90%;
+    height: 90%;
+    z-index: -2;
+}
+.icone {
+    display: var(--blo);
+    position: var(--abs);
+    width: var(--bg);
+    height: var(--a);
+    padding: var(--bot);
+    right: 0;
+    border-radius: 0;
+    z-index: 2;
+}
+.icone:hover {
+    transform: scale(1.1);
+}
 header {
     display: var(--fl);
     position: var(--rel);
@@ -252,13 +275,6 @@ section > #itemVersion {
     width: 4em;
     height: 4em;
     border-radius: 50%;
-}
-.bg {
-    display: var(--blo);
-    position: var(--rel);
-    width: var(--bg);
-    height: var(--a);
-    z-index: -2;
 }
 iframe {
     display: var(--blo);

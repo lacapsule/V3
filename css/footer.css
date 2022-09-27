@@ -28,7 +28,7 @@ footer.dock {
     height: var(--marge);
     z-index: 15;
 }
-img:not(.bg, .windows, .avatar):hover {
+img:not(.icone, .bg, .windows, .avatar):hover {
     transform: var(--sca);
     border-radius: var(--foo);
     box-shadow: var(--round);

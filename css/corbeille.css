@@ -135,7 +135,7 @@ article {
 i {
     z-index: 3;
 }
-.lien > a {
+.lien > .perso {
     display: var(--fl);
     flex-flow:  var(--mob);
     align-items: var(--cen);
@@ -150,7 +150,7 @@ i {
 .lien:first-child {
     padding-top: var(--text);
 }
-.lien:hover > a:hover {
+.lien:hover > .perso:hover {
     transform: var(--dock);
     text-shadow: var(--ombre);
     box-shadow: var(--shad);
