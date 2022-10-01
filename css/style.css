@@ -371,6 +371,13 @@ a {text-decoration: var(--no);}
         height: var(--titre);
         border-radius: 50%;
     }
+    .dropdown-page {
+        width: var(--L);
+    }
+    .dropdown-link {
+        padding: 0;
+        width: var(--L);
+    }
 }
 
 @media screen and (max-height: 650px) {
