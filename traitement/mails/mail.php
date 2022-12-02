@@ -7,7 +7,7 @@
                     $mail_mail = htmlspecialchars($_POST['email']);
 
 
-                        $mail_to = "info@lacapsule.org";
+                        $mail_to = "reponse@lacapsule.org";
                         $mail_nom = htmlspecialchars($_POST['nom']);
                         $mail_sujet = htmlspecialchars($_POST['sujet']);
                         $mail_content = htmlspecialchars($_POST['message']);
