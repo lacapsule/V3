@@ -18,18 +18,6 @@
     to {opacity: 80%;}
 }
 
-@keyframes tilt {
-    from {}
-    99.97% {bottom: 0;
-        padding-bottom: 0;}
-    99.98% {bottom: -0.4%;
-        padding-bottom: -1%;}
-    99.99% {bottom: 0.2%;
-        padding-bottom: 0.5%;}
-    to {bottom: 0;
-        padding-bottom: 0;}
-} 
-
 @keyframes rain {
     0%{
         transform: translateY(-200px);
