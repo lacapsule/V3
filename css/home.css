@@ -120,7 +120,7 @@ article {
     transform: var(--dock);
     text-shadow: var(--ombre);
     box-shadow: var(--shad);
-    filter: contrast(-20%) brightness(-20%);
+    filter: contrast(20%) brightness(20%);
     z-index: 4;
 } 
 .avatar {
